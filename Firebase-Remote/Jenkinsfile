@@ -26,19 +26,19 @@ pipeline {
             }
         }
 
-        stage('Store artifact') {
-            steps {
-                script {
-                    def artifactDir = "D:\\artifacts" // Use forward slash (/) for paths in Jenkins
+        // stage('Store artifact') {
+        //     steps {
+        //         script {
+        //             def artifactDir = "D:\\artifacts" // Use forward slash (/) for paths in Jenkins
                 
-                    if (!fileExists(artifactDir)) {
-                        bat "mkdir \"${artifactDir}\""
-                    }
+        //             if (!fileExists(artifactDir)) {
+        //                 bat "mkdir \"${artifactDir}\""
+        //             }
 
-                  bat "copy firebase-config\\Firebase-Remote\\target\\*.jar ${artifactDir}\\"
-                }
-            }
-        }
+        //           bat "copy firebase-config\\Firebase-Remote\\target\\*.jar ${artifactDir}\\"
+        //         }
+        //     }
+        // }
 
         stage('Compile and Run Java Program') {
             steps {
