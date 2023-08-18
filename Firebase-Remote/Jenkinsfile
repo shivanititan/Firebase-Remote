@@ -35,7 +35,7 @@ pipeline {
                         bat "mkdir \"${artifactDir}\""
                     }
 
-                  bat "copy Firebase-Remote\\target\\*.jar ${artifactDir}\\"
+                  bat "copy firebase-config\\Firebase-Remote\\target\\*.jar ${artifactDir}\\"
                 }
             }
         }
@@ -44,7 +44,7 @@ pipeline {
             steps {
                 script {
                     def javaCmd = "${tool(name: 'JDK11', type: 'jdk')}/bin/java"
-                    bat "\"${javaCmd}\" -cp Firebase-Remote\\target\\*.jar com.example.Main"
+                    bat "\"${javaCmd}\" -cp firebase-config\\Firebase-Remote\\target\\*.jar com.example.Main"
                 }
             }
         }
