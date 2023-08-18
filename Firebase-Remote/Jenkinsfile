@@ -44,7 +44,7 @@ pipeline {
             steps {
                 script {
                     def javaCmd = "${tool(name: 'JDK11', type: 'jdk')}/bin/java"
-                    bat "\"${javaCmd}\" -cp  ./target/*.jar com.example.Main"
+                    bat "\"${javaCmd}\" -cp target*.jar com.example.Main"
                 }
             }
         }
