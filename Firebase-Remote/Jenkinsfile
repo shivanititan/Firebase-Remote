@@ -1,53 +1,52 @@
- pipeline {
-     agent any
+pipeline {
+    agent any
 
-   environment {
-       mavenTool = 'Maven 3.9.4'
-       gitRemoteUrl = 'https://github.com/shivanititan/Firebase-Remote.git'
-     }
+    environment {
+        mavenTool = 'Maven 3.9.4'
+        gitRemoteUrl = 'https://github.com/shivanititan/Firebase-Remote.git'
+    }
 
-     stages {
-         stage('Checkout code') {
-             steps {
-                 checkout scm
-             }
-         }
+    stages {
+        stage('Checkout code') {
+            steps {
+                checkout scm
+            }
+        }
 
-         stage('Set up JDK') {
-             steps {
-                 tool name: 'JDK11', type: 'jdk'
-             }
-         }
+        stage('Set up JDK') {
+            steps {
+                tool name: 'JDK11', type: 'jdk'
+            }
+        }
 
-         stage('Build with Maven') {
-             steps {
-                 tool name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation'
-                 bat "mvn -B clean compile package --file Firebase-Remote/pom.xml"
-             }
-         }
+        stage('Build with Maven') {
+            steps {
+                tool name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation'
+                bat "mvn -B clean compile package --file Firebase-Remote/pom.xml"
+            }
+        }
 
-         stage('Store artifact') {
-             steps {
-                 script {
-                   def artifactDir = "D:\\artifacts" // Change this path to the desired location on the D drive
-            
-                   if (!fileExists(artifactDir)) {
-                         bat "mkdir ${artifactDir}"
-                   }
-            
-                   bat "copy token\\target\\*.jar ${artifactDir}\\"
-                 }
-             }
-         }
+        stage('Store artifact') {
+            steps {
+                script {
+                    def artifactDir = "D:/artifacts" // Use forward slash (/) for paths in Jenkins
+                
+                    if (!fileExists(artifactDir)) {
+                        bat "mkdir \"${artifactDir}\""
+                    }
 
+                    bat "copy Firebase-Remote/target/*.jar \"${artifactDir}/\""
+                }
+            }
+        }
 
-         stage('Compile and Run Java Program') {
-             steps {
-                 script {
-                     def javaCmd = "${tool(name: 'JDK11', type: 'jdk')}/bin/java"
-                     bat "\"${javaCmd}\" -cp firebase-0.0.1-SNAPSHOT.jar com.example.Main"
-                 }
-             }
-         }
-     }
+        stage('Compile and Run Java Program') {
+            steps {
+                script {
+                    def javaCmd = "${tool(name: 'JDK11', type: 'jdk')}/bin/java"
+                    bat "\"${javaCmd}\" -cp \"${artifactDir}/*\" com.example.Main"
+                }
+            }
+        }
+    }
 }
