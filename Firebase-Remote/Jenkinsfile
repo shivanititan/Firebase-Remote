@@ -35,7 +35,7 @@ pipeline {
                         bat "mkdir \"${artifactDir}\""
                     }
 
-                  bat "copy firebase-config\\Firebase-Remote\\target\\*.jar ${artifactDir}\\"
+                  bat "copy firebase-config\\Firebase-Remote\\target\\*.jar ${artifactDir}/"
                 }
             }
         }
