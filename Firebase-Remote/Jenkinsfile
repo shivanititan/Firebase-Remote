@@ -12,7 +12,7 @@
                  checkout scm
              }
          }
-R
+
          stage('Set up JDK') {
              steps {
                  tool name: 'JDK11', type: 'jdk'
