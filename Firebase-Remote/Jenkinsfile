@@ -22,7 +22,7 @@
          stage('Build with Maven') {
              steps {
                  tool name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation'
-                 bat "\"${tool(name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation')}/bin/mvn\" -B clean compile package --file pom.xml"
+                 bat "\"${tool(name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation')}/bin/mvn\" -B clean compile package --file Firebase-Remote/pom.xml"
              }
          }
 
@@ -45,7 +45,7 @@
              steps {
                  script {
                      def javaCmd = "${tool(name: 'JDK11', type: 'jdk')}/bin/java"
-                     bat "\"${javaCmd}\" -cp token/target/Firebase-0.0.1-SNAPSHOT.jar com.google.firebase.samples.config.TemplateConfigure"
+                     bat "\"${javaCmd}\" -cp Firebase-1.0-SNAPSHOT.jar com.example.Main"
                  }
              }
          }
