@@ -22,7 +22,7 @@
          stage('Build with Maven') {
              steps {
                  tool name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation'
-                 bat "\"${tool(name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation')}/bin/mvn\" -B clean compile package --file Firebase-Remote/pom.xml"
+                 bat "mvn -B clean compile package --file Firebase-Remote/pom.xml"
              }
          }
 
