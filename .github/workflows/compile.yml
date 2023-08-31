@@ -20,10 +20,10 @@ jobs:
           distribution: 'adopt'
 
       - name: Compile Java Class
-        run: javac com.titan.Main.java  
+        run: javac ./com/titan/Main.java  
 
-      - name: Run Java Class
-        run: java -cp . com.example.Main  
+      # - name: Run Java Class
+      #   run: java -cp . com.example.Main  
       - name: Print Success
         run: 
           echo "Published successfully..."
