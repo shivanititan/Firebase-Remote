@@ -20,7 +20,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Compile Java Class
-        run: javac ./com/titan/Main.java  
+        run: javac src/main/java/com/example/Main.java  
 
       # - name: Run Java Class
       #   run: java -cp . com.example.Main  
