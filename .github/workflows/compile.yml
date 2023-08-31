@@ -21,9 +21,25 @@ jobs:
           
       - name: Build with Maven
         run: mvn clean package --file Firebase-Remote/pom.xml
+      - name: Store artifact
+        run: |
+          if [ ! -d "artifacts" ]; then
+            mkdir artifacts
+          fi
+            cp target/firebase-0.0.1-SNAPSHOT.jar artifacts/
+      - name: Commit and push artifact
+        run: |
+          git config --global user.name ${{ github.actor }}
+          git config --global user.email ${{ github.actor }}@users.noreply.github.com
+          git pull origin main  # Pull the latest changes from remote main branch
+          git add artifacts/
+          git commit -m "Add built artifact"
+          git push origin HEAD:refs/heads/main
+
+
 
       - name: Run Java Class
-        run: java -cp target/Firebase-1.0-SNAPSHOT.jar com.example.Main  
+        run: java -cp artifacts/firebase-0.0.1-SNAPSHOT.jar com.example.Main  
 
       # - name: Compile Java Class
       #   run: javac Firebase-Remote/src/main/java/com/example/Main.java  
