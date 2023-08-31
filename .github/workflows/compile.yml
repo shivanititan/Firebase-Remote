@@ -26,7 +26,7 @@ jobs:
           if [ ! -d "artifacts" ]; then
             mkdir artifacts
           fi
-            cp target/Firebase-1.0-SNAPSHOT.jar artifacts/
+            cp /home/runner/work/Firebase-Remote/Firebase-Remote/Firebase-Remote/target/Firebase-1.0-SNAPSHOT.jar artifacts/
       - name: Commit and push artifact
         run: |
           git config --global user.name ${{ github.actor }}
