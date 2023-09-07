@@ -16,7 +16,7 @@ jobs:
      
       - name: Identify Changed Files
         run: |
-          changed_files=$(git diff --name-only HEAD^ HEAD)
+          changed_files=$(git diff --name-only HEAD~1 HEAD)
           echo "::set-output name=changed_files::$changed_files"
 
       - name: Copy Changed Files
