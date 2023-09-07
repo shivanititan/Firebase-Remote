@@ -16,7 +16,7 @@ jobs:
      
       - name: Identify Changed Files
         run: |
-          changed_files=$(git log -n 1  --stat --name-status --format= /R_D_Team)
+          changed_files=$(git log -n 1  --stat --name-status --format= Firebase-Remote/R_D_Team)
           echo "::set-output name=changed_files::$changed_files"
 
       - name: Copy Changed Files
