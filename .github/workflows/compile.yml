@@ -18,20 +18,20 @@ jobs:
         run: |
           changed_files=$(git log -n 1  --stat --name-status --format= -- Firebase-Remote/R_D_Team)
           echo "::set-output name=changed_files::$changed_files"
-
-      - name: Copy Changed Files
-        run: |
-          changed_files="${{ steps.identify.outputs.changed_files }}"
-          mkdir config_changes
-          for file in $changed_files; do
-            cp "$file" "config_changes/"
-          done
-      - name: Publish Remote Config
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        run: |
-          cd config_changes
-          # Authenticate with Firebase using the $FIREBASE_TOKEN secret
-          echo $FIREBASE_TOKEN | firebase login:ci
-          # Publish configuration changes
-          firebase remoteconfig:publish --project fir-prject-1abf3
+          echo "$chnaged_file"
+      # - name: Copy Changed Files
+      #   run: |
+      #     changed_files="${{ steps.identify.outputs.changed_files }}"
+      #     mkdir config_changes
+      #     for file in $changed_files; do
+      #       cp "$file" "config_changes/"
+      #     done
+      # - name: Publish Remote Config
+      #   env:
+      #     FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      #   run: |
+      #     cd config_changes
+      #     # Authenticate with Firebase using the $FIREBASE_TOKEN secret
+      #     echo $FIREBASE_TOKEN | firebase login:ci
+      #     # Publish configuration changes
+      #     firebase remoteconfig:publish --project fir-prject-1abf3
