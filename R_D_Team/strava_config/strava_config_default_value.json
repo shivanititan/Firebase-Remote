@@ -1,0 +1,21 @@
+{
+  "acl": {
+    "product": [
+      {
+        "condition": "INCLUDE",
+        "pattern": ".*"
+      }
+    ],
+    "mobile": [
+      {
+        "condition": "INCLUDE",
+        "pattern": ".*"
+      }
+    ],
+    "expiry": 10
+  },
+  "client_id": "96355",
+  "client_secret": "c1bc2806f4f731c96646cd1748757e8329b84baa",
+  "redirect_url": "cdn-wearables.titan.in",
+  "unavailable_text": "Strava is not available for you."
+}
