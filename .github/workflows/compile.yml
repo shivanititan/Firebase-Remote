@@ -13,39 +13,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set up JDK
-        uses: actions/setup-java@v2
-        with:
-          java-version: '8'
-          distribution: 'adopt'
-          
-      - name: Build with Maven
-        run: mvn clean package --file Firebase-Remote/pom.xml
-      - name: Store artifact
+     
+      - name: Identify Changed Files
         run: |
-          if [ ! -d "artifacts" ]; then
-            mkdir artifacts
-          fi
-            cp /home/runner/work/Firebase-Remote/Firebase-Remote/Firebase-Remote/target/Firebase-1.0-SNAPSHOT.jar artifacts/
-      - name: Commit and push artifact
+          changed_files=$(git diff --name-only HEAD^ HEAD)
+          echo "::set-output name=changed_files::$changed_files"
+
+      - name: Copy Changed Files
         run: |
-          git config --global user.name ${{ github.actor }}
-          git config --global user.email ${{ github.actor }}@users.noreply.github.com
-          git pull origin main  # Pull the latest changes from remote main branch
-          git add artifacts/
-          git commit -m "Add built artifact"
-          git push origin HEAD:refs/heads/main
-
-
-
-      - name: Run Java Class
-        run: java -cp artifacts/Firebase-1.0-SNAPSHOT.jar com.example.Main  
-
-      # - name: Compile Java Class
-      #   run: javac Firebase-Remote/src/main/java/com/example/Main.java  
-
-      # - name: Run Java Class
-      #   run: java -cp . com.example.Main  
-      - name: Print Success
-        run: 
-          echo "Published successfully..."
+          changed_files="${{ steps.identify.outputs.changed_files }}"
+          mkdir config_changes
+          for file in $changed_files; do
+            cp "$file" "config_changes/"
+          done
+      - name: Publish Remote Config
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
+          cd config_changes
+          # Authenticate with Firebase using the $FIREBASE_TOKEN secret
+          echo $FIREBASE_TOKEN | firebase login:ci
+          # Publish configuration changes
+          firebase remoteconfig:publish --project your-firebase-project-id
