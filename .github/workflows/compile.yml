@@ -17,9 +17,8 @@ jobs:
         run: |
           changed_files=$(git diff --name-only HEAD^1 HEAD -- Firebase-Remote/R_D_Team)
           echo "::set-output name=changed_files::$changed_files"
-          echo "$changed_file"
-          echo "$changed_files" > changed_files.txt  # Create an environment file
-        working-directory: Firebase-Remote/R_D_Team  # Set the working directory
+       
+      
 
       # - name: Copy Changed Files
       #   run: |
