@@ -34,4 +34,4 @@ jobs:
           # Authenticate with Firebase using the $FIREBASE_TOKEN secret
           echo $FIREBASE_TOKEN | firebase login:ci
           # Publish configuration changes
-          firebase remoteconfig:publish --project your-firebase-project-id
+          firebase remoteconfig:publish --project fir-prject-1abf3
