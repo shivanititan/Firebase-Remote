@@ -19,6 +19,9 @@ jobs:
           changed_files=$(git log -n 1  --stat --name-status --format= -- Firebase-Remote/R_D_Team)
           echo "::set-output name=changed_files::$changed_files"
           echo "$chnaged_file"
+          echo "$changed_files" > changed_files.txt  # Create an environment file
+        working-directory: 
+          Firebase-Remote/R_D_Team  # Set the working directory
       # - name: Copy Changed Files
       #   run: |
       #     changed_files="${{ steps.identify.outputs.changed_files }}"
