@@ -20,13 +20,13 @@ jobs:
        
       
 
-      # - name: Copy Changed Files
-      #   run: |
-      #     changed_files="${{ steps.identify.outputs.changed_files }}"
-      #     mkdir config_changes
-      #     for file in $changed_files; do
-      #       cp "$file" "config_changes/"
-      #     done
+      - name: Copy Changed Files
+        run: |
+          changed_files="${{ steps.identify.outputs.changed_files }}"
+          mkdir config_changes
+          for file in $changed_files; do
+            cp "$file" "config_changes/"
+          done
       # - name: Publish Remote Config
       #   env:
       #     FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
