@@ -12,6 +12,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+      
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'  # You can specify the version you need
+
+      - name: Install Firebase CLI
+        run: npm install -g firebase-tools
 
       - name: Identify Changed Files
         run: |
