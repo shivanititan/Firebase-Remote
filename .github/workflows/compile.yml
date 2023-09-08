@@ -27,12 +27,12 @@ jobs:
           for file in $changed_files; do
             cp "$file" "config_changes/"
           done
-      # - name: Publish Remote Config
-      #   env:
-      #     FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-      #   run: |
-      #     cd config_changes
-      #     # Authenticate with Firebase using the $FIREBASE_TOKEN secret
-      #     echo $FIREBASE_TOKEN | firebase login:ci
-      #     # Publish configuration changes
-      #     firebase remoteconfig:publish --project fir-prject-1abf3
+      - name: Publish Remote Config
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
+          cd config_changes
+          # Authenticate with Firebase using the $FIREBASE_TOKEN secret
+          echo $FIREBASE_TOKEN | firebase login:ci
+          # Publish configuration changes
+          firebase deploy --only remoteconfig --project fir-prject-1abf3
