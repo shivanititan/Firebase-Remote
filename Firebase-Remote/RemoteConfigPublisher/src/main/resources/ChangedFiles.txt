@@ -1,3 +1,7 @@
+A	Firebase-Remote/RemoteConfigPublisher/pom.xml
+A	Firebase-Remote/RemoteConfigPublisher/src/main/java/com/titan/ChangeLogManager.java
+A	Firebase-Remote/RemoteConfigPublisher/src/main/java/com/titan/RemoteConfigPublisher.java
+A	Firebase-Remote/RemoteConfigPublisher/src/main/java/com/titan/TemplateManager.java
 A	Firebase-Remote/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt
 A	Firebase-Remote/RemoteConfigPublisher/src/main/resources/Product_team/app_icons/dashboard_icons_config_default_value.json
 A	Firebase-Remote/RemoteConfigPublisher/src/main/resources/Product_team/app_icons/splash_icons_config_default_value.json
