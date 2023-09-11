@@ -1,0 +1,81 @@
+{
+  "androidId": 59,
+  "androidMappingFromSdk": {
+    "132": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "179": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "41": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "45": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Water Sports",
+  "iOSId": 93,
+  "iOSMappingFromSdk": {
+    "132": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "179": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "41": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "45": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "image": "ic_rafting",
+  "name": "Rafting",
+  "serverKey": [
+    "WATER_RAFTING"
+  ],
+  "strava": "",
+  "type": "RAFTING"
+}

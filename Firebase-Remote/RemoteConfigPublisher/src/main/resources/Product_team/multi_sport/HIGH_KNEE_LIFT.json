@@ -1,0 +1,63 @@
+{
+  "androidId": 1096,
+  "androidMappingFromSdk": {
+    "29": [
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094"
+    ],
+    "116": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Core Training",
+  "iOSId": 169,
+  "iOSMappingFromSdk": {
+    "116": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "29": [
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094"
+    ]
+  },
+  "image": "ic_high_knee_lift",
+  "name": "High Knee Lift",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "HIGH_KNEE_LIFT"
+}

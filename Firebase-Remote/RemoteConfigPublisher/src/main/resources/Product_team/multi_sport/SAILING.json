@@ -1,0 +1,69 @@
+{
+  "androidId": 53,
+  "androidMappingFromSdk": {
+    "35": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "171": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+     "41":[
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "androidMappingId": [
+    1115
+  ],
+  "category": "Water Sports",
+  "iOSId": 87,
+  "iOSMappingFromSdk": {
+    "35": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "171": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "41":[
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "image": "ic_sailing",
+  "name": "Sailing",
+  "serverKey": [
+    "SAIL_BOATING"
+  ],
+  "strava": "",
+  "type": "SAILING"
+}

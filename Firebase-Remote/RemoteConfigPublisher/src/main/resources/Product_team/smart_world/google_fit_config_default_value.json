@@ -1,0 +1,117 @@
+[
+  {
+    "name": "ACTIVITY_SEGMENT",
+    "filter": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "STEP_COUNT_DELTA",
+    "filter": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "STEP_COUNT_CUMULATIVE",
+    "filter": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SLEEP_SEGMENT",
+    "filter": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "HEART_RATE_BPM",
+    "filter": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_2C"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "OXYGEN_SATURATION",
+    "filter": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_3",
+          "REFLEX_2C"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "BODY_TEMPERATURE",
+    "filter": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "REFLEX_CURV"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "BLOOD_PRESSURE",
+    "filter": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "REFLEX_HELLO",
+          "REFLEX_VIBE",
+          "REFLEX_VOX2"
+        ]
+      }
+    ]
+  }
+]

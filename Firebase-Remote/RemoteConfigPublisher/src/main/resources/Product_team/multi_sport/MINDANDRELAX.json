@@ -1,0 +1,20 @@
+{
+  "category": "Meditation",
+  "iOSId": 0,
+  "iOSMappingFromSdk": {
+    "85": [
+        "FT_38083",
+        "FT_38084",
+        "FT_38086",
+        "FT_38096",
+        "TITAN_90188"
+    ]
+  },
+  "image": "ic_mind_relax",
+  "name": "Mind & Relax",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "MINDANDRELAX"
+}

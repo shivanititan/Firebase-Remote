@@ -1,0 +1,29 @@
+{
+  "androidId": 55,
+  "androidMappingFromSdk": {
+    "37": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Water Sports",
+  "iOSId": 55,
+  "iOSMappingFromSdk": {
+    "37": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ]
+  },
+  "image": "ic_other_water_sports",
+  "name": "Other Water Sports",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "OTHER_WATER_SPORTS"
+}

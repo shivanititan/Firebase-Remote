@@ -1,0 +1,134 @@
+{
+  "androidId": 48,
+  "androidMappingFromSdk": {
+    "15": [
+      "REFLEX_CURV",
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "80": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "74": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "10": [
+      "REFLEX_PLAY",
+      "REFLEX_PLAY_PLUS",
+      "TITAN_SMART_TALK",
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "39": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "30": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "77": [
+      "FT_38012"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Ball Sports",
+  "iOSId": 76,
+  "iOSMappingFromSdk": {
+    "134": [
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "15": [
+      "REFLEX_CURV",
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "80": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "74": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "10": [
+      "REFLEX_PLAY",
+      "REFLEX_PLAY_PLUS",
+      "FT_38081",
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "TITAN_SMART_TALK"
+    ],
+    "39": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "30": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "77": [
+      "FT_38012"
+    ]
+  },
+  "image": "ic_rugby",
+  "name": "Rugby",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "RUGBY"
+}

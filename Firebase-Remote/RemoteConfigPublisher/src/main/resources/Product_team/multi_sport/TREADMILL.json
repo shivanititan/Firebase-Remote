@@ -1,0 +1,59 @@
+{
+  "androidId": 11,
+  "androidMappingFromSdk": {
+    "12": [
+      "REFLEX_3"
+    ],
+    "106": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "100": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "9": [
+      "FT_38012"
+    ]
+  },
+  "androidMappingId": [
+    1008,
+    50,
+    1122
+  ],
+  "category": "Cardio",
+  "iOSId": 30,
+  "iOSMappingFromSdk": {
+    "12": [
+      "REFLEX_3"
+    ],
+    "106": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "100": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "9": [
+      "FT_38012"
+    ]
+  },
+  "image": "ic_treadmill",
+  "name": "Threadmill",
+  "serverKey": [
+    "WALKING_MACHINE"
+  ],
+  "strava": "Run",
+  "type": "TREADMILL"
+}

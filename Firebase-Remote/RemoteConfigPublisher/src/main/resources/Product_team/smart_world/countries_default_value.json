@@ -1,0 +1,2394 @@
+[
+  {
+    "code": "+93",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Afghanistan"
+  },
+  {
+    "code": "+355",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Albania"
+  },
+  {
+    "code": "+213",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Algeria"
+  },
+  {
+    "code": "+1 684",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "American Samoa"
+  },
+  {
+    "code": "+376",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Andorra"
+  },
+  {
+    "code": "+244",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Angola"
+  },
+  {
+    "code": "+1 264",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Anguilla"
+  },
+  {
+    "code": "+1268",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Antigua and Barbuda"
+  },
+  {
+    "code": "+54",
+    "maxLength": [
+      11
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Argentina"
+  },
+  {
+    "code": "+374",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Armenia"
+  },
+  {
+    "code": "+297",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Aruba"
+  },
+  {
+    "code": "+61",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Australia"
+  },
+  {
+    "code": "+43",
+    "maxLength": [
+      13
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Austria"
+  },
+  {
+    "code": "+994",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Azerbaijan"
+  },
+  {
+    "code": "+1 242",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Bahamas"
+  },
+  {
+    "code": "+973",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Bahrain"
+  },
+  {
+    "code": "+880",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Bangladesh"
+  },
+  {
+    "code": "+1 246",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Barbados"
+  },
+  {
+    "code": "+375",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Belarus"
+  },
+  {
+    "code": "+32",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Belgium"
+  },
+  {
+    "code": "+501",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Belize"
+  },
+  {
+    "code": "+229",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Benin"
+  },
+  {
+    "code": "+1 441",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Bermuda"
+  },
+  {
+    "code": "+975",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Bhutan"
+  },
+  {
+    "code": "+591",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Plurinational State of Bolivia"
+  },
+  {
+    "code": "+387",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Bosnia and Herzegovina"
+  },
+  {
+    "code": "+267",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Botswana"
+  },
+  {
+    "code": "+55",
+    "maxLength": [
+      11
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Brazil"
+  },
+  {
+    "code": "+246",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "British Indian Ocean Territory"
+  },
+  {
+    "code": "+673",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Brunei Darussalam"
+  },
+  {
+    "code": "+359",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Bulgaria"
+  },
+  {
+    "code": "+226",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Burkina Faso"
+  },
+  {
+    "code": "+257",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Burundi"
+  },
+  {
+    "code": "+855",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Cambodia"
+  },
+  {
+    "code": "+237",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Cameroon"
+  },
+  {
+    "code": "+1",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Canada"
+  },
+  {
+    "code": "+238",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Cape Verde"
+  },
+  {
+    "code": "+ 345",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Cayman Islands"
+  },
+  {
+    "code": "+236",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Central African Republic"
+  },
+  {
+    "code": "+235",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Chad"
+  },
+  {
+    "code": "+56",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Chile"
+  },
+  {
+    "code": "+86",
+    "maxLength": [
+      11
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "China"
+  },
+  {
+    "code": "+61",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Christmas Island"
+  },
+  {
+    "code": "+61",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Cocos (Keeling) Islands"
+  },
+  {
+    "code": "+57",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Colombia"
+  },
+  {
+    "code": "+269",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Comoros"
+  },
+  {
+    "code": "+242",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Congo"
+  },
+  {
+    "code": "+243",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "The Democratic Republic of the Congo"
+  },
+  {
+    "code": "+682",
+    "maxLength": [
+      5
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Cook Islands"
+  },
+  {
+    "code": "+506",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Costa Rica"
+  },
+  {
+    "code": "+225",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Cote d'Ivoire"
+  },
+  {
+    "code": "+385",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Croatia"
+  },
+  {
+    "code": "+53",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Cuba"
+  },
+  {
+    "code": "+537",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Cyprus"
+  },
+  {
+    "code": "+420",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Czech Republic"
+  },
+  {
+    "code": "+45",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Denmark"
+  },
+  {
+    "code": "+253",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Djibouti"
+  },
+  {
+    "code": "+1 767",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Dominica"
+  },
+  {
+    "code": "+1 849",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Dominican Republic"
+  },
+  {
+    "code": "+593",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Ecuador"
+  },
+  {
+    "code": "+20",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Egypt"
+  },
+  {
+    "code": "+503",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "El Salvador"
+  },
+  {
+    "code": "+240",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Equatorial Guinea"
+  },
+  {
+    "code": "+291",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Eritrea"
+  },
+  {
+    "code": "+372",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Estonia"
+  },
+  {
+    "code": "+251",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Ethiopia"
+  },
+  {
+    "code": "+500",
+    "maxLength": [
+      5
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Falkland Islands (Malvinas)"
+  },
+  {
+    "code": "+298",
+    "maxLength": [
+      6
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Faroe Islands"
+  },
+  {
+    "code": "+679",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Fiji"
+  },
+  {
+    "code": "+358",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Finland"
+  },
+  {
+    "code": "+33",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "France"
+  },
+  {
+    "code": "+594",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "French Guiana"
+  },
+  {
+    "code": "+689",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "French Polynesia"
+  },
+  {
+    "code": "+241",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Gabon"
+  },
+  {
+    "code": "+220",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Gambia"
+  },
+  {
+    "code": "+995",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Georgia"
+  },
+  {
+    "code": "+49",
+    "maxLength": [
+      11
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Germany"
+  },
+  {
+    "code": "+233",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Ghana"
+  },
+  {
+    "code": "+350",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Gibraltar"
+  },
+  {
+    "code": "+30",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Greece"
+  },
+  {
+    "code": "+299",
+    "maxLength": [
+      6
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Greenland"
+  },
+  {
+    "code": "+1 473",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Grenada"
+  },
+  {
+    "code": "+590",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Guadeloupe"
+  },
+  {
+    "code": "+1 671",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Guam"
+  },
+  {
+    "code": "+502",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Guatemala"
+  },
+  {
+    "code": "+44",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Guernsey"
+  },
+  {
+    "code": "+224",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Guinea"
+  },
+  {
+    "code": "+245",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Guinea-Bissau"
+  },
+  {
+    "code": "+595",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Guyana"
+  },
+  {
+    "code": "+509",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Haiti"
+  },
+  {
+    "code": "+379",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Holy See (Vatican City State)"
+  },
+  {
+    "code": "+504",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Honduras"
+  },
+  {
+    "code": "+852",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Hong Kong"
+  },
+  {
+    "code": "+36",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Hungary"
+  },
+  {
+    "code": "+354",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Iceland"
+  },
+  {
+    "code": "+91",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "India"
+  },
+  {
+    "code": "+62",
+    "maxLength": [
+      12
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Indonesia"
+  },
+  {
+    "code": "+98",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Islamic Republic of Iran"
+  },
+  {
+    "code": "+964",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Iraq"
+  },
+  {
+    "code": "+353",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Ireland"
+  },
+  {
+    "code": "+44",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Isle of Man"
+  },
+  {
+    "code": "+972",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Israel"
+  },
+  {
+    "code": "+39",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Italy"
+  },
+  {
+    "code": "+1 876",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Jamaica"
+  },
+  {
+    "code": "+81",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Japan"
+  },
+  {
+    "code": "+44",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Jersey"
+  },
+  {
+    "code": "+962",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Jordan"
+  },
+  {
+    "code": "+7 7",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Kazakhstan"
+  },
+  {
+    "code": "+254",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Kenya"
+  },
+  {
+    "code": "+686",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Kiribati"
+  },
+  {
+    "code": "+850",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Democratic People's Republic of Korea"
+  },
+  {
+    "code": "+82",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Republic of Korea"
+  },
+  {
+    "code": "+965",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Kuwait"
+  },
+  {
+    "code": "+996",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Kyrgyzstan"
+  },
+  {
+    "code": "+856",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Democratic Republic Lao People's"
+  },
+  {
+    "code": "+371",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Latvia"
+  },
+  {
+    "code": "+961",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Lebanon"
+  },
+  {
+    "code": "+266",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Lesotho"
+  },
+  {
+    "code": "+231",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Liberia"
+  },
+  {
+    "code": "+218",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Libyan Arab Jamahiriya"
+  },
+  {
+    "code": "+423",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Liechtenstein"
+  },
+  {
+    "code": "+370",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Lithuania"
+  },
+  {
+    "code": "+352",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Luxembourg"
+  },
+  {
+    "code": "+853",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Macao"
+  },
+  {
+    "code": "+389",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "The Former Yugoslav Republic of Macedonia"
+  },
+  {
+    "code": "+261",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Madagascar"
+  },
+  {
+    "code": "+265",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Malawi"
+  },
+  {
+    "code": "+60",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Malaysia"
+  },
+  {
+    "code": "+960",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Maldives"
+  },
+  {
+    "code": "+223",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Mali"
+  },
+  {
+    "code": "+356",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Malta"
+  },
+  {
+    "code": "+692",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Marshall Islands"
+  },
+  {
+    "code": "+596",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Martinique"
+  },
+  {
+    "code": "+222",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Mauritania"
+  },
+  {
+    "code": "+230",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Mauritius"
+  },
+  {
+    "code": "+262",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Mayotte"
+  },
+  {
+    "code": "+52",
+    "maxLength": [
+      11
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Mexico"
+  },
+  {
+    "code": "+691",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Federated States of Micronesia"
+  },
+  {
+    "code": "+373",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Republic of Moldova"
+  },
+  {
+    "code": "+377",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Monaco"
+  },
+  {
+    "code": "+976",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Mongolia"
+  },
+  {
+    "code": "+382",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Montenegro"
+  },
+  {
+    "code": "+1664",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Montserrat"
+  },
+  {
+    "code": "+212",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Morocco"
+  },
+  {
+    "code": "+258",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Mozambique"
+  },
+  {
+    "code": "+95",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Myanmar"
+  },
+  {
+    "code": "+264",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Namibia"
+  },
+  {
+    "code": "+674",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Nauru"
+  },
+  {
+    "code": "+977",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Nepal"
+  },
+  {
+    "code": "+31",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Netherlands"
+  },
+  {
+    "code": "+599",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Netherlands Antilles"
+  },
+  {
+    "code": "+687",
+    "maxLength": [
+      6
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "New Caledonia"
+  },
+  {
+    "code": "+64",
+    "maxLength": [
+      8,
+      9,
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "New Zealand"
+  },
+  {
+    "code": "+505",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Nicaragua"
+  },
+  {
+    "code": "+227",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Niger"
+  },
+  {
+    "code": "+234",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Nigeria"
+  },
+  {
+    "code": "+683",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Niue"
+  },
+  {
+    "code": "+672",
+    "maxLength": [
+      6
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Norfolk Island"
+  },
+  {
+    "code": "+1 670",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Northern Mariana Islands"
+  },
+  {
+    "code": "+47",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Norway"
+  },
+  {
+    "code": "+968",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Oman"
+  },
+  {
+    "code": "+92",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Pakistan"
+  },
+  {
+    "code": "+680",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Palau"
+  },
+  {
+    "code": "+970",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Palestinian Territory, Occupied"
+  },
+  {
+    "code": "+507",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Panama"
+  },
+  {
+    "code": "+675",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Papua New Guinea"
+  },
+  {
+    "code": "+595",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Paraguay"
+  },
+  {
+    "code": "+51",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Peru"
+  },
+  {
+    "code": "+63",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Philippines"
+  },
+  {
+    "code": "+872",
+    "maxLength": [
+      0
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Pitcairn"
+  },
+  {
+    "code": "+48",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Poland"
+  },
+  {
+    "code": "+351",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Portugal"
+  },
+  {
+    "code": "+1 939",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Puerto Rico"
+  },
+  {
+    "code": "+974",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Qatar"
+  },
+  {
+    "code": "+40",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Romania"
+  },
+  {
+    "code": "+7",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Russia"
+  },
+  {
+    "code": "+250",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Rwanda"
+  },
+  {
+    "code": "+262",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Réunion"
+  },
+  {
+    "code": "+590",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Saint Barthélemy"
+  },
+  {
+    "code": "+290",
+    "maxLength": [
+      5
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Saint Helena, Ascension and Tristan Da Cunha"
+  },
+  {
+    "code": "+1 869",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Saint Kitts and Nevis"
+  },
+  {
+    "code": "+1 758",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Saint Lucia"
+  },
+  {
+    "code": "+590",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Saint Martin"
+  },
+  {
+    "code": "+508",
+    "maxLength": [
+      6
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Saint Pierre and Miquelon"
+  },
+  {
+    "code": "+1 784",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Saint Vincent and the Grenadines"
+  },
+  {
+    "code": "+685",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Samoa"
+  },
+  {
+    "code": "+378",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "San Marino"
+  },
+  {
+    "code": "+239",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Sao Tome and Principe"
+  },
+  {
+    "code": "+966",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Saudi Arabia"
+  },
+  {
+    "code": "+221",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Senegal"
+  },
+  {
+    "code": "+381",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Serbia"
+  },
+  {
+    "code": "+248",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Seychelles"
+  },
+  {
+    "code": "+232",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Sierra Leone"
+  },
+  {
+    "code": "+65",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Singapore"
+  },
+  {
+    "code": "+421",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Slovakia"
+  },
+  {
+    "code": "+386",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Slovenia"
+  },
+  {
+    "code": "+677",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Solomon Islands"
+  },
+  {
+    "code": "+252",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Somalia"
+  },
+  {
+    "code": "+27",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "South Africa"
+  },
+  {
+    "code": "+500",
+    "maxLength": [
+      5
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "South Georgia and the South Sandwich Islands"
+  },
+  {
+    "code": "+34",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Spain"
+  },
+  {
+    "code": "+94",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Sri Lanka"
+  },
+  {
+    "code": "+249",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Sudan"
+  },
+  {
+    "code": "+597",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Suriname"
+  },
+  {
+    "code": "+47",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Svalbard and Jan Mayen"
+  },
+  {
+    "code": "+268",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Swaziland"
+  },
+  {
+    "code": "+46",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Sweden"
+  },
+  {
+    "code": "+41",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Switzerland"
+  },
+  {
+    "code": "+963",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Syrian Arab Republic"
+  },
+  {
+    "code": "+886",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Province of China Taiwan"
+  },
+  {
+    "code": "+992",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Tajikistan"
+  },
+  {
+    "code": "+255",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "United Republic of Tanzania"
+  },
+  {
+    "code": "+66",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Thailand"
+  },
+  {
+    "code": "+670",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Timor-Leste"
+  },
+  {
+    "code": "+228",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Togo"
+  },
+  {
+    "code": "+690",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Tokelau"
+  },
+  {
+    "code": "+676",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Tonga"
+  },
+  {
+    "code": "+1 868",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Trinidad and Tobago"
+  },
+  {
+    "code": "+216",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Tunisia"
+  },
+  {
+    "code": "+90",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Turkey"
+  },
+  {
+    "code": "+993",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Turkmenistan"
+  },
+  {
+    "code": "+1 649",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Turks and Caicos Islands"
+  },
+  {
+    "code": "+688",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Tuvalu"
+  },
+  {
+    "code": "+256",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Uganda"
+  },
+  {
+    "code": "+380",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Ukraine"
+  },
+  {
+    "code": "+971",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "United Arab Emirates"
+  },
+  {
+    "code": "+44",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "United Kingdom"
+  },
+  {
+    "code": "+1",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "United States"
+  },
+  {
+    "code": "+598",
+    "maxLength": [
+      8
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Uruguay"
+  },
+  {
+    "code": "+998",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Uzbekistan"
+  },
+  {
+    "code": "+678",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Vanuatu"
+  },
+  {
+    "code": "+58",
+    "maxLength": [
+      10
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Bolivarian Republic of Venezuela"
+  },
+  {
+    "code": "+84",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Viet Nam"
+  },
+  {
+    "code": "+1 284",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Virgin Islands, British"
+  },
+  {
+    "code": "+1 340",
+    "maxLength": [
+      7
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Virgin Islands, U.S."
+  },
+  {
+    "code": "+681",
+    "maxLength": [
+      6
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Wallis and Futuna"
+  },
+  {
+    "code": "+967",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Yemen"
+  },
+  {
+    "code": "+260",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Zambia"
+  },
+  {
+    "code": "+263",
+    "maxLength": [
+      9
+    ],
+    "enabled": true,
+    "emailOTP": false,
+    "mobileOTP": true,
+    "name": "Zimbabwe"
+  }
+]

@@ -1,0 +1,1028 @@
+{
+  "watchImageURL": "https://dev-cdn-wearables.titan.in/watch-renders/",
+  "titan": [
+    {
+      "imageId": "3m2ae",
+      "qrScanSupport": true,
+      "name": "Titan Smart Talk",
+      "productId": 19,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "TS90156"
+      ],
+      "supportedFromVersion": {
+        "ios": "0.0.0,0",
+        "android": "1.4.0"
+      },
+      "productCode": "TITAN_SMART_TALK",
+      "enabled": true,
+      "sdk": "MOY",
+      "processor": "REALTEK"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "pah2j",
+      "name": "Titan Talk S",
+      "productId": 23,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "Titan_Talk S",
+        "Titan_90165"
+      ],
+      "supportedFromVersion": {
+        "ios": "0.0.0,0",
+        "android": "1.4.0"
+      },
+      "productCode": "TITAN_TALK_S",
+      "enabled": true,
+      "sdk": "ET",
+      "processor": "REALTEK"
+    },
+    {
+      "imageId": "xx94y",
+      "qrScanSupport": true,
+      "name": "Titan Smart 3",
+      "productId": 42,
+      "dfu": true,
+      "pinPairing": false,
+      "filterName": [
+        "TITAN_90188"
+      ],
+      "supportedFromVersion": {
+        "ios": "1.5.1,0",
+        "android": "1.5.0"
+      },
+      "productCode": "TITAN_90188",
+      "enabled": true,
+      "sdk": "LW",
+      "processor": "REALTEK"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "",
+      "name": "Titan Life",
+      "productId": 20,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "Titan_ECG",
+        "TITAN_LIFE",
+        "TITAN_90160"
+      ],
+      "supportedFromVersion": {
+        "ios": "0.0.0,0",
+        "android": "1.5.0"
+      },
+      "productCode": "TITAN_90160",
+      "enabled": true,
+      "sdk": "LIFE",
+      "processor": "APOLLO"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "mtap7",
+      "name": "Titan Traveller",
+      "productId": 24,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "Titan_90166",
+        "GT01"
+      ],
+      "supportedFromVersion": {
+        "ios": "0.0.0,0",
+        "android": "1.5.0"
+      },
+      "alexaKey": "Titan_90166_Beta",
+      "productCode": "TITAN_90166",
+      "enabled": true,
+      "sdk": "IDO",
+      "processor": "ACTION"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "ddd51",
+      "name": "Titan Evoque",
+      "productId": 32,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "Titan_90172"
+      ],
+      "supportedFromVersion": {
+        "ios": "0.0.0,0",
+        "android": "1.5.0"
+      },
+      "productCode": "TITAN_90172",
+      "enabled": true,
+      "sdk": "ET",
+      "processor": "REALTEK"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "tit6d",
+      "name": "Titan Smart V",
+      "productId": 43,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "TITAN_90184"
+      ],
+      "supportedFromVersion": {
+        "ios": "0.0.0,0",
+        "android": "1.5.0"
+      },
+      "productCode": "TITAN_90184",
+      "enabled": true,
+      "sdk": "ET",
+      "processor": "REALTEK"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "mtap7",
+      "name": "Titan Traveller",
+      "productId": 43,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "TITAN_90191"
+      ],
+      "supportedFromVersion": {
+        "ios": "0.0.0,0",
+        "android": "1.5.0"
+      },
+      "alexaKey": "Titan_90191_Beta",
+      "productCode": "TITAN_90191",
+      "enabled": true,
+      "sdk": "IDO",
+      "processor": "ACTION"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "",
+      "name": "Titan Traveller 2",
+      "productId": 44,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "TITAN_90196"
+      ],
+      "supportedFromVersion": {
+        "ios": "0.0.0,0",
+        "android": "1.5.0"
+      },
+      "alexaKey": "TITAN_90196_Beta",
+      "productCode": "TITAN_90196",
+      "enabled": true,
+      "sdk": "IDO",
+      "processor": "ACTION"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "",
+      "name": "",
+      "productId": 48,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "TITAN_90197",
+        "TITAN_90197_",
+        "Titan_90197",
+        "Titan_90197_"
+      ],
+      "supportedFromVersion": {
+        "ios": "0.0.0,0",
+        "android": "1.5.0"
+      },
+      "productCode": "TITAN_90197",
+      "enabled": true,
+      "sdk": "TG",
+      "processor": "ACTION"
+    },
+    {
+      "imageId": "",
+      "qrScanSupport": true,
+      "name": "Titan Smart 2",
+      "productId": 41,
+      "dfu": true,
+      "pinPairing": false,
+      "filterName": [
+        "Titan_Smart2_"
+      ],
+      "supportedFromVersion": {
+        "ios": "0.0.0,0",
+        "android": "1.0.0"
+      },
+      "productCode": "FT_38012",
+      "enabled": true,
+      "sdk": "TS",
+      "processor": "REALTEK"
+    }
+  ],
+  "fastrack": [
+    {
+      "imageId": "9lphx",
+      "qrScanSupport": false,
+      "name": "Reflex 1.0",
+      "productId": 1,
+      "pinPairing": true,
+      "dfu": false,
+      "filterName": [
+        "W307N_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "REFLEX_1",
+      "enabled": true,
+      "sdk": "R2",
+      "processor": "NORDIC"
+    },
+    {
+      "imageId": "9lphx",
+      "qrScanSupport": false,
+      "name": "Reflex 2.0",
+      "productId": 2,
+      "pinPairing": true,
+      "dfu": false,
+      "filterName": [
+        "REFLEX_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "REFLEX_2",
+      "enabled": true,
+      "sdk": "R2",
+      "processor": "NORDIC"
+    },
+    {
+      "imageId": "9lphx",
+      "qrScanSupport": false,
+      "name": "Reflex Beat",
+      "productId": 3,
+      "pinPairing": true,
+      "dfu": false,
+      "filterName": [
+        "BEAT_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "REFLEX_BEAT",
+      "enabled": true,
+      "sdk": "R2",
+      "processor": "NORDIC"
+    },
+    {
+      "imageId": "9lphx",
+      "qrScanSupport": false,
+      "name": "Reflex 3.0",
+      "productId": 4,
+      "pinPairing": true,
+      "dfu": true,
+      "filterName": [
+        "FT_Reflex3.0"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "REFLEX_3",
+      "enabled": true,
+      "sdk": "R3",
+      "processor": "NORDIC"
+    },
+    {
+      "imageId": "qxw7d",
+      "qrScanSupport": false,
+      "name": "Reflex Watch",
+      "productId": 5,
+      "pinPairing": true,
+      "dfu": true,
+      "filterName": [
+        "FT_ReflexSW_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "SLAY",
+      "enabled": true,
+      "sdk": "SLAY",
+      "processor": "NORDIC"
+    },
+    {
+      "imageId": "mca5r",
+      "qrScanSupport": false,
+      "name": "Reflex 2C",
+      "productId": 7,
+      "pinPairing": true,
+      "dfu": true,
+      "filterName": [
+        "reflex2c"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "REFLEX_2C",
+      "enabled": true,
+      "sdk": "R2",
+      "processor": "NORDIC"
+    },
+    {
+      "imageId": "i3yk4",
+      "qrScanSupport": true,
+      "name": "Reflex CURV",
+      "productId": 11,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_CURV"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "REFLEX_CURV",
+      "enabled": true,
+      "sdk": "ET",
+      "processor": "REALTEK"
+    },
+    {
+      "imageId": "oipqq",
+      "qrScanSupport": true,
+      "name": "Reflex Play",
+      "productId": 12,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_PLAY_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "REFLEX_PLAY",
+      "enabled": true,
+      "sdk": "MOY",
+      "processor": "REALTEK"
+    },
+    {
+      "imageId": "uj3dc",
+      "qrScanSupport": true,
+      "name": "Reflex Play Plus",
+      "productId": 15,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_PLAY+"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "REFLEX_PLAY_PLUS",
+      "enabled": true,
+      "sdk": "MOY",
+      "processor": "REALTEK"
+    },
+    {
+      "imageId": "4hnjx",
+      "qrScanSupport": true,
+      "name": "Reflex Vybe",
+      "productId": 16,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_Vybe"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "REFLEX_VIBE",
+      "enabled": true,
+      "sdk": "MOY",
+      "processor": "GOODIX"
+    },
+    {
+      "imageId": "wxf16",
+      "qrScanSupport": true,
+      "name": "Reflex Hello",
+      "productId": 17,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_Hello"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "REFLEX_HELLO",
+      "enabled": true,
+      "sdk": "MOY",
+      "processor": "GOODIX"
+    },
+    {
+      "imageId": "70vy9",
+      "qrScanSupport": true,
+      "name": "Reflex Vox2",
+      "productId": 18,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_Vox2"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "REFLEX_VOX2",
+      "enabled": true,
+      "sdk": "MOY",
+      "processor": "GOODIX"
+    },
+    {
+      "imageId": "1fkus",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 25,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38082"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38082",
+      "enabled": true,
+      "sdk": "ET",
+      "processor": "REALTEK"
+    },
+    {
+      "imageId": "jt63d",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 29,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38085_",
+        "FT_38085BT_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "alexaKey": "Fastrack_Reflex_Nitro",
+      "productCode": "FT_38085",
+      "enabled": true,
+      "sdk": "IDO",
+      "processor": "ACTION"
+    },
+    {
+      "imageId": "xcv34",
+      "qrScanSupport": true,
+      "name": "Limitless FS1",
+      "productId": 39,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38095_",
+        "FT_38095BT_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.1.0"
+      },
+      "alexaKey": "FT_38095",
+      "productCode": "FT_38095",
+      "enabled": true,
+      "sdk": "IDO",
+      "processor": "ACTION"
+    },
+    {
+      "imageId": "xcv34",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 45,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38100_",
+        "FT_38100BT_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.1.0"
+      },
+      "alexaKey": "FT_38100",
+      "productCode": "FT_38100",
+      "enabled": true,
+      "sdk": "IDO",
+      "processor": "ACTION"
+    },
+    {
+      "imageId": "xcv34",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 46,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38101_",
+        "FT_38101BT_",
+        "ID Sport01"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.1.0"
+      },
+      "alexaKey": "FT_38101",
+      "productCode": "FT_38101",
+      "enabled": true,
+      "sdk": "IDO",
+      "processor": "ACTION"
+    },
+    {
+      "imageId": "xcv34",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 47,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38102_",
+        "FT_38102BT_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.1.0"
+      },
+      "alexaKey": "FT_38102",
+      "productCode": "FT_38102",
+      "enabled": true,
+      "sdk": "IDO",
+      "processor": "ACTION"
+    },
+    {
+      "imageId": "xcv34",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 48,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38103_",
+        "FT_38103BT_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.1.0"
+      },
+      "alexaKey": "FT_38103",
+      "productCode": "FT_38103",
+      "enabled": true,
+      "sdk": "IDO",
+      "processor": "ACTION"
+    },
+    {
+      "imageId": "xcv34",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 49,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38104_",
+        "FT_38104BT_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.1.0"
+      },
+      "alexaKey": "FT_38104",
+      "productCode": "FT_38104",
+      "enabled": true,
+      "sdk": "IDO",
+      "processor": "ACTION"
+    },
+    {
+      "imageId": "xcv34",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 50,
+      "pinPairing": false,
+      "dfu": false,
+      "filterName": [
+        "FT_38105_",
+        "FT_38105BT_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.1.0"
+      },
+      "alexaKey": "FT_38105",
+      "productCode": "FT_38105",
+      "enabled": true,
+      "sdk": "IDO",
+      "processor": "ACTION"
+    },
+    {
+      "imageId": "xcv34",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 51,
+      "pinPairing": false,
+      "dfu": false,
+      "filterName": [
+        "FT_38106_",
+        "FT_38106BT_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.1.0"
+      },
+      "alexaKey": "FT_38106",
+      "productCode": "FT_38106",
+      "enabled": true,
+      "sdk": "IDO",
+      "processor": "ACTION"
+    },
+    {
+      "imageId": "9ijhg",
+      "qrScanSupport": true,
+      "name": "Reflex ZINGG",
+      "productId": 26,
+      "dfu": true,
+      "pinPairing": false,
+      "filterName": [
+        "FT_38081"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38081",
+      "enabled": true,
+      "sdk": "MOY",
+      "processor": "REALTEK"
+    },
+    {
+      "imageId": "hb5gj",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 27,
+      "dfu": true,
+      "pinPairing": false,
+      "filterName": [
+        "FT_38083"
+      ],
+      "supportedFromVersion": {
+        "ios": "0.0.0,0",
+        "android": "1.0.0"
+      },
+      "productCode": "FT_38083",
+      "enabled": true,
+      "sdk": "LW",
+      "processor": "REALTEK"
+    },
+    {
+      "imageId": "xx45q",
+      "qrScanSupport": true,
+      "name": "Reflex Beat Pro",
+      "productId": 41,
+      "dfu": true,
+      "pinPairing": false,
+      "filterName": [
+        "FT_38096"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38096",
+      "enabled": true,
+      "sdk": "LW",
+      "processor": "REALTEK"
+    },
+    {
+      "imageId": "",
+      "qrScanSupport": true,
+      "name": "Reflex Top Steps",
+      "productId": 41,
+      "dfu": true,
+      "pinPairing": false,
+      "filterName": [
+        "S48T",
+        "Titan_Smart2"
+      ],
+      "supportedFromVersion": {
+        "ios": "0.0.0,0",
+        "android": "1.0.0"
+      },
+      "productCode": "FT_38012",
+      "enabled": true,
+      "sdk": "TS",
+      "processor": "REALTEK"
+    },
+    {
+      "imageId": "6f6f7",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 28,
+      "dfu": true,
+      "pinPairing": false,
+      "filterName": [
+        "FT_38084"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38084",
+      "enabled": true,
+      "sdk": "LW",
+      "processor": "REALTEK"
+    },
+    {
+      "imageId": "5fvds",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 30,
+      "dfu": true,
+      "pinPairing": false,
+      "filterName": [
+        "FT_38086"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38086",
+      "enabled": true,
+      "sdk": "LW",
+      "processor": "REALTEK"
+    },
+    {
+      "imageId": "",
+      "qrScanSupport": true,
+      "name": "Invoke",
+      "productId": 31,
+      "dfu": true,
+      "pinPairing": false,
+      "filterName": [
+        "FT_38087"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38087",
+      "enabled": false,
+      "sdk": "LW",
+      "processor": "REALTEK"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "drhw4",
+      "name": "Revoltt FR1",
+      "productId": 33,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38089"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38089",
+      "enabled": true,
+      "sdk": "ET",
+      "processor": "REALTEK"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "ai8bn",
+      "name": "Limitless FR1",
+      "productId": 36,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38092"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38092",
+      "enabled": true,
+      "sdk": "ET",
+      "processor": "REALTEK"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "mj3dr",
+      "name": "Invoke FR1",
+      "productId": 35,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38091"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38091",
+      "enabled": true,
+      "sdk": "ET",
+      "processor": "REALTEK"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "y5rtg",
+      "name": "Revoltt FR1 PRO",
+      "productId": 34,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38090"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38090",
+      "enabled": true,
+      "sdk": "ET",
+      "processor": "REALTEK"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "hd68i",
+      "name": "Limitless FR1 PRO",
+      "productId": 37,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38093"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38093",
+      "enabled": true,
+      "sdk": "ET",
+      "processor": "REALTEK"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "dqiu7",
+      "name": "Invoke FR1 PRO",
+      "productId": 38,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38094"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38094",
+      "enabled": true,
+      "sdk": "ET",
+      "processor": "REALTEK"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "",
+      "name": "",
+      "productId": 38,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38107",
+        "FLEX CONNECT"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38107",
+      "enabled": true,
+      "sdk": "EA",
+      "processor": "GOODIX"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "",
+      "name": "",
+      "productId": 38,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38108",
+        "FLEX CONNECT"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38108",
+      "enabled": true,
+      "sdk": "EA",
+      "processor": "GOODIX"
+    },
+    {
+      "qrScanSupport": true,
+      "imageId": "",
+      "name": "",
+      "productId": 38,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38109",
+        "FLEX CONNECT"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38109",
+      "enabled": true,
+      "sdk": "EA",
+      "processor": "GOODIX"
+    },
+    {
+      "imageId": "jt63d",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 45,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38110_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38110",
+      "enabled": true,
+      "sdk": "TG",
+      "processor": "ACTION"
+    },
+    {
+      "imageId": "jt63d",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 46,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38111_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38111",
+      "enabled": true,
+      "sdk": "TG",
+      "processor": "ACTION"
+    },
+    {
+      "imageId": "jt63d",
+      "qrScanSupport": true,
+      "name": "",
+      "productId": 47,
+      "pinPairing": false,
+      "dfu": true,
+      "filterName": [
+        "FT_38112_"
+      ],
+      "supportedFromVersion": {
+        "ios": "3.0.0,0",
+        "android": "3.0.0"
+      },
+      "productCode": "FT_38112",
+      "enabled": true,
+      "sdk": "TG",
+      "processor": "ACTION"
+    }
+  ]
+}

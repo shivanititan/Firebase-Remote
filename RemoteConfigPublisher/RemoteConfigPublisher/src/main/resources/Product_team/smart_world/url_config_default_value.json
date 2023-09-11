@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CDN_URL",
+    "conditions": [
+      {
+        "type": "BUILD",
+        "condition": "DEV",
+        "result": "https://dev-cdn-wearables.titan.in"
+      },
+      {
+        "type": "BUILD",
+        "condition": "PROD",
+        "result": "https://cdn-wearables.titan.in"
+      }
+    ]
+  },
+  {
+    "name": "HEALTH_CONNECT_URL",
+    "conditions": [
+      {
+        "type": "BUILD",
+        "condition": "DEV",
+        "result": "https://d1k6rp0c3sgwpu.cloudfront.net"
+      },
+      {
+        "type": "BUILD",
+        "condition": "PROD",
+        "result": "https://health-connect.titan.in"
+      }
+    ]
+  }
+]

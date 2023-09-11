@@ -1,0 +1,51 @@
+{
+  "androidId": 1062,
+  "androidMappingFromSdk": {
+    "86": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38094",
+      "FT_38093",
+      "FT_38090",
+      "FT_38082"
+    ],
+    "119": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "androidMappingId": [],
+  "iOSMappingFromSdk": {
+    "86": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38094",
+      "FT_38093",
+      "FT_38090",
+      "FT_38082"
+    ],
+    "119": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "iOSId": "",
+  "category": "Ball Sports",
+  "image": "ic_lacrosse",
+  "name": "Lacrosse",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "LACROSSE"
+}

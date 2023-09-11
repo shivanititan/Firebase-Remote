@@ -1,0 +1,64 @@
+{
+  "androidId": 1100,
+  "androidMappingFromSdk": {
+    "87": [
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094"
+    ],
+    "129": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196",
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Cardio",
+  "iOSId": 173,
+  "iOSMappingFromSdk": {
+    "129": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196",
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ]
+  },
+  "image": "ic_cardio_cruiser",
+  "name": "Cardio Cruiser",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "CARDIO_CRUISER"
+}

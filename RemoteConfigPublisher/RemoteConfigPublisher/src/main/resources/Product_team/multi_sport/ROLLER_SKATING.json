@@ -1,0 +1,99 @@
+{
+  "androidId": 27,
+  "androidMappingFromSdk": {
+    "99": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "103": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094"
+    ],
+    "28": [
+      "REFLEX_3"
+    ],
+    "93": [
+      "FT_38082"
+    ],
+    "52": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "90": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "18": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Skate",
+  "iOSId": 28,
+  "iOSMappingFromSdk": {
+    "99": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "103": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094"
+    ],
+    "52": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "28": [
+      "REFLEX_3"
+    ],
+    "93": [
+      "FT_38082"
+    ],
+    "90": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "18": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "image": "ic_roller_skating",
+  "name": "Roller Skating",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "ROLLER_SKATING"
+}

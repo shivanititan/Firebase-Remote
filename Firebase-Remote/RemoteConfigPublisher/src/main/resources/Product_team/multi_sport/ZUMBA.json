@@ -1,0 +1,55 @@
+{
+  "androidId": 2000,
+  "androidMappingFromSdk": {
+    "35": [
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "104": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "83": [
+      "FT_38081"
+    ],
+    "146": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Dance",
+  "iOSId": 0,
+  "iOSMappingFromSdk": {
+    "35": [
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "104": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "83": [
+      "FT_38081"
+    ],
+    "146": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "image": "ic_zumba",
+  "name": "Zumba",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "ZUMBA"
+}

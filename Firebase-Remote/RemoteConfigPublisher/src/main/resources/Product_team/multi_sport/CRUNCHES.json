@@ -1,0 +1,27 @@
+{
+  "androidId": 2005,
+  "androidMappingFromSdk": {
+    "190": [
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Core Training",
+  "iOSId": 0,
+  "iOSMappingFromSdk": {
+    "190": [
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ]
+  },
+  "image": "ic_crunches",
+  "name": "Crunches",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "CRUNCHES"
+}

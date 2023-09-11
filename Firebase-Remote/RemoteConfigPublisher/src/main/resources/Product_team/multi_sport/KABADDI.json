@@ -1,0 +1,45 @@
+{
+  "androidId": 2002,
+  "androidMappingFromSdk": {
+    "106": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "192": [
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "29": [
+      "FT_38081"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Sports",
+  "iOSId": 0,
+  "iOSMappingFromSdk": {
+    "192": [
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "106": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "29": [
+      "FT_38081"
+    ]
+  },
+  "image": "ic_kabaddi",
+  "name": "Kabaddi",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "KABADDI"
+}

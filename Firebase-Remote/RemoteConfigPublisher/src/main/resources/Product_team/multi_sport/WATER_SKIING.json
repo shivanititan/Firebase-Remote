@@ -1,0 +1,29 @@
+{
+  "androidId": 57,
+  "androidMappingFromSdk": {
+    "39": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Water Sports",
+  "iOSId": 91,
+  "iOSMappingFromSdk": {
+    "39": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ]
+  },
+  "image": "ic_water_skiing",
+  "name": "Water Skiing",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "WATER_SKIING"
+}
