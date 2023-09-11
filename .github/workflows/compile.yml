@@ -1,46 +1,39 @@
-name: Remote Publish
+name: RemotePublish
 
 on:
   push:
     branches:
-      - main  # Change this to the appropriate branch
+      - main
+
 
 jobs:
-  Publish:
+  run-java-class:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      
-      - name: Install Node.js
-        uses: actions/setup-node@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
         with:
-          node-version: '16'  # You can specify the version you need
-
-      - name: Install Firebase CLI
-        run: npm install -g firebase-tools
-
-      - name: Identify Changed Files
-        run: |
-          changed_files=$(git log -n 1 --stat --name-status --format= -- R_D_Team)
-          echo "::set-output name=changed_files::$changed_files"
-       
+          java-version: '8'
+          distribution: 'adopt'
       
+      - name: Pull logs
+        run: |
+          git config --global user.name ${{ github.actor }}
+          git config --global user.email ${{ github.actor }}@users.noreply.github.com
+          git pull origin main  # Pull the latest changes from remote main branch
+          git log -n 1 --stat --name-status --format= -- Firebase-Remote/RemoteConfigPublisher/src/main/resources > Firebase-Remote/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt
+          git commit -m "Write file names which has chnages to ChnagedFiles.txt"
+          git push origin HEAD:refs/heads/main
+      - name: Build with Maven
+        run: 
+          mvn clean package --file RemoteConfigPublisher/pom.xml
 
-      - name: Copy Changed Files
-        run: |
-          changed_files="${{ steps.identify.outputs.changed_files }}"
-          mkdir config_changes
-          for file in $changed_files; do
-            cp "$file" "config_changes/"
-          done
-      - name: Publish Remote Config
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        run: |
-          cd config_changes
-          # Authenticate with Firebase using the $FIREBASE_TOKEN secret
-          echo $FIREBASE_TOKEN | firebase login:ci
-          # Publish configuration changes
-          firebase deploy --only remoteconfig 
+      - name: Run Java Class
+        run:
+          java -cp /target/RemoteConfigPublisher-1.0-SNAPSHOT.jar com.titan.RemoteConfigPublisher
+
+
