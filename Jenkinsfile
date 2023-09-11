@@ -28,6 +28,7 @@ pipeline {
                   bat "git log -n 1 --stat --name-status --format= -- Firebase-Remote/RemoteConfigPublisher/src/main/resources > Firebase-Remote/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt"
                   bat "git add Firebase-Remote/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt"
                   bat "git commit -m 'Write file names which have changes to ChangedFiles.txt'"
+                  bat "git add remote origin https://github.com/shivanititan/Firebase-Remote.git"
                   bat "git push origin HEAD:refs/heads/main"
                }                 
             }
