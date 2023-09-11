@@ -41,6 +41,13 @@ pipeline {
                  bat "\"${tool(name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation')}/bin/mvn\" -B clean compile package --file Firebase-Remote/RemoteConfigPublisher/pom.xml"
             }
         }
-        
+        stage('Compile and Run Java Program') {
+            steps {
+                script {
+                    def javaCmd = "${tool(name: 'JDK 17', type: 'jdk')}/bin/java"
+                    bat "\"${javaCmd}\" -cp \"C:\ProgramData\Jenkins\.jenkins\workspace\Firebase_Remote_Config\Firebase-Remote\RemoteConfigPublisher\target\RemoteConfigPublisher-1.0-SNAPSHOT.jar\" com.titan.RemoteConfigPublisher"
+                }
+            }
+        }
     }
 }
