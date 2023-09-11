@@ -1,6 +1,6 @@
 A	Firebase-Remote/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt
 A	Firebase-Remote/RemoteConfigPublisher/src/main/resources/Product_team/app_icons/dashboard_icons_config_default_value.json
-A	Firebase-Remote/RemoteConfigPublisher/src/main/resources/Product_team/app_icons/splash_icons_config_default_value
+A	Firebase-Remote/RemoteConfigPublisher/src/main/resources/Product_team/app_icons/splash_icons_config_default_value.json
 A	Firebase-Remote/RemoteConfigPublisher/src/main/resources/Product_team/multi_sport/ABS.json
 A	Firebase-Remote/RemoteConfigPublisher/src/main/resources/Product_team/multi_sport/AEROBICS.json
 A	Firebase-Remote/RemoteConfigPublisher/src/main/resources/Product_team/multi_sport/AMERICAN_FOOTBALL.json
