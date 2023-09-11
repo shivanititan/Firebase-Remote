@@ -45,7 +45,7 @@ pipeline {
             steps {
                 script {
                     def javaCmd = "${tool(name: 'JDK 17', type: 'jdk')}/bin/java"
-                    bat "\"${javaCmd}\" -cp \"C:\ProgramData\Jenkins\.jenkins\workspace\Firebase_Remote_Config\Firebase-Remote\RemoteConfigPublisher\target\RemoteConfigPublisher-1.0-SNAPSHOT.jar\" com.titan.RemoteConfigPublisher"
+                    bat "\"${javaCmd}\" -cp \"C:/ProgramData/Jenkins/.jenkins/workspace/Firebase_Remote_Config/Firebase-Remote/RemoteConfigPublisher/target/RemoteConfigPublisher-1.0-SNAPSHOT.jar\" com.titan.RemoteConfigPublisher"
                 }
             }
         }
