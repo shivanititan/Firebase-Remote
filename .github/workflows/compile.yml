@@ -26,6 +26,7 @@ jobs:
           git config --global user.email ${{ github.actor }}@users.noreply.github.com
           git pull origin main  # Pull the latest changes from remote main branch
           git log -n 1 --stat --name-status --format= -- Firebase-Remote/RemoteConfigPublisher/src/main/resources > Firebase-Remote/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt
+          git add Firebase-Remote/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt
           git commit -m "Write file names which has chnages to ChnagedFiles.txt"
           git push origin HEAD:refs/heads/main
       - name: Build with Maven
