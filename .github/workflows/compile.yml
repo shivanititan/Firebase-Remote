@@ -31,7 +31,7 @@ jobs:
           git push origin HEAD:refs/heads/main
       - name: Build with Maven
         run: 
-          mvn clean package --file RemoteConfigPublisher/pom.xml
+          mvn clean package --file Firebase-Remote/RemoteConfigPublisher/pom.xml
 
       - name: Run Java Class
         run:
