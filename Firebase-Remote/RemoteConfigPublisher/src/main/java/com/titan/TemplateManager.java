@@ -145,7 +145,7 @@ public class TemplateManager {
     private List<MappingData> parseMappingDataJson() throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         MappingData[] jsonData;
-        File reader = new File("C:/Users/E1775176/Documents/remote_config/RemoteConfigPublisher/src/main/resources/mapping.json");
+        File reader = new File("RemoteConfigPublisher/src/main/resources/mapping.json");
         jsonData = gson.fromJson(getDataFromFile(reader), MappingData[].class);
         ArrayList<MappingData> mappingDataList = new ArrayList<MappingData>();
         if (jsonData != null) {
