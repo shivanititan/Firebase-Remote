@@ -35,6 +35,6 @@ jobs:
 
       - name: Run Java Class
         run:
-          java -cp /target/RemoteConfigPublisher-1.0-SNAPSHOT.jar com.titan.RemoteConfigPublisher
+          java -cp  /home/runner/work/Firebase-Remote/Firebase-Remote/Firebase-Remote/RemoteConfigPublisher/target/RemoteConfigPublisher-1.0-SNAPSHOT.jar com.titan.RemoteConfigPublisher
 
 
