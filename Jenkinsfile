@@ -30,7 +30,8 @@ pipeline {
                   bat 'git commit -m "Write file names which have changes to ChangedFiles.txt"'
                   // bat "git add remote origin https://github.com/shivanititan/Firebase-Remote.git"
                   bat "git branch -M main"
-                  bat "git push origin main"
+                  bat "git push origin HEAD:main"
+
                }                 
             }
         
