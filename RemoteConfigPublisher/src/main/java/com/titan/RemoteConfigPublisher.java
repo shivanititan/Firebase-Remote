@@ -22,9 +22,7 @@ public class RemoteConfigPublisher {
     //    Initialize the SDK and authorize API requests
     private static void initializeFirebase() {
         try {
-            InputStream serviceAccount = RemoteConfigPublisher.class.getResourceAsStream(SERVICE_ACCOUNT_KEY_PATH);
-            System.out.println(System.getenv("SERVICE_ACCOUNT_KEY"));
-
+            InputStream serviceAccount = RemoteConfigPublisher.class.getResourceAsStream(SERVICE_ACCOUNT_KEY_PATH)
             if (serviceAccount != null) {
                 FirebaseOptions options = new FirebaseOptions.Builder()
                         .setCredentials(GoogleCredentials.fromStream(serviceAccount))
