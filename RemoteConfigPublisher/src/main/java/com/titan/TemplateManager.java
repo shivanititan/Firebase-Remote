@@ -155,7 +155,11 @@ public class TemplateManager {
     private List<MappingData> parseMappingDataJson() throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         MappingData[] jsonData;
+<<<<<<< HEAD
         File reader = new File("src/main/resources/mapping.json");
+=======
+        File reader = new File("Firebase-Remote/RemoteConfigPublisher/src/main/resources/mapping.json");
+>>>>>>> 31eb3bbcd4c49d0adb6850422c2244be0b0524bf
         jsonData = gson.fromJson(getDataFromFile(reader), MappingData[].class);
         ArrayList<MappingData> mappingDataList = new ArrayList<MappingData>();
         if (jsonData != null) {
