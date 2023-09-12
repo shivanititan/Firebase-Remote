@@ -38,7 +38,7 @@ pipeline {
          stage('Build with Maven') {
             steps {
                  tool name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation'
-                 bat "\"${tool(name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation')}/bin/mvn\" -B clean compile package --file Firebase-Remote/RemoteConfigPublisher/pom.xml"
+                 bat "\"${tool(name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation')}/bin/mvn\" -B clean compile package --file pom.xml"
             }
         }
         stage('Compile and Run Java Program') {
