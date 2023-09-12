@@ -1,0 +1,41 @@
+name: RemotePublish
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  run-java-class:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '8'
+          distribution: 'adopt'
+      
+      # - name: Pull logs
+      #   run: |
+      #     git config --global user.name ${{ github.actor }}
+      #     git config --global user.email ${{ github.actor }}@users.noreply.github.com
+      #     git pull origin main  # Pull the latest changes from remote main branch
+      #     git rm -f Firebase-Remote/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt
+      #     git log -n 1 --stat --name-status --format= -- Firebase-Remote/RemoteConfigPublisher > Firebase-Remote/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt
+      #     git add Firebase-Remote/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt
+      #     git commit -m "Write file names which has chnages to ChnagedFiles.txt"
+      #     git push origin HEAD:refs/heads/main
+      - name: Build with Maven
+        run: 
+          mvn clean package --file Firebase-Remote/RemoteConfigPublisher/pom.xml
+
+      - name: Run Java Class
+        run:
+          java -cp  /home/runner/work/Firebase-Remote/Firebase-Remote/Firebase-Remote/RemoteConfigPublisher/target/RemoteConfigPublisher-1.0-SNAPSHOT.jar com.titan.RemoteConfigPublisher
+
+
