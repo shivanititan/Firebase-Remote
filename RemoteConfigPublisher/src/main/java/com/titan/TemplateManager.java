@@ -158,7 +158,11 @@ public class TemplateManager {
 
         File reader = new File("src/main/resources/mapping.json");
 
+<<<<<<< HEAD
 
+=======
+        File reader = new File("Firebase-Remote/RemoteConfigPublisher/src/main/resources/mapping.json");
+>>>>>>> 76bc71aa9e5f2d66d8d28f5de885ea6b063b4356
 
         jsonData = gson.fromJson(getDataFromFile(reader), MappingData[].class);
         ArrayList<MappingData> mappingDataList = new ArrayList<MappingData>();
