@@ -43,7 +43,7 @@ public class TemplateManager {
 
         for (ChangeLogs item : changeLogsList) {
 
-            File file = new File("src/main/resources/" + item.getFileName());
+            File file = new File("RemoteConfigPublisher/src/main/resources/" + item.getFileName());
 
             if (file.exists()) {
                 if (item.getStatus() == ChangeLogStatus.DELETED) {
