@@ -8,7 +8,7 @@ public class ChangeLogManager {
 
     public List<ChangeLogs> getFilesChanged() throws IOException {
 
-        File file = new File("RemoteConfigPublisher/src/main/resources/ChangedFiles.txt");
+        File file = new File("Firebase-Remote/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt");
 
         BufferedReader br = new BufferedReader(new FileReader(file));
 
