@@ -11,7 +11,7 @@ public class ChangeLogManager {
 
         File file = new File("src/main/resources/ChangedFiles.txt");
 
-        File file = new File("Firebase-Remote/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt");
+
 
         BufferedReader br = new BufferedReader(new FileReader(file.getAbsoluteFile()));
 
