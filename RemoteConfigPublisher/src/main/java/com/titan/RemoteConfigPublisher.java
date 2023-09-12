@@ -26,10 +26,6 @@ public class RemoteConfigPublisher {
         }else {
             System.out.println("failed to delete");
         }
-
-
-
-
     }
     //    Initialize the SDK and authorize API requests
     private static void initializeFirebase() {
