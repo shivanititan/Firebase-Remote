@@ -8,9 +8,10 @@ public class ChangeLogManager {
 
     public List<ChangeLogs> getFilesChanged() throws IOException {
 
-        File file = new File("RemoteConfigPublisher/src/main/resources/ChangedFiles.txt");
+        File file = new File("src/main/resources/ChangedFiles.txt");
 
-        BufferedReader br = new BufferedReader(new FileReader(file));
+
+        BufferedReader br = new BufferedReader(new FileReader(file.getAbsoluteFile()));
 
         ArrayList<String> list = new ArrayList<String>();
         String st;
@@ -55,7 +56,7 @@ class ChangeLogs {
     }
 
     public String getFileName() {
-        return fileName;
+        return fileName.replace("RemoteConfigPublisher/src/main/resources/", "");
     }
 
     public ChangeLogStatus getStatus() {

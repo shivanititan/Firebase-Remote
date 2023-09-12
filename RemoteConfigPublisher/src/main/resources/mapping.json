@@ -971,16 +971,6 @@
     "group": "Smart World"
   },
   {
-    "fileName": "R_D_Team/survey_config/survey_config_default_value.json",
-    "parameter": "survey_config",
-    "group": "NPS"
-  },
-  {
-    "fileName": "R_D_Team/strava_config/strava_config_default_value.json",
-    "parameter": "strava_config",
-    "group": "STRAVA"
-  },
-  {
     "fileName": "R_D_Team/subscription_config/subscription_config_default_value.json",
     "parameter": "subscription_config",
     "group": "Subscription"

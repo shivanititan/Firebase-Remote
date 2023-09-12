@@ -1,3 +1,1 @@
-A	R_D_Team/ad_banner_config/ad_banner_config_default_value.json
-M	R_D_Team/medication_config/medication_config_default_value.json
-A	Product_team/app_icons/dashboard_icons_config_default_value.json
+D	RemoteConfigPublisher/src/main/resources/R_D_Team/medication_config/medication_config_default_value.json

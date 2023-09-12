@@ -14,15 +14,27 @@ public class RemoteConfigPublisher {
     private static final Logger logger = Logger.getLogger(RemoteConfigPublisher.class.getName());
     private static final String SERVICE_ACCOUNT_KEY_PATH = "/serviceAccountKey.json";
 
+
     public static void main(String[] args) {
         initializeFirebase();
         TemplateManager manager = new TemplateManager();
+        // delete change log file
         manager.publishUpdates();
+        if(manager.published) {
+            File file = new File("src/main/resources/ChangedFiles.txt");
+            file.delete();
+        }else {
+            System.out.println("failed to delete");
+        }
+
+
+
+
     }
     //    Initialize the SDK and authorize API requests
     private static void initializeFirebase() {
         try {
-            InputStream serviceAccount = RemoteConfigPublisher.class.getResourceAsStream(SERVICE_ACCOUNT_KEY_PATH)
+            InputStream serviceAccount = RemoteConfigPublisher.class.getResourceAsStream(SERVICE_ACCOUNT_KEY_PATH);
             if (serviceAccount != null) {
                 FirebaseOptions options = new FirebaseOptions.Builder()
                         .setCredentials(GoogleCredentials.fromStream(serviceAccount))

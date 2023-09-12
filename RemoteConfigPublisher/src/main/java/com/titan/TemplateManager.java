@@ -13,6 +13,8 @@ import java.util.logging.Logger;
 public class TemplateManager {
     private static final Logger logger = Logger.getLogger(TemplateManager.class.getName());
 
+    public Boolean published = false;
+
     public void publishUpdates() {
         Template template = getTemplate();
         try {
@@ -138,8 +140,10 @@ public class TemplateManager {
             logger.log(Level.INFO, "Template was valid and safe to use");
             Template publishedTemplate = FirebaseRemoteConfig.getInstance()
                     .publishTemplateAsync(validatedTemplate).get();
+            published = true;
             logger.log(Level.INFO, "Template has been published");
             logger.log(Level.INFO, "ETag from server: " + publishedTemplate.getETag());
+
         } catch (ExecutionException | InterruptedException e) {
             handleException("Error validating or publishing template:", e);
             return false;
@@ -151,7 +155,7 @@ public class TemplateManager {
     private List<MappingData> parseMappingDataJson() throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         MappingData[] jsonData;
-        File reader = new File("RemoteConfigPublisher/src/main/resources/mapping.json");
+        File reader = new File("src/main/resources/mapping.json");
         jsonData = gson.fromJson(getDataFromFile(reader), MappingData[].class);
         ArrayList<MappingData> mappingDataList = new ArrayList<MappingData>();
         if (jsonData != null) {
