@@ -1,0 +1,67 @@
+{
+  "androidId": 1029,
+  "androidMappingFromSdk": {
+    "55": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "50": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "22": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Training",
+  "iOSId": 131,
+  "iOSMappingFromSdk": {
+    "55": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "50": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "22": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ]
+  },
+  "image": "ic_cross_fit",
+  "name": "Cross Fit",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "CROSS_FIT"
+}

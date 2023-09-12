@@ -1,0 +1,51 @@
+{
+  "androidId": 67,
+  "androidMappingFromSdk": {
+    "81": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "122": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "55": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Dance",
+  "iOSId": 103,
+  "iOSMappingFromSdk": {
+    "81": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "122": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "55": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "image": "ic_bellydance",
+  "name": "Belly Dance",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "BELLY_DANCE"
+}

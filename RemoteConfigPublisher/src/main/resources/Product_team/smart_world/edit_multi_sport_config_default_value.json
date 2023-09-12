@@ -1,0 +1,383 @@
+[
+  {
+    "sportID": "INDOOR_CYCLING",
+    "sportName": "Cycling"
+  },
+  {
+    "sportID": "INDOOR_WALK",
+    "sportName": "Indoor Walking"
+  },
+  {
+    "sportID": "STEP_TRAINING",
+    "sportName": "Step Training"
+  },
+  {
+    "sportID": "HORSE_RIDING",
+    "sportName": "Horse Riding"
+  },
+  {
+    "sportID": "HOCKEY",
+    "sportName": "Hockey"
+  },
+  {
+    "sportID": "TAI_CHI",
+    "sportName": "Tai Chi"
+  },
+  {
+    "sportID": "SHUTTLECOCK",
+    "sportName": "Shuttle Kick"
+  },
+  {
+    "sportID": "BOXING",
+    "sportName": "Boxing"
+  },
+  {
+    "sportID": "MOUNTAIN_CLIMBING",
+    "sportName": "Mountaineering"
+  },
+  {
+    "sportID": "TRAIL_RUNNING",
+    "sportName": "Trail Running"
+  },
+  {
+    "sportID": "SKIING",
+    "sportName": "Skiing"
+  },
+  {
+    "sportID": "GYMNASTICS",
+    "sportName": "Gymnastics"
+  },
+  {
+    "sportID": "ICE_HOCKEY",
+    "sportName": "Ice Hockey"
+  },
+  {
+    "sportID": "SAVATE",
+    "sportName": "Savate"
+  },
+  {
+    "sportID": "KICKBOXING",
+    "sportName": "Kick Boxing"
+  },
+  {
+    "sportID": "ENDURANCE",
+    "sportName": "VO2 Max Test"
+  },
+  {
+    "sportID": "TENNIS",
+    "sportName": "Tennis"
+  },
+  {
+    "sportID": "DANCE",
+    "sportName": "Dance"
+  },
+  {
+    "sportID": "ATHLETICS",
+    "sportName": "Athletics"
+  },
+  {
+    "sportID": "WAIST_TRAINING",
+    "sportName": "Waist Training"
+  },
+  {
+    "sportID": "KARATE",
+    "sportName": "Karate"
+  },
+  {
+    "sportID": "COOL_DOWN",
+    "sportName": "Cool Down"
+  },
+  {
+    "sportID": "PILATES",
+    "sportName": "Pilates"
+  },
+  {
+    "sportID": "CROSS_FIT",
+    "sportName": "Crossfit"
+  },
+  {
+    "sportID": "FUNCTIONAL_TRAINING",
+    "sportName": "Functional Training"
+  },
+  {
+    "sportID": "PHYSICAL_TRAINING",
+    "sportName": "Physical Training"
+  },
+  {
+    "sportID": "ARCHERY",
+    "sportName": "Archery"
+  },
+  {
+    "sportID": "FLEXIBILITY",
+    "sportName": "Flexibility"
+  },
+  {
+    "sportID": "MIXED_CARDIO",
+    "sportName": "Mixed Cardio"
+  },
+  {
+    "sportID": "LATIN_DANCE",
+    "sportName": "Latin Dance"
+  },
+  {
+    "sportID": "STREET_DANCE",
+    "sportName": "Street Dance"
+  },
+  {
+    "sportID": "MARTIAL_ARTS",
+    "sportName": "Martial Arts"
+  },
+  {
+    "sportID": "STAIR_CLIMBING",
+    "sportName": "Stairs"
+  },
+  {
+    "sportID": "HANDBALL",
+    "sportName": "Handball"
+  },
+  {
+    "sportID": "BASEBALL",
+    "sportName": "Baseball"
+  },
+  {
+    "sportID": "BOWLING",
+    "sportName": "Bowling"
+  },
+  {
+    "sportID": "RACQUETBALL",
+    "sportName": "Racquet Ball"
+  },
+  {
+    "sportID": "CURLING",
+    "sportName": "Curling"
+  },
+  {
+    "sportID": "HUNTING",
+    "sportName": "Hunting"
+  },
+  {
+    "sportID": "SNOWBOARDING",
+    "sportName": "Snowboarding"
+  },
+  {
+    "sportID": "FISHING",
+    "sportName": "Fishing"
+  },
+  {
+    "sportID": "DISC_SPORTS",
+    "sportName": "Disc Sports"
+  },
+  {
+    "sportID": "RUGBY",
+    "sportName": "Rugby"
+  },
+  {
+    "sportID": "GOLF",
+    "sportName": "Golf"
+  },
+  {
+    "sportID": "FOLK_DANCE",
+    "sportName": "Folk Dance"
+  },
+  {
+    "sportID": "DOWNHILL_SKIING",
+    "sportName": "Downhill Skiing"
+  },
+  {
+    "sportID": "SNOW_SPORTS",
+    "sportName": "Snow Sports"
+  },
+  {
+    "sportID": "VOLLEYBALL",
+    "sportName": "Volley Ball"
+  },
+  {
+    "sportID": "MEDITATION",
+    "sportName": "Mind & Relax"
+  },
+  {
+    "sportID": "CORE_TRAINING",
+    "sportName": "Core Training"
+  },
+  {
+    "sportID": "ICE_SKATING",
+    "sportName": "Ice Skating"
+  },
+  {
+    "sportID": "FITNESS_GAMING",
+    "sportName": "Fitness Gaming"
+  },
+  {
+    "sportID": "AEROBICS",
+    "sportName": "Aerobics"
+  },
+  {
+    "sportID": "KENDO",
+    "sportName": "Kendo"
+  },
+  {
+    "sportID": "ROLLING",
+    "sportName": "Rolling"
+  },
+  {
+    "sportID": "WRESTLING",
+    "sportName": "Wrestling"
+  },
+  {
+    "sportID": "SOFTBALL",
+    "sportName": "Softball"
+  },
+  {
+    "sportID": "SINGLE_BAR",
+    "sportName": "Single Bar"
+  },
+  {
+    "sportID": "PARALLEL_BARS",
+    "sportName": "Parallel Bars"
+  },
+  {
+    "sportID": "ROLLER_SKATING",
+    "sportName": "Roller Skating"
+  },
+  {
+    "sportID": "HULA_HOOP",
+    "sportName": "Hula Hoop"
+  },
+  {
+    "sportID": "DARTS",
+    "sportName": "Darts"
+  },
+  {
+    "sportID": "SHOOTING",
+    "sportName": "Shooting"
+  },
+  {
+    "sportID": "JUDO",
+    "sportName": "Judo"
+  },
+  {
+    "sportID": "TRAMPOLINE",
+    "sportName": "Trampoline"
+  },
+  {
+    "sportID": "SKATE_BOARDING",
+    "sportName": "Skate Boarding"
+  },
+  {
+    "sportID": "HOVERBOARD",
+    "sportName": "Hover Board"
+  },
+  {
+    "sportID": "BLADING",
+    "sportName": "Blading"
+  },
+  {
+    "sportID": "PARKOUR",
+    "sportName": "Parkour"
+  },
+  {
+    "sportID": "DIVING",
+    "sportName": "Diving"
+  },
+  {
+    "sportID": "SURFING",
+    "sportName": "Surfing"
+  },
+  {
+    "sportID": "SNORKELING",
+    "sportName": "Snorkeling"
+  },
+  {
+    "sportID": "PULL_UP",
+    "sportName": "Pull-ups"
+  },
+  {
+    "sportID": "PUSH_UP",
+    "sportName": "Push ups"
+  },
+  {
+    "sportID": "PLANK",
+    "sportName": "Plank"
+  },
+  {
+    "sportID": "ROCK_CLIMBING",
+    "sportName": "Rock Climbing"
+  },
+  {
+    "sportID": "HIGH_JUMP",
+    "sportName": "High Jump"
+  },
+  {
+    "sportID": "BUNGEE_JUMP",
+    "sportName": "Bungee Jumping"
+  },
+  {
+    "sportID": "LONG_JUMP",
+    "sportName": "Long Jump"
+  },
+  {
+    "sportID": "MARATHON",
+    "sportName": "Marathon"
+  },
+  {
+    "sportID": "KITE_FLYING",
+    "sportName": "Kite Flying"
+  },
+  {
+    "sportID": "BILLIARDS",
+    "sportName": "Billiards"
+  },
+  {
+    "sportID": "CARDIO_CRUISER",
+    "sportName": "Cardio Cruiser"
+  },
+  {
+    "sportID": "TUG_OF_WAR",
+    "sportName": "Tug of War"
+  },
+  {
+    "sportID": "FREE_SPARRING",
+    "sportName": "Free Sparring"
+  },
+  {
+    "sportID": "RAFTING",
+    "sportName": "Rafting"
+  },
+  {
+    "sportID": "SPINNING",
+    "sportName": "Spinning"
+  },
+  {
+    "sportID": "BMX",
+    "sportName": "BMX"
+  },
+  {
+    "sportID": "ATV",
+    "sportName": "ATV"
+  },
+  {
+    "sportID": "DUMBBELL",
+    "sportName": "Dumbell"
+  },
+  {
+    "sportID": "BEACH_FOOTBALL",
+    "sportName": "Beach Football"
+  },
+  {
+    "sportID": "KAYAKING",
+    "sportName": "Kayaking"
+  },
+  {
+    "sportID": "SIT_UPS",
+    "sportName": "Sit-ups"
+  },
+  {
+    "sportID": "ROWING",
+    "sportName": "Boat Rowing"
+  },
+  {
+    "sportID": "WORKOUT",
+    "sportName": "Core workout"
+  }
+]
+

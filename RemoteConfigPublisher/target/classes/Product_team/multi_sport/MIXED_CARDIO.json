@@ -1,0 +1,54 @@
+{
+  "androidId": 1033,
+  "androidMappingFromSdk": {
+    "55": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "60": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Cardio",
+  "iOSId": 34,
+  "iOSMappingFromSdk": {
+    "55": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "60": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ]
+  },
+  "image": "ic_mixed_cardio",
+  "name": "Mixed Cardio",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "MIXED_CARDIO"
+}

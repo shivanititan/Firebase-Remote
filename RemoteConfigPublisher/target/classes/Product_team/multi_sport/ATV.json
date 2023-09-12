@@ -1,0 +1,53 @@
+{
+  "androidId": 64,
+  "androidMappingFromSdk": {
+    "135": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "54": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "52": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Adventure Sports",
+  "iOSId": 100,
+  "iOSMappingFromSdk": {
+    "135": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "54": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "52": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "image": "ic_atv",
+  "name": "Atv",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "ATV"
+}

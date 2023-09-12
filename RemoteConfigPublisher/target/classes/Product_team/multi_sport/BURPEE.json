@@ -1,0 +1,45 @@
+{
+  "androidId": 2001,
+  "androidMappingFromSdk": {
+    "191": [
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "121": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "74": [
+      "FT_38081"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Core Training",
+  "iOSId": 0,
+  "iOSMappingFromSdk": {
+    "191": [
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "121": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "74": [
+      "FT_38081"
+    ]
+  },
+  "image": "ic_burpee",
+  "name": "Burpee",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "BURPEE"
+}

@@ -1,0 +1,33 @@
+{
+  "androidId": 2008,
+  "androidMappingFromSdk": {
+    "71": [
+      "FT_38081"
+    ],
+    "33": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Weight Training",
+  "iOSId": 0,
+  "iOSMappingFromSdk": {
+    "71": [
+      "FT_38081"
+    ],
+    "33": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "image": "ic_dead_lift",
+  "name": "Dead Lift",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "DEADLIFT"
+}

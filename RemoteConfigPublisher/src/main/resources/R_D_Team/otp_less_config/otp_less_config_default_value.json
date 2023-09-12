@@ -1,0 +1,14 @@
+{
+	"encryption": {
+		"public_key": "123456",
+		"algorithm": "abcx"
+	},
+	"template": {
+		"items": [
+			"phoneNumber",
+			"timestamp",
+			"timezone"
+		],
+		"delimiter": "=*?+-"
+	}
+}

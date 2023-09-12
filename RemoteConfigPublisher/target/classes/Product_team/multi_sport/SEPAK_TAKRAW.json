@@ -1,0 +1,51 @@
+{
+  "androidId": 1105,
+  "androidMappingFromSdk": {
+    "140": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "109": [
+      "FT_38081"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Sports",
+  "iOSId": 178,
+  "iOSMappingFromSdk": {
+    "140": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "109": [
+      "FT_38081"
+    ]
+  },
+  "image": "ic_sepak_takraw",
+  "name": "Sepak Takraw",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "SEPAK_TAKRAW"
+}

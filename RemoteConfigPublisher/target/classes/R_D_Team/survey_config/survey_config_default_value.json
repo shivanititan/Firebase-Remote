@@ -1,0 +1,4 @@
+{
+  "max_denial_attempt": 3,
+  "prompt_interval_in_hour": 24
+}

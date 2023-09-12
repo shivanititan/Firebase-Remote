@@ -1,0 +1,33 @@
+{
+  "androidId": 2009,
+  "androidMappingFromSdk": {
+    "72": [
+      "FT_38081"
+    ],
+    "36": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Weight Training",
+  "iOSId": 0,
+  "iOSMappingFromSdk": {
+    "72": [
+      "FT_38081"
+    ],
+    "36": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "image": "ic_upper_body",
+  "name": "Upper Body",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "UPPERBODY"
+}

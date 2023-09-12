@@ -1,0 +1,125 @@
+{
+  "androidId": 40,
+  "androidMappingFromSdk": {
+    "35": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "14": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "17": [
+      "TITAN_SMART_TALK",
+      "FT_38081"
+    ],
+    "51": [
+      "REFLEX_3",
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "18": [
+      "REFLEX_CURV",
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "11": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "androidMappingId": [
+    1001
+  ],
+  "category": "Cycle",
+  "iOSId": 51,
+  "iOSMappingFromSdk": {
+    "35": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "14": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "256": [
+      "REFLEX_PLAY",
+      "REFLEX_PLAY_PLUS"
+    ],
+    "17": [
+      "TITAN_SMART_TALK",
+      "FT_38081"
+    ],
+    "51": [
+      "REFLEX_3",
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "18": [
+      "REFLEX_CURV",
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "11": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "image": "ic_indoor_cycling",
+  "name": "Indoor Cycling",
+  "serverKey": [
+    ""
+  ],
+  "strava": "Cycle",
+  "type": "INDOOR_CYCLING"
+}

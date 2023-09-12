@@ -1,0 +1,988 @@
+[
+  {
+    "fileName": "Product_team/app_icons/splash_icons_config_default_value.json",
+    "parameter": "splash_icon_config",
+    "group": "App Icons"
+  },
+  {
+    "fileName": "Product_team/app_icons/dashboard_icons_config_default_value.json",
+    "parameter": "dashboard_icon_config",
+    "group": "App Icons"
+  },
+  {
+    "fileName": "R_D_Team/ad_banner_config/ad_banner_config_default_value.json",
+    "parameter": "ad_banner_config",
+    "group": "Advertisement"
+  },
+  {
+    "fileName": "R_D_Team/medication_config/medication_config_default_value.json",
+    "parameter": "medication_config",
+    "group": "Medication"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ABS.json",
+    "parameter": "ABS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/AEROBICS.json",
+    "parameter": "AEROBICS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/AMERICAN_FOOTBALL.json",
+    "parameter": "AMERICAN_FOOTBALL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ARCHERY.json",
+    "parameter": "ARCHERY",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ATHLETICS.json",
+    "parameter": "ATHLETICS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ATV.json",
+    "parameter": "ATV",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BACK.json",
+    "parameter": "BACK",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BADMINTON.json",
+    "parameter": "BADMINTON",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BALLET.json",
+    "parameter": "BALLET",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BARBELL.json",
+    "parameter": "BARBELL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BASEBALL.json",
+    "parameter": "BASEBALL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BASKETBALL.json",
+    "parameter": "BASKETBALL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BEACH_FOOTBALL.json",
+    "parameter": "BEACH_FOOTBALL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BELLY_DANCE.json",
+    "parameter": "BELLY_DANCE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BIATHLON.json",
+    "parameter": "BIATHLON",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BILLIARDS.json",
+    "parameter": "BILLIARDS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BLADING.json",
+    "parameter": "BLADING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BMX.json",
+    "parameter": "BMX",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BOATING.json",
+    "parameter": "BOATING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BOBSLEIGH.json",
+    "parameter": "BOBSLEIGH",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BOWLING.json",
+    "parameter": "BOWLING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BOXING.json",
+    "parameter": "BOXING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BUNGEE_JUMP.json",
+    "parameter": "BUNGEE_JUMP",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/BURPEE.json",
+    "parameter": "BURPEE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/CARDIO_CRUISER.json",
+    "parameter": "CARDIO_CRUISER",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/COOLDOWN.json",
+    "parameter": "COOLDOWN",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/CORE_TRAINING.json",
+    "parameter": "CORE_TRAINING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/CRICKET.json",
+    "parameter": "CRICKET",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/CROSS_COUNTRY_RUN.json",
+    "parameter": "CROSS_COUNTRY_RUN",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/CROSS_FIT.json",
+    "parameter": "CROSS_FIT",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/CROSS_TRAINING.json",
+    "parameter": "CROSS_TRAINING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/CRUNCHES.json",
+    "parameter": "CRUNCHES",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/CURLING.json",
+    "parameter": "CURLING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/DANCE.json",
+    "parameter": "DANCE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/DARTS.json",
+    "parameter": "DARTS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/DEADLIFT.json",
+    "parameter": "DEADLIFT",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/DISC_SPORTS.json",
+    "parameter": "DISC_SPORTS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/DIVING.json",
+    "parameter": "DIVING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/DODGE_BALL.json",
+    "parameter": "DODGE_BALL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/DRAGON_BOAT_RACING.json",
+    "parameter": "DRAGON_BOAT_RACING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/DUMBBELL.json",
+    "parameter": "DUMBBELL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ELLIPTICAL_MACHINE.json",
+    "parameter": "ELLIPTICAL_MACHINE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ENDURANCE.json",
+    "parameter": "ENDURANCE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/EQUESTRIAN.json",
+    "parameter": "EQUESTRIAN",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/FENCING.json",
+    "parameter": "FENCING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/FISHING.json",
+    "parameter": "FISHING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/FITNESS_GAMING.json",
+    "parameter": "FITNESS_GAMING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/FITNESS.json",
+    "parameter": "FITNESS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/FLEXIBILITY.json",
+    "parameter": "FLEXIBILITY",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/FOLK_DANCE.json",
+    "parameter": "FOLK_DANCE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/FOOTBALL.json",
+    "parameter": "FOOTBALL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/FREE_SPARRING.json",
+    "parameter": "FREE_SPARRING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/FREE_TRAINING.json",
+    "parameter": "FREE_TRAINING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/FRISBEE.json",
+    "parameter": "FRISBEE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/FUNCTIONAL_STRENGTH_TRAINING.json",
+    "parameter": "FUNCTIONAL_STRENGTH_TRAINING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/FUNCTIONAL_TRAINING.json",
+    "parameter": "FUNCTIONAL_TRAINING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/GOLF.json",
+    "parameter": "GOLF",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/GROUP_TRAINING.json",
+    "parameter": "GROUP_TRAINING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/GYMNASTICS.json",
+    "parameter": "GYMNASTICS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/HANDBALL.json",
+    "parameter": "HANDBALL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/HIGH_JUMP.json",
+    "parameter": "HIGH_JUMP",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/HIGH_KNEE_LIFT.json",
+    "parameter": "HIGH_KNEE_LIFT",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/HIIT.json",
+    "parameter": "HIIT",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/HIKING.json",
+    "parameter": "HIKING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/HIP_HOP.json",
+    "parameter": "HIP_HOP",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/HOCKEY.json",
+    "parameter": "HOCKEY",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/HORIZONTAL_BAR.json",
+    "parameter": "HORIZONTAL_BAR",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/HOVERBOARD.json",
+    "parameter": "HOVERBOARD",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/HULA_HOOP.json",
+    "parameter": "HULA_HOOP",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/HUNTING.json",
+    "parameter": "HUNTING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ICE_HOCKEY.json",
+    "parameter": "ICE_HOCKEY",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ICE_SKATING.json",
+    "parameter": "ICE_SKATING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/INDOOR_CYCLING.json",
+    "parameter": "INDOOR_CYCLING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/INDOOR_RUNNING.json",
+    "parameter": "INDOOR_RUNNING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/INDOOR_WALK_RUN.json",
+    "parameter": "INDOOR_WALK_RUN",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/INDOOR_WALK.json",
+    "parameter": "INDOOR_WALK",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/JAZZ_DANCE.json",
+    "parameter": "JAZZ_DANCE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/JUDO.json",
+    "parameter": "JUDO",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/JUMPING_JACKS.json",
+    "parameter": "JUMPING_JACKS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/KABADDI.json",
+    "parameter": "KABADDI",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/KARATE.json",
+    "parameter": "KARATE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/KAYAK.json",
+    "parameter": "KAYAK",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/KENDO.json",
+    "parameter": "KENDO",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/KICKBOXING.json",
+    "parameter": "KICKBOXING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/KITE_FLYING.json",
+    "parameter": "KITE_FLYING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/KITE_SURFING.json",
+    "parameter": "KITE_SURFING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/LACROSSE.json",
+    "parameter": "LACROSSE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/LATIN_DANCE.json",
+    "parameter": "LATIN_DANCE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/LONG_JUMP.json",
+    "parameter": "LONG_JUMP",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/LOWERBODY.json",
+    "parameter": "LOWERBODY",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/MARATHON.json",
+    "parameter": "MARATHON",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/MARTIAL_ARTS.json",
+    "parameter": "MARTIAL_ARTS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/MEDITATION.json",
+    "parameter": "MEDITATION",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/MINDANDRELAX.json",
+    "parameter": "MINDANDRELAX",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/MIXED_CARDIO.json",
+    "parameter": "MIXED_CARDIO",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/MOUNTAIN_CLIMBING.json",
+    "parameter": "MOUNTAIN_CLIMBING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/OPEN_WATER_SWIMMING.json",
+    "parameter": "OPEN_WATER_SWIMMING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/OTHER_TRAINING.json",
+    "parameter": "OTHER_TRAINING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/OTHER_WATER_SPORTS.json",
+    "parameter": "OTHER_WATER_SPORTS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/OUTDOOR_CYCLING.json",
+    "parameter": "OUTDOOR_CYCLING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/OUTDOOR_RUNNING.json",
+    "parameter": "OUTDOOR_RUNNING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/OUTDOOR_WALK.json",
+    "parameter": "OUTDOOR_WALK",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/PADDLE_BOARDING.json",
+    "parameter": "PADDLE_BOARDING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/PARAGLIDING.json",
+    "parameter": "PARAGLIDING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/PARALLEL_BARS.json",
+    "parameter": "PARALLEL_BARS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/PARASAILING.json",
+    "parameter": "PARASAILING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/PARKOUR.json",
+    "parameter": "PARKOUR",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/PHYSICAL_TRAINING.json",
+    "parameter": "PHYSICAL_TRAINING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/PICKLEBALL.json",
+    "parameter": "PICKLEBALL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/PILATES.json",
+    "parameter": "PILATES",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/PLANK.json",
+    "parameter": "PLANK",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/POWER_BOATING.json",
+    "parameter": "POWER_BOATING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/PULL_UP.json",
+    "parameter": "PULL_UP",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/PUSH_UP.json",
+    "parameter": "PUSH_UP",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/RACING.json",
+    "parameter": "RACING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/RACQUETBALL.json",
+    "parameter": "RACQUETBALL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ROCK_CLIMBING.json",
+    "parameter": "ROCK_CLIMBING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ROLLER_SKATING.json",
+    "parameter": "ROLLER_SKATING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ROLLING.json",
+    "parameter": "ROLLING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ROWING_MACHINE.json",
+    "parameter": "ROWING_MACHINE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ROWING.json",
+    "parameter": "ROWING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/RUGBY.json",
+    "parameter": "RUGBY",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SAILING.json",
+    "parameter": "SAILING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SAVATE.json",
+    "parameter": "SAVATE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SEPAK_TAKRAW.json",
+    "parameter": "SEPAK_TAKRAW",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SHOOTING.json",
+    "parameter": "SHOOTING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SHUTTLECOCK_KICKING.json",
+    "parameter": "SHUTTLECOCK_KICKING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SIDE_PLANK.json",
+    "parameter": "SIDE_PLANK",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SINGLE_BAR.json",
+    "parameter": "SINGLE_BAR",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SIT_UPS.json",
+    "parameter": "SIT_UPS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SKATE_BOARDING.json",
+    "parameter": "SKATE_BOARDING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SKATING.json",
+    "parameter": "SKATING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SKIING.json",
+    "parameter": "SKIING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SKIPPING.json",
+    "parameter": "SKIPPING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SLEDDING.json",
+    "parameter": "SLEDDING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SNORKELING.json",
+    "parameter": "SNORKELING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SNOW_SPORTS.json",
+    "parameter": "SNOW_SPORTS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SNOWBOARDING.json",
+    "parameter": "SNOWBOARDING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SOCIAL_DANCE.json",
+    "parameter": "SOCIAL_DANCE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SOFTBALL.json",
+    "parameter": "SOFTBALL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SPINNING.json",
+    "parameter": "SPINNING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SQUARE_DANCE.json",
+    "parameter": "SQUARE_DANCE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SQUASH.json",
+    "parameter": "SQUASH",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SQUAT.json",
+    "parameter": "SQUAT",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/STAIR_CLIMBING.json",
+    "parameter": "STAIR_CLIMBING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/STEP_TRAINING.json",
+    "parameter": "STEP_TRAINING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/STEPPER.json",
+    "parameter": "STEPPER",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/STREET_DANCE.json",
+    "parameter": "STREET_DANCE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/STRENGTH_TRAINING.json",
+    "parameter": "STRENGTH_TRAINING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SURFING.json",
+    "parameter": "SURFING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/SWIMMING.json",
+    "parameter": "SWIMMING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/TABLE_TENNIS.json",
+    "parameter": "TABLE_TENNIS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/TAEKWONDO.json",
+    "parameter": "TAEKWONDO",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/TAI_CHI.json",
+    "parameter": "TAI_CHI",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/TENNIS.json",
+    "parameter": "TENNIS",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/TRADITIONAL_STRENGTH_TRAINING.json",
+    "parameter": "TRADITIONAL_STRENGTH_TRAINING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/TRAILRUN.json",
+    "parameter": "TRAILRUN",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/TRAMPOLINE.json",
+    "parameter": "TRAMPOLINE",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/TREADMILL.json",
+    "parameter": "TREADMILL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/TRIATHLON.json",
+    "parameter": "TRIATHLON",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/TUG_OF_WAR.json",
+    "parameter": "TUG_OF_WAR",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/UPPERBODY.json",
+    "parameter": "UPPERBODY",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/VO2MAXTEST.json",
+    "parameter": "VO2MAXTEST",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/VOLLEYBALL.json",
+    "parameter": "VOLLEYBALL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/WAIST_TRAINING.json",
+    "parameter": "WAIST_TRAINING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/WALL_BALL.json",
+    "parameter": "WALL_BALL",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/WATER_POLO.json",
+    "parameter": "WATER_POLO",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/WATER_SKIING.json",
+    "parameter": "WATER_SKIING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/WEIGHT_LIFTING.json",
+    "parameter": "WEIGHT_LIFTING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/WINDSURFING.json",
+    "parameter": "WINDSURFING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/WORKOUT.json",
+    "parameter": "WORKOUT",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/WRESTLING.json",
+    "parameter": "WRESTLING",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/YOGA.json",
+    "parameter": "YOGA",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/multi_sport/ZUMBA.json",
+    "parameter": "ZUMBA",
+    "group": "Multi Sport"
+  },
+  {
+    "fileName": "Product_team/smart_world/app_config_default_value.json",
+    "parameter": "app_config",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/countries_default_value.json",
+    "parameter": "countries",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/current_version_config.json",
+    "parameter": "current_version",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/edit_multi_sport_config_default_value.json",
+    "parameter": "edit_multi_sport_config",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/gamification_default_value.json",
+    "parameter": "gamification",
+    "group": "Smart World",
+    "enable": false
+  },
+  {
+    "fileName": "Product_team/smart_world/google_fit_config_default_value.json",
+    "parameter": "google_fit_config",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/live_chat_default_value.json",
+    "parameter": "live_chat_config",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/multi_sport_category_config_default_value.json",
+    "parameter": "multi_sport_category_config",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/multi_sport_config_default_value.json",
+    "parameter": "multi_sport_config",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "R_D_Team/otp_less_config/otp_less_config_default_value.json",
+    "parameter": "otp_less_config",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/privilege_access_default_value.json",
+    "parameter": "privilege_access",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/smart_notification_config_default_value.json",
+    "parameter": "smart_notification_config",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/supported_features_default_value.json",
+    "parameter": "supported_features",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/supported_products_default_value.json",
+    "parameter": "supported_products",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/url_config_default_value.json",
+    "parameter": "url_config",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "Product_team/smart_world/watchface_config_default_value.json",
+    "parameter": "watchface_config",
+    "group": "Smart World"
+  },
+  {
+    "fileName": "R_D_Team/survey_config/survey_config_default_value.json",
+    "parameter": "survey_config",
+    "group": "NPS"
+  },
+  {
+    "fileName": "R_D_Team/strava_config/strava_config_default_value.json",
+    "parameter": "strava_config",
+    "group": "STRAVA"
+  },
+  {
+    "fileName": "R_D_Team/subscription_config/subscription_config_default_value.json",
+    "parameter": "subscription_config",
+    "group": "Subscription"
+  }
+]

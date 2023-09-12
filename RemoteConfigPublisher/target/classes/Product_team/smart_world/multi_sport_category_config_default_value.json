@@ -1,0 +1,110 @@
+[
+  {
+    "category": "Walk",
+    "taskName": "WALK",
+    "tasksId": [
+      "INDOOR_WALK",
+      "OUTDOOR_WALK"
+    ]
+  },
+  {
+    "category": "Meditation"
+  },
+  {
+    "category": "Adventure Sports"
+  },
+  {
+    "category": "Training"
+  },
+  {
+    "category": "Martial Art"
+  },
+  {
+    "category": "Skate"
+  },
+  {
+    "category": "Swimming"
+  },
+  {
+    "category": "Recreational"
+  },
+  {
+    "category": "Sports"
+  },
+  {
+    "category": "Core Training"
+  },
+  {
+    "category": "Rowing",
+    "taskName": "ROWING",
+    "tasksId": [
+      "ROWING_MACHINE",
+      "ROWING"
+    ]
+  },
+  {
+    "category": "Run",
+    "taskName": "RUN",
+    "tasksId": [
+      "OUTDOOR_RUNNING",
+      "TRAILRUN",
+      "INDOOR_RUNNING",
+      "INDOOR_WALK_RUN"
+    ]
+  },
+  {
+    "category": "Hiking",
+    "taskName": "HIKING",
+    "tasksId": [
+      "HIKING",
+      "MOUNTAIN_CLIMBING"
+    ]
+  },
+  {
+    "category": "Cycle",
+    "taskName": "CYCLING",
+    "tasksId": [
+      "INDOOR_CYCLING",
+      "OUTDOOR_CYCLING"
+    ]
+  },
+  {
+    "category": "Ball Sports"
+  },
+  {
+    "category": "Ice Sports"
+  },
+  {
+    "category": "Weight Training"
+  },
+  {
+    "category": "Water Sports"
+  },
+  {
+    "category": "Cardio"
+  },
+  {
+    "category": "Dance"
+  },
+  {
+    "category": "Yoga",
+    "taskName": "YOGA",
+    "tasksId": [
+      "YOGA"
+    ]
+  },
+  {
+    "category": "Elliptical",
+    "taskName": "ELLIPTICAL",
+    "tasksId": [
+      "ELLIPTICAL_MACHINE"
+    ]
+  },
+  {
+    "category": "HIIT",
+    "taskName": "HIIT",
+    "tasksId": [
+      "HIIT"
+    ]
+  }
+]

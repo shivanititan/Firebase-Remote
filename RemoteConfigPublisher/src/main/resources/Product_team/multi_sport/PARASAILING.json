@@ -1,0 +1,27 @@
+{
+  "androidId": 65,
+  "androidMappingFromSdk": {
+    "55": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Water Sports",
+  "iOSId": 101,
+  "iOSMappingFromSdk": {
+    "55": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2"
+    ]
+  },
+  "image": "ic_parasailing",
+  "name": "Parasailing",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "PARASAILING"
+}

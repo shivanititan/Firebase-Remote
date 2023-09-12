@@ -1,0 +1,55 @@
+{
+  "androidId": 7,
+  "androidMappingFromSdk": {
+    "12": [
+      "SLAY"
+    ],
+    "100": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "8": [
+      "REFLEX_3"
+    ],
+    "98": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Training",
+  "iOSId": 8,
+  "iOSMappingFromSdk": {
+    "12": [
+      "SLAY"
+    ],
+    "8": [
+      "REFLEX_3"
+    ],
+    "98": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ]
+  },
+  "image": "ic_other_training",
+  "name": "Other Training",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "OTHER_TRAINING"
+}

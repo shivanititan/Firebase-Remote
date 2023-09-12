@@ -1,0 +1,97 @@
+{
+  "androidId": 32,
+  "androidMappingFromSdk": {
+    "33": [
+      "REFLEX_3",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "48": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "53": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "20": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "31":[
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ],
+    "66": [
+      "FT_38081"
+    ]
+  },
+  "androidMappingId": [
+    1028
+  ],
+  "category": "Training",
+  "iOSId": 33,
+  "iOSMappingFromSdk": {
+    "33": [
+      "REFLEX_3",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ],
+    "48": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "53": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "20": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "31":[
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ],
+    "66": [
+      "FT_38081"
+    ]
+  },
+  "image": "ic_cross_training",
+  "name": "Cross Training",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "CROSS_TRAINING"
+}

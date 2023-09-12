@@ -1,0 +1,23 @@
+{
+  "androidId": 1093,
+  "androidMappingFromSdk": {
+    "40": [
+      "TITAN_TALK_S"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Cardio",
+  "iOSId": 0,
+  "iOSMappingFromSdk": {
+    "40": [
+        "TITAN_TALK_S"
+    ]
+  },
+  "image": "ic_endurance",
+  "name": "Endurance",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "ENDURANCE"
+}

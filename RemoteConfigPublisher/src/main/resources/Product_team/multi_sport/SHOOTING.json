@@ -1,0 +1,55 @@
+{
+  "androidId": 1073,
+  "androidMappingFromSdk": {
+    "124": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "98": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Adventure Sports",
+  "iOSId": 153,
+  "iOSMappingFromSdk": {
+    "124": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "98": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ]
+  },
+  "image": "ic_shooting",
+  "name": "Shooting",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "SHOOTING"
+}

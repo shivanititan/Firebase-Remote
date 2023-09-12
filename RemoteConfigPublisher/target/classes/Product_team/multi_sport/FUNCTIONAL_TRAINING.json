@@ -1,0 +1,83 @@
+{
+  "androidId": 1030,
+  "androidMappingFromSdk": {
+    "56": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "51": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "23": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "35":[
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ],
+    "73": [
+      "FT_38081"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Training",
+  "iOSId": 127,
+  "iOSMappingFromSdk": {
+    "56": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "51": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "TITAN_90184",
+      "FT_38091",
+      "FT_38092",
+      "FT_38089",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38082"
+    ],
+    "23": [
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "35":[
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ],
+    "73": [
+      "FT_38081"
+    ]
+  },
+  "image": "ic_functional_training",
+  "name": "Functional Training",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "FUNCTIONAL_TRAINING"
+}

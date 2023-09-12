@@ -1,0 +1,3741 @@
+[
+  {
+    "name": "Call",
+    "packageNames": [],
+    "defaultForProducts": [
+      "REFLEX_3",
+      "REFLEX_2C",
+      "SLAY",
+      "REFLEX_CURV",
+      "FT_38082",
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "FT_38090",
+      "FT_38093",
+      "FT_38094",
+      "FT_38089",
+      "FT_38092",
+      "FT_38091",
+      "REFLEX_PLAY",
+      "REFLEX_PLAY_PLUS",
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "TITAN_SMART_TALK",
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38081",
+      "TITAN_90184",
+      "TITAN_90160",
+      "FT_38096",
+      "TITAN_90188",
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196",
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112",
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 1
+      },
+      {
+        "product": [
+          "REFLEX_2C"
+        ],
+        "id": 1
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 29
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184",
+          "TITAN_90160"
+        ],
+        "id": 1
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 0
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "name": "Missed Call",
+    "packageNames": [],
+    "defaultForProducts": [
+      "REFLEX_PLAY",
+      "REFLEX_PLAY_PLUS",
+      "FT_38081",
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "TITAN_SMART_TALK",
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188",
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196",
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112",
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 1
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 45
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8250
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 33
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 57
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "name": "SMS",
+    "packageNames": [],
+    "defaultForProducts": [
+      "REFLEX_3",
+      "REFLEX_2C",
+      "SLAY",
+      "FT_38082",
+      "TITAN_90172",
+      "REFLEX_PLAY",
+      "REFLEX_PLAY_PLUS",
+      "FT_38081",
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "TITAN_SMART_TALK",
+      "TITAN_90184",
+      "TITAN_90197",
+      "FT_38110",
+      "FT_38111",
+      "FT_38112"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 0
+      },
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 1
+      },
+      {
+        "product": [
+          "REFLEX_2C"
+        ],
+        "id": 18
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 1
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90172",
+          "TITAN_90184"
+        ],
+        "id": 3
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 1
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 2
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8193
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 13
+      }
+    ]
+  },
+  {
+    "name": "WhatsApp",
+    "packageNames": [
+      "com.whatsapp"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 8
+      },
+      {
+        "product": [
+          "REFLEX_2C"
+        ],
+        "id": 27
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 3
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 7
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "TITAN_SMART_TALK",
+          "TITAN_90160"
+        ],
+        "id": 4
+      },
+      {
+        "product": [
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2"
+        ],
+        "id": 8
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8200
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 110
+      }
+    ]
+  },
+  {
+    "name": "WhatsApp Business",
+    "packageNames": [
+      "com.whatsapp.w4b"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 8
+      },
+      {
+        "product": [
+          "REFLEX_2C"
+        ],
+        "id": 27
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 3
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 7
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 4
+      },
+      {
+        "product": [
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2"
+        ],
+        "id": 8
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8248
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 110
+      }
+    ]
+  },
+  {
+    "name": "Skype",
+    "packageNames": [
+      "com.skype.raider",
+      "com.skype.m2",
+      "com.microsoft.office.lync15"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 13
+      },
+      {
+        "product": [
+          "REFLEX_2C"
+        ],
+        "id": 21
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 34
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 12
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 8
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 7
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8205
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 114
+      }
+    ]
+  },
+  {
+    "name": "Red Bus",
+    "packageNames": [
+      "in.redbus.android"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 39
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 2
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8231
+      }
+    ]
+  },
+  {
+    "name": "Facebook",
+    "packageNames": [
+      "com.facebook.katana",
+      "com.facebook.lite"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 6
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 8
+      },
+      {
+        "product": [
+          "REFLEX_2C"
+        ],
+        "id": 22
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 4
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_TALK_S",
+          "FT_38083",
+          "TITAN_90172",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38084",
+          "FT_38086",
+          "TITAN_90184",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 5
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 130
+      },
+      {
+        "product": [
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2"
+        ],
+        "id": 4
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8198
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 103
+      }
+    ]
+  },
+  {
+    "name": "Twitter",
+    "packageNames": [
+      "com.twitter.android",
+      "com.twitter.android.lite"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 7
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 9
+      },
+      {
+        "product": [
+          "REFLEX_2C"
+        ],
+        "id": 23
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 5
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "TITAN_90184",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 6
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 131
+      },
+      {
+        "product": [
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2"
+        ],
+        "id": 5
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8199
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 104
+      }
+    ]
+  },
+  {
+    "name": "Messenger",
+    "packageNames": [
+      "com.facebook.orca",
+      "com.facebook.mlite"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 9
+      },
+      {
+        "product": [
+          "REFLEX_2C"
+        ],
+        "id": 28
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 5
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 6
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 9
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 12
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 15
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8201
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 105
+      }
+    ]
+  },
+  {
+    "name": "Instagram",
+    "packageNames": [
+      "com.instagram.android"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188",
+          "TITAN_90160",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 10
+      },
+      {
+        "product": [
+          "REFLEX_2C"
+        ],
+        "id": 25
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 7
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 13
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 6
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8202
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 111
+      }
+    ]
+  },
+  {
+    "name": "Linked In",
+    "packageNames": [
+      "com.linkedin.android",
+      "com.linkedin.android.lite"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90160",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 11
+      },
+      {
+        "product": [
+          "REFLEX_2C"
+        ],
+        "id": 24
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 8
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 12
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 7
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8203
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 112
+      }
+    ]
+  },
+  {
+    "name": "Calendar",
+    "packageNames": [
+      "com.google.android.calendar"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 12
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 14
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 9
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 44
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 18
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8204
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 34
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 162
+      }
+    ]
+  },
+  {
+    "name": "Youtube",
+    "packageNames": [
+      "com.google.android.apps.youtube.kids",
+      "com.google.android.apps.youtube.music",
+      "com.google.android.youtube"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 10
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 20
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 23
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8228
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 42
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 43
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 36
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 131
+      }
+    ]
+  },
+  {
+    "name": "Telegram",
+    "packageNames": [
+      "org.telegram.messenger"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 23
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 6
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 11
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 24
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 14
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8215
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 45
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 120
+      }
+    ]
+  },
+  {
+    "name": "Gmail",
+    "packageNames": [
+      "com.google.android.gm",
+      "com.google.android.gm.lite"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 20
+      },
+      {
+        "product": [
+          "SLAY",
+          "TITAN_90160"
+        ],
+        "id": 12
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 19
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 17
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8212
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 51
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 107
+      }
+    ]
+  },
+  {
+    "name": "Daily Hunt",
+    "packageNames": [
+      "com.eterno",
+      "com.eterno.go"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 40
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 13
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 30
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 41
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 19
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8232
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 156
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 64
+      }
+    ]
+  },
+  {
+    "name": "Outlook",
+    "packageNames": [
+      "com.microsoft.office.outlook"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 21
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 13
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 14
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 30
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 20
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8213
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 51
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 21
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 132
+      }
+    ]
+  },
+  {
+    "name": "Snapchat",
+    "packageNames": [
+      "com.snapchat.android"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 22
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 7
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 15
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 17
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 31
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 11
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8214
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 109
+      }
+    ]
+  },
+  {
+    "name": "Hotstar",
+    "packageNames": [
+      "in.startv.hotstar",
+      "in.startv.hotstaronly",
+      "in.startv.hotstar.dplus"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 41
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 16
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 19
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 35
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8233
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 153
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 30
+      }
+    ]
+  },
+  {
+    "name": "Inshorts",
+    "packageNames": [
+      "com.nis.app"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 31
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 17
+      },
+      {
+        "product": [
+          "REFLEX_3",
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 42
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 22
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8234
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 53
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 65
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 157
+      }
+    ]
+  },
+  {
+    "name": "PayTm",
+    "packageNames": [
+      "net.one97.paytm",
+      "com.paytm.business",
+      "com.paytmmoney",
+      "com.paytmmall"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 43
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 18
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 24
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 26
+      },
+      {
+        "product": [
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2"
+        ],
+        "id": 25
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8235
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 160
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 49
+      }
+    ]
+  },
+  {
+    "name": "Amazon",
+    "packageNames": [
+      "in.amazon.mShop.android.shopping"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 44
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 19
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 22
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 38
+      },
+      {
+        "product": [
+          "REFLEX_HELLO",
+          "REFLEX_VOX2"
+        ],
+        "id": 35
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8236
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 54
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 31
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 133
+      }
+    ]
+  },
+  {
+    "name": "Flipkart",
+    "packageNames": [
+      "com.flipkart.android"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 45
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 20
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 23
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 37
+      },
+      {
+        "product": [
+          "REFLEX_HELLO",
+          "REFLEX_VOX2"
+        ],
+        "id": 36
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8237
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 55
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 165
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 58
+      }
+    ]
+  },
+  {
+    "name": "Amazon Prime",
+    "packageNames": [
+      "com.amazon.avod.thirdpartyclient",
+      "com.amazon.amazonvideo.livingroom"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 46
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 18
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 21
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 36
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8238
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 167
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 29
+      }
+    ]
+  },
+  {
+    "name": "Netflix",
+    "packageNames": [
+      "com.netflix.mediaclient"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 47
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 17
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 22
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 47
+      },
+      {
+        "product": [
+          "REFLEX_HELLO",
+          "REFLEX_VOX2"
+        ],
+        "id": 37
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8239
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 166
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 28
+      }
+    ]
+  },
+  {
+    "name": "GPay",
+    "packageNames": [
+      "com.google.android.apps.nbu.paisa.user"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 48
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 23
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 33
+      },
+      {
+        "product": [
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2"
+        ],
+        "id": 24
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 25
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 59
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 168
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8240
+      }
+    ]
+  },
+  {
+    "name": "Phone Pe",
+    "packageNames": [
+      "com.phonepe.app"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 49
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 24
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 26
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 34
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 23
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8241
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 154
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 60
+      }
+    ]
+  },
+  {
+    "name": "Swiggy",
+    "packageNames": [
+      "in.swiggy.android"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 50
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 15
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 25
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 31
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 26
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8242
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 161
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 26
+      }
+    ]
+  },
+  {
+    "name": "Zomato",
+    "packageNames": [
+      "com.application.zomato"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 51
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 16
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 26
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 32
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 27
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8243
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 155
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 27
+      }
+    ]
+  },
+  {
+    "name": "Make My Trip",
+    "packageNames": [
+      "com.makemytrip"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 52
+      },
+      {
+        "product": [
+          "SLAY",
+          "TITAN_90160"
+        ],
+        "id": 27
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 46
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8244
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 172
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 61
+      }
+    ]
+  },
+  {
+    "name": "JioTV",
+    "packageNames": [
+      "com.jio.jioplay.tv"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3"
+        ],
+        "id": 53
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 28
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 158
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8245
+      }
+    ]
+  },
+  {
+    "name": "Others",
+    "packageNames": [],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_3",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 14
+      },
+      {
+        "product": [
+          "REFLEX_2C"
+        ],
+        "id": 18
+      },
+      {
+        "product": [
+          "SLAY"
+        ],
+        "id": 30
+      },
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 32
+      },
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 4
+      },
+      {
+        "product": [
+          "FT_38096",
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "TITAN_90188"
+        ],
+        "id": 0
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 128
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8216
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 128
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 100
+      }
+    ]
+  },
+  {
+    "name": "Truecaller",
+    "packageNames": [
+      "com.truecaller"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 25
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 152
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 48
+      }
+    ]
+  },
+  {
+    "name": "MyJio",
+    "packageNames": [
+      "com.jio.myjio"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 45
+      }
+    ]
+  },
+  {
+    "name": "Uber",
+    "packageNames": [
+      "com.ubercab"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 50
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK",
+          "TITAN_90160"
+        ],
+        "id": 28
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8253
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 62
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 148
+      }
+    ]
+  },
+  {
+    "name": "Yahoo",
+    "packageNames": [
+      "com.yahoo.mobile.client.android.mail"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 39
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 58
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8270
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 159
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 34
+      }
+    ]
+  },
+  {
+    "name": "Slack",
+    "packageNames": [
+      "com.slack"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 36
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 60
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8225
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 33
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 124
+      }
+    ]
+  },
+  {
+    "name": "Spotify",
+    "packageNames": [
+      "com.spotify.music"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 61
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 118
+      }
+    ]
+  },
+  {
+    "name": "Gaana",
+    "packageNames": [
+      "com.gaana"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 37
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 54
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 68
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 164
+      }
+    ]
+  },
+  {
+    "name": "Ola",
+    "packageNames": [
+      "com.olacabs.customer"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 169
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 48
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK",
+          "TITAN_90160"
+        ],
+        "id": 29
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8254
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 63
+      }
+    ]
+  },
+  {
+    "name": "Microsoft Teams",
+    "packageNames": [
+      "com.microsoft.teams"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90184"
+        ],
+        "id": 27
+      },
+      {
+        "product": [
+          "FT_38089",
+          "FT_38092",
+          "FT_38091"
+        ],
+        "id": 29
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 53
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 139
+      }
+    ]
+  },
+  {
+    "name": "Viber",
+    "packageNames": [
+      "com.viber.voip"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 14
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8210
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 18
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 108
+      }
+    ]
+  },
+  {
+    "name": "Pinterest",
+    "packageNames": [
+      "com.pinterest"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 22
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8229
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 37
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 128
+      }
+    ]
+  },
+  {
+    "name": "Book My Show",
+    "packageNames": [
+      "com.bt.bms"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 43
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 171
+      }
+    ]
+  },
+  {
+    "name": "YT Music",
+    "packageNames": [
+      "com.google.android.apps.youtube.music"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 21
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 51
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8252
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 174
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 47
+      }
+    ]
+  },
+  {
+    "name": "Dunzo",
+    "packageNames": [
+      "com.dunzo.user"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 33
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 53
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 175
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 66
+      }
+    ]
+  },
+  {
+    "name": "Google Drive",
+    "packageNames": [
+      "com.google.android.apps.docs"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 35
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 55
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 67
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 176
+      }
+    ]
+  },
+  {
+    "name": "Wynk",
+    "packageNames": [
+      "com.bsbportal.music"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 38
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 163
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 69
+      }
+    ]
+  },
+  {
+    "name": "Fastrack Reflex World",
+    "packageNames": [
+      "com.titan.fastrack.reflex"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 2
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 49
+      },
+      {
+        "product": [
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "FT_38081",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ],
+        "id": 30
+      },
+      {
+        "product": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ],
+        "id": 8275
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 52
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 173
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 70
+      }
+    ]
+  },
+  {
+    "name": "Titan Smart World",
+    "packageNames": [
+      "com.titan.smartworld"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "TITAN_90160"
+        ],
+        "id": 3
+      },
+      {
+        "product": [
+          "FT_38082",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "TITAN_90184"
+        ],
+        "id": 59
+      },
+      {
+        "product": [
+          "FT_38083",
+          "FT_38084",
+          "FT_38086",
+          "FT_38096",
+          "TITAN_90188"
+        ],
+        "id": 56
+      },
+      {
+        "product": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ],
+        "id": 71
+      },
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 177
+      }
+    ]
+  },
+  {
+    "name": "Zalo",
+    "packageNames": [
+      "com.zing.zalo"
+    ],
+    "mapping": [
+      {
+        "product": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ],
+        "id": 170
+      }
+    ]
+  }
+]

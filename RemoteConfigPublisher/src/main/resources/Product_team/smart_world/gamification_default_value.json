@@ -1,0 +1,15 @@
+{
+  "dashboard": {
+    "filter": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "url": "",
+    "enable": true
+  }
+}

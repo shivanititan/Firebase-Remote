@@ -1,0 +1,1945 @@
+{
+  "wearableFeatures": {
+    "myFitness": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "sleep": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "remSleep": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_HELLO",
+          "REFLEX_VIBE",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "FT_38081",
+          "FT_38083",
+          "FT_38096",
+          "TITAN_90188",
+          "FT_38084",
+          "FT_38086",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90160",
+          "TITAN_90166",
+          "TITAN_90184",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      }
+    ],
+    "napSleep": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "FT_38083",
+          "FT_38096",
+          "TITAN_90188",
+          "FT_38084",
+          "FT_38086",
+          "FT_38091",
+          "FT_38092",
+          "FT_38089",
+          "FT_38094",
+          "FT_38093",
+          "FT_38090",
+          "TITAN_90184",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "awakeSleep": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_SMART_TALK",
+          "REFLEX_HELLO",
+          "REFLEX_VIBE",
+          "REFLEX_VOX2",
+          "FT_38081",
+          "FT_38083",
+          "FT_38096",
+          "TITAN_90188",
+          "FT_38084",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "TITAN_90160",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      }
+    ],
+    "heartRate": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1"
+        ]
+      }
+    ],
+    "bloodOxygen": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1",
+          "REFLEX_3"
+        ]
+      }
+    ],
+    "temperature": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_CURV",
+          "TITAN_90160"
+        ]
+      }
+    ],
+    "bloodPressure": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "TITAN_SMART_TALK",
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1",
+          "REFLEX_3",
+          "SLAY",
+          "REFLEX_CURV",
+          "FT_38082",
+          "FT_38083",
+          "FT_38096",
+          "TITAN_90188",
+          "FT_38084",
+          "FT_38086",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "TITAN_90166",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90172",
+          "TITAN_90160",
+          "TITAN_90184",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "TITAN_90197",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      }
+    ],
+    "myCycle": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "multiSport": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1"
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "watchFace": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1"
+        ]
+      }
+    ],
+    "stress": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "FT_38083",
+          "FT_38096",
+          "TITAN_90188",
+          "FT_38084",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38086",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38095",
+          "TITAN_90160",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "TITAN_90166",
+          "TITAN_90184",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      }
+    ],
+    "mood": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90184"
+        ]
+      }
+    ],
+    "ecg": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90160"
+        ]
+      }
+    ],
+    "hrv": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "respiratoryRate": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "bodyEnergy": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "smartCompetitor": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "runningTraining": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "FT_38101"
+        ]
+      }
+    ]
+  },
+  "wearableSettings": {
+    "stepGoal": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "sleepGoal": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "FT_38012"
+        ]
+      }
+    ],
+    "distanceGoal": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38012",
+          "FT_38109"
+        ]
+      }
+    ],
+    "multiSportGoal": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1",
+          "FT_38012",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ]
+      }
+    ],
+    "activeTimeGoal": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ]
+      }
+    ],
+    "activeHourGoal": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ]
+      }
+    ],
+    "intensityGoal": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "calorieGoal": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90160",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90166",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "FT_38107",
+          "FT_38108",
+          "FT_38012",
+          "FT_38109"
+        ]
+      }
+    ],
+    "notifications": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "autoHeartRate": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1"
+        ]
+      }
+    ],
+    "googleFit": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "sedentaryAlert": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "SLAY"
+        ]
+      }
+    ],
+    "myCycle": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "myCycleOnWatch": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_3",
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1",
+          "SLAY",
+          "TITAN_90160"
+        ]
+      }
+    ],
+    "unitSystem": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "liftToView": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "pair": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "alarm": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "FT_38081",
+          "FT_38091",
+          "FT_38092",
+          "FT_38089",
+          "FT_38094",
+          "FT_38093",
+          "FT_38090",
+          "TITAN_90172",
+          "TITAN_TALK_S",
+          "TITAN_90184"
+        ]
+      }
+    ],
+    "dnd": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1",
+          "TITAN_SMART_TALK",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ]
+      }
+    ],
+    "findPhone": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_3",
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1"
+        ]
+      }
+    ],
+    "weather": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1"
+        ]
+      }
+    ],
+    "music": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "ota": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "eCard": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "FT_38081"
+        ]
+      }
+    ],
+    "batteryOptimization": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "eventLog": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "about": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "bandLayout": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1",
+          "TITAN_90160"
+        ]
+      }
+    ],
+    "autoSleep": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1",
+          "TITAN_90160"
+        ]
+      }
+    ],
+    "findBand": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_3",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "REFLEX_CURV"
+        ]
+      }
+    ],
+    "antiLost": [
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "factoryReset": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90160",
+          "TITAN_TALK_S",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "alexa": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "autoTemperature": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_CURV",
+          "TITAN_90160"
+        ]
+      }
+    ],
+    "temperatureUnitSystem": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_CURV",
+          "TITAN_90160"
+        ]
+      }
+    ],
+    "camera": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90184",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ]
+      }
+    ],
+    "hydration": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1",
+          "REFLEX_3",
+          "SLAY"
+        ]
+      }
+    ],
+    "highHR": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1",
+          "REFLEX_3",
+          "SLAY",
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_90172",
+          "FT_38089",
+          "FT_38090",
+          "FT_38091",
+          "FT_38092",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_TALK_S",
+          "TITAN_90184"
+        ]
+      }
+    ],
+    "testNotifications": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90160",
+          "FT_38100",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109",
+          "FT_38103",
+          "FT_38104"
+        ]
+      }
+    ],
+    "screenTimeout": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK"
+        ]
+      }
+    ],
+    "bluetoothCalling": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_PLAY_PLUS",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38089",
+          "FT_38083",
+          "FT_38096",
+          "TITAN_90188",
+          "FT_38084",
+          "FT_38086",
+          "FT_38092",
+          "FT_38091",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90184",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ]
+      }
+    ],
+    "sosContacts": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90172",
+          "FT_38089",
+          "FT_38090",
+          "FT_38091",
+          "FT_38092",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90166",
+          "TITAN_90184",
+          "TITAN_90191",
+          "TITAN_90196",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111"
+        ]
+      }
+    ],
+    "favouriteContacts": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_PLAY_PLUS",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38083",
+          "FT_38096",
+          "TITAN_90188",
+          "FT_38084",
+          "FT_38086",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "FT_38081",
+          "TITAN_90166",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90184",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109",
+          "FT_38012"
+        ]
+      }
+    ],
+    "stressAndMood": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90184"
+        ]
+      }
+    ],
+    "editMultiSport": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "FT_38083",
+          "FT_38096",
+          "TITAN_90188",
+          "TITAN_90166",
+          "FT_38084",
+          "FT_38086",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "TITAN_90197"
+        ]
+      }
+    ],
+    "lowSpO2Reminder": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "highStressReminder": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "handWashReminder": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ]
+      }
+    ],
+    "systemLogs": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90160"
+        ]
+      }
+    ],
+    "restart": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90160"
+        ]
+      }
+    ],
+    "sensorHubOtaTest": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90160"
+        ]
+      }
+    ],
+    "autoDetection": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90160"
+        ]
+      }
+    ],
+    "musicStorage": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90166"
+        ]
+      }
+    ],
+    "iconForNotification": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "quickReplyForNotification": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "worldClock": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90160",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "autoStress": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "TITAN_90166",
+          "FT_38083",
+          "FT_38096",
+          "TITAN_90188",
+          "FT_38084",
+          "FT_38086",
+          "TITAN_90160",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      }
+    ],
+    "autoStressLogs": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90160"
+        ]
+      }
+    ],
+    "autoSpo2": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ]
+      }
+    ],
+    "quickReply": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "FT_38083",
+          "FT_38096",
+          "TITAN_90188",
+          "FT_38084",
+          "FT_38086",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90172",
+          "TITAN_90160",
+          "TITAN_90166",
+          "TITAN_90184",
+          "TITAN_90191",
+          "TITAN_90196",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112"
+        ]
+      }
+    ],
+    "strava": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "connectedApps": [
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "DISPLAY_NAME",
+        "condition": "",
+        "pattern": [
+          ""
+        ],
+        "value": "Connected Apps"
+      }
+    ],
+    "subscriptions": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "DISPLAY_NAME",
+        "condition": "",
+        "pattern": [
+          ""
+        ],
+        "value": "Subscriptions"
+      }
+    ],
+    "medication": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "sdkLog": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "TITAN_90166",
+          "TITAN_90172",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90184",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90160",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      }
+    ],
+    "alexaLog": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "resetPassword": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90172",
+          "FT_38089",
+          "FT_38090",
+          "FT_38091",
+          "FT_38092",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90184",
+          "FT_38096"
+        ]
+      }
+    ],
+    "dialSync": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "TITAN_90172",
+          "FT_38089",
+          "FT_38090",
+          "FT_38091",
+          "FT_38092",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90184"
+        ]
+      }
+    ],
+    "watchfaceWallpaper": [
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_3",
+          "REFLEX_BEAT",
+          "SLAY",
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1"
+        ]
+      }
+    ],
+    "dndIntervalSupport": [
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_3",
+          "SLAY",
+          "FT_38083",
+          "FT_38096",
+          "TITAN_90188",
+          "FT_38084",
+          "FT_38086",
+          "FT_38085",
+          "FT_38089",
+          "FT_38091",
+          "FT_38092",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "FT_38081",
+          "FT_38012",
+          "TITAN_90172",
+          "TITAN_90160",
+          "TITAN_TALK_S",
+          "TITAN_90184"
+        ]
+      }
+    ],
+    "dndFromWatchSupport": [
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_1",
+          "REFLEX_2",
+          "REFLEX_3",
+          "REFLEX_BEAT",
+          "REFLEX_2C",
+          "REFLEX_CURV"
+        ]
+      }
+    ],
+    "liftToViewFromWatchSupport": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90188",
+          "FT_38083",
+          "FT_38096",
+          "FT_38084",
+          "FT_38084",
+          "FT_38086",
+          "FT_38087",
+          "TITAN_90172",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90166",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "FT_38081",
+          "TITAN_90184",
+          "TITAN_90191",
+          "TITAN_90196",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      }
+    ],
+    "deviceInfoNotNeededForDnd": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      },
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "REFLEX_2C",
+          "REFLEX_2",
+          "REFLEX_BEAT",
+          "REFLEX_1"
+        ]
+      }
+    ],
+    "sevenDaysWeatherSupport": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "SLAY",
+          "TITAN_90160",
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK",
+          "FT_38081",
+          "REFLEX_CURV",
+          "FT_38082",
+          "TITAN_TALK_S",
+          "TITAN_90172",
+          "FT_38089",
+          "FT_38092",
+          "FT_38091",
+          "FT_38090",
+          "FT_38093",
+          "FT_38094",
+          "TITAN_90166",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38086",
+          "FT_38084",
+          "FT_38095",
+          "TITAN_90184",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      }
+    ],
+    "otaUpgradeSupport": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
+    "notificationsEnableDisable": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "NO_WATCH",
+          "REFLEX_CURV",
+          "TITAN_TALK_S",
+          "REFLEX_PLAY",
+          "REFLEX_PLAY_PLUS",
+          "REFLEX_VIBE",
+          "REFLEX_HELLO",
+          "REFLEX_VOX2",
+          "TITAN_SMART_TALK",
+          "FT_38081",
+          "FT_38082",
+          "TITAN_90172",
+          "FT_38089",
+          "FT_38090",
+          "FT_38091",
+          "FT_38092",
+          "FT_38093",
+          "FT_38094",
+          "FT_38083",
+          "FT_38096",
+          "TITAN_90188",
+          "FT_38084",
+          "TITAN_90160",
+          "TITAN_90166",
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "TITAN_90184",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      }
+    ],
+    "syncContacts": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095"
+        ]
+      }
+    ],
+    "watchfaceDelete": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "FT_38085",
+          "FT_38100",
+          "FT_38101",
+          "FT_38102",
+          "FT_38103",
+          "FT_38104",
+          "FT_38105",
+          "FT_38106",
+          "FT_38095",
+          "TITAN_90166",
+          "TITAN_90160",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      }
+    ],
+    "agpsUpdate": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "aiSticker": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196"
+        ]
+      }
+    ],
+    "voiceAssistant": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "FT_38100",
+          "FT_38101",
+          "FT_38102"
+        ]
+      }
+    ],
+    "eventReminder": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "TITAN_90166",
+          "TITAN_90191",
+          "TITAN_90196",
+          "TITAN_90197",
+          "FT_38110",
+          "FT_38111",
+          "FT_38112",
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      }
+    ],
+    "language": [
+      {
+        "type": "PRODUCTS",
+        "condition": "INCLUDE",
+        "pattern": [
+          "FT_38107",
+          "FT_38108",
+          "FT_38109"
+        ]
+      }
+    ]
+  },
+  "platformFeatures": {
+    "articles": {
+      "enable": true,
+      "filter": []
+    },
+    "relaxMusic": {
+      "enable": true,
+      "filter": []
+    }
+  },
+  "types": [
+    "PRODUCTS",
+    "TSW_ANDROID_VERSION",
+    "FSW_ANDROID_VERSION",
+    "TSW_IOS_VERSION",
+    "FSW_IOS_VERSION"
+  ],
+  "conditions": [
+    "INCLUDE",
+    "EXCLUDE",
+    "MIN",
+    "MAX"
+  ]
+}

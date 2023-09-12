@@ -1,0 +1,59 @@
+{
+  "androidId": 56,
+  "androidMappingFromSdk": {
+    "38": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "175": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ]
+  },
+  "androidMappingId": [
+    1118
+  ],
+  "category": "Water Sports",
+  "iOSId": 90,
+  "iOSMappingFromSdk": {
+    "38": [
+      "REFLEX_VIBE",
+      "REFLEX_HELLO",
+      "REFLEX_VOX2",
+      "FT_38081"
+    ],
+    "175": [
+      "FT_38085",
+      "FT_38100",
+      "FT_38101",
+      "FT_38102",
+      "FT_38103",
+      "FT_38104",
+      "FT_38105",
+      "FT_38106",
+      "FT_38095",
+      "TITAN_90166",
+      "TITAN_90191",
+      "TITAN_90196"
+    ]
+  },
+  "image": "ic_paddle_boarding",
+  "name": "Paddle Boarding",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "PADDLE_BOARDING"
+}

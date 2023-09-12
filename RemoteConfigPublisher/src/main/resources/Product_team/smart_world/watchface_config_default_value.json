@@ -1,0 +1,970 @@
+{
+  "android": [
+    {
+      "cloud": [
+        {
+          "height": "140",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "140",
+          "type": "GLASS",
+          "width": "WRAP"
+        },
+        {
+          "height": "60",
+          "type": "IMAGE",
+          "width": "WRAP"
+        }
+      ],
+      "product": [
+        "REFLEX_3"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "140",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "64",
+          "type": "GLASS",
+          "width": "WRAP"
+        },
+        {
+          "height": "54",
+          "type": "IMAGE",
+          "width": "WRAP"
+        }
+      ],
+      "product": [
+        "SLAY"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "75",
+          "type": "GLASS",
+          "width": "WRAP"
+        },
+        {
+          "height": "66",
+          "type": "IMAGE",
+          "width": "58"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 280,
+          "ratioX": 6,
+          "ratioY": 7,
+          "width": 240
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "75",
+            "type": "GLASS",
+            "width": "WRAP"
+          },
+          {
+            "height": "66",
+            "type": "IMAGE",
+            "width": "58"
+          }
+        ]
+      },
+      "product": [
+        "REFLEX_CURV",
+        "FT_38082"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "80",
+          "type": "IMAGE",
+          "width": "66"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 280,
+          "ratioX": 6,
+          "ratioY": 7,
+          "width": 240
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "80",
+            "type": "IMAGE",
+            "width": "66"
+          }
+        ]
+      },
+      "product": [
+        "TITAN_90184"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "75",
+          "type": "IMAGE",
+          "width": "75"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 260,
+          "ratioX": 0,
+          "ratioY": 0,
+          "width": 260
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "75",
+            "type": "IMAGE",
+            "width": "75"
+          }
+        ]
+      },
+      "product": [
+        "REFLEX_PLAY",
+        "REFLEX_PLAY_PLUS",
+        "TITAN_SMART_TALK",
+        "FT_38112"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "75",
+          "paddingRight": "1",
+          "type": "IMAGE",
+          "width": "76"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 260,
+          "ratioX": 0,
+          "ratioY": 0,
+          "width": 260
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "75",
+            "paddingRight": "1",
+            "type": "IMAGE",
+            "width": "76"
+          }
+        ]
+      },
+      "product": [
+        "FT_38090",
+        "FT_38093",
+        "FT_38094",
+        "FT_38089",
+        "FT_38092",
+        "FT_38091"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "68",
+          "paddingRight": "1",
+          "type": "IMAGE",
+          "width": "68"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 260,
+          "ratioX": 0,
+          "ratioY": 0,
+          "width": 260
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "68",
+            "paddingRight": "1",
+            "type": "IMAGE",
+            "width": "68"
+          }
+        ]
+      },
+      "product": [
+        "TITAN_90172",
+        "TITAN_90160"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "66",
+          "type": "IMAGE",
+          "width": "58"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 280,
+          "ratioX": 6,
+          "ratioY": 7,
+          "width": 240
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "66",
+            "type": "IMAGE",
+            "width": "58"
+          }
+        ]
+      },
+      "product": [
+        "REFLEX_VIBE",
+        "REFLEX_HELLO",
+        "REFLEX_VOX2",
+        "FT_38083",
+        "FT_38081",
+        "FT_38084",
+        "FT_38086",
+        "FT_38096",
+        "TITAN_90188"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "80",
+          "paddingBottom": "5",
+          "type": "IMAGE",
+          "width": "65"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 286,
+          "ratioX": 10,
+          "ratioY": 12,
+          "width": 240
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "90",
+            "paddingBottom": "5",
+            "type": "IMAGE",
+            "width": "68"
+          }
+        ]
+      },
+      "product": [
+        "FT_38101"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "90",
+          "paddingBottom": "5",
+          "type": "IMAGE",
+          "width": "68"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 385,
+          "ratioX": 10,
+          "ratioY": 12,
+          "width": 320
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "90",
+            "paddingBottom": "5",
+            "type": "IMAGE",
+            "width": "68"
+          }
+        ]
+      },
+      "product": [
+        "FT_38085",
+        "FT_38095",
+        "FT_38100",
+        "FT_38103",
+        "FT_38105",
+        "FT_38106",
+        "TITAN_90197",
+        "FT_38110",
+        "FT_38111",
+        "FT_38112"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "90",
+          "paddingBottom": "5",
+          "type": "IMAGE",
+          "width": "68"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 286,
+          "ratioX": 10,
+          "ratioY": 12,
+          "width": 240
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "90",
+            "paddingBottom": "5",
+            "type": "IMAGE",
+            "width": "68"
+          }
+        ]
+      },
+      "product": [
+        "FT_38104"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "90",
+          "type": "IMAGE",
+          "width": "90"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 240,
+          "ratioX": 1,
+          "ratioY": 1,
+          "width": 240
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "90",
+            "type": "IMAGE",
+            "width": "90"
+          }
+        ]
+      },
+      "product": [
+        "FT_38102"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "70",
+          "type": "IMAGE",
+          "width": "63"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 448,
+          "ratioX": 10,
+          "ratioY": 12,
+          "width": 368
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "90",
+            "paddingBottom": "5",
+            "type": "IMAGE",
+            "width": "68"
+          }
+        ]
+      },
+      "product": [
+        "TITAN_90166"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "70",
+          "type": "IMAGE",
+          "width": "63"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 502,
+          "ratioX": 10,
+          "ratioY": 12,
+          "width": 410
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "90",
+            "paddingBottom": "5",
+            "type": "IMAGE",
+            "width": "68"
+          }
+        ]
+      },
+      "product": [
+        "TITAN_90191"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "75",
+          "type": "GLASS",
+          "width": "WRAP"
+        },
+        {
+          "height": "66",
+          "type": "IMAGE",
+          "width": "58"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 448,
+          "ratioX": 10,
+          "ratioY": 12,
+          "width": 368
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "75",
+            "type": "GLASS",
+            "width": "WRAP"
+          },
+          {
+            "height": "68",
+            "type": "IMAGE",
+            "width": "56"
+          }
+        ]
+      },
+      "product": [
+        "TITAN_TALK_S"
+      ]
+    },
+    {
+      "cloud": [
+        {
+          "height": "150",
+          "type": "WATCH",
+          "width": "WRAP"
+        },
+        {
+          "height": "75",
+          "type": "GLASS",
+          "width": "WRAP"
+        },
+        {
+          "height": "66",
+          "type": "IMAGE",
+          "width": "58"
+        }
+      ],
+      "custom": {
+        "crop": {
+          "height": 448,
+          "ratioX": 10,
+          "ratioY": 12,
+          "width": 368
+        },
+        "filter": [
+          {
+            "height": "150",
+            "type": "WATCH",
+            "width": "WRAP"
+          },
+          {
+            "height": "75",
+            "type": "GLASS",
+            "width": "WRAP"
+          },
+          {
+            "height": "68",
+            "type": "IMAGE",
+            "width": "56"
+          }
+        ]
+      },
+      "product": [
+        "FT_38107",
+        "FT_38108",
+        "FT_38109"
+      ]
+    }
+  ],
+  "iOS": [
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": -3,
+          "centerY": 0,
+          "height": 0.485,
+          "width": 0.857
+        }
+      },
+      "cornerRadius": 26,
+      "products": [
+        "FT_38085",
+        "FT_38100",
+        "FT_38101",
+        "FT_38102",
+        "FT_38103",
+        "FT_38104",
+        "FT_38105",
+        "FT_38106",
+        "Ft_38095",
+        "Ft_38083",
+        "TITAN_90166",
+        "TITAN_90191",
+        "TITAN_90196",
+        "FT_38096",
+        "TITAN_90188",
+        "TITAN_90197",
+        "FT_38107",
+        "FT_38108",
+        "FT_38109"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": -1,
+          "centerY": -2,
+          "height": 0.48,
+          "width": 1
+        }
+      },
+      "cornerRadius": 0,
+      "products": [
+        "FT_38089",
+        "FT_38093"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": -1,
+          "centerY": 0,
+          "height": 0.51,
+          "width": 1
+        }
+      },
+      "cornerRadius": 0,
+      "products": [
+        "FT_38091",
+        "FT_38092"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": -1,
+          "centerY": 0,
+          "height": 0.49,
+          "width": 1
+        }
+      },
+      "cornerRadius": 0,
+      "products": [
+        "TITAN_90184"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": 0,
+          "centerY": 2,
+          "height": 0.48,
+          "width": 1
+        }
+      },
+      "cornerRadius": 0,
+      "products": [
+        "FT_38090",
+        "FT_38094"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": -1,
+          "centerY": 0,
+          "height": 0.51,
+          "width": 0.857
+        }
+      },
+      "cornerRadius": 26,
+      "products": [
+        "FT_38086"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": 0.3,
+          "centerY": -1,
+          "height": 0.53,
+          "width": 0.857
+        }
+      },
+      "cornerRadius": 26,
+      "products": [
+        "FT_38084"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": 0,
+          "centerY": 0,
+          "height": 0.485,
+          "width": 0.857
+        }
+      },
+      "cornerRadius": 26,
+      "products": [
+        "REFLEX_HELLO",
+        "FT_38082",
+        "REFLEX_VIBE",
+        "FT_38081"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": 0,
+          "centerY": -6,
+          "height": 0.485,
+          "width": 0.857
+        }
+      },
+      "cornerRadius": 26,
+      "products": [
+        "REFLEX_VOX2",
+        "TITAN_TALK_S"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": 3,
+          "centerY": 3,
+          "height": 0.52,
+          "width": 1
+        }
+      },
+      "cornerRadius": 0,
+      "products": [
+        "REFLEX_PLAY"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": 0,
+          "centerY": 0,
+          "height": 0.55,
+          "width": 1
+        }
+      },
+      "cornerRadius": 0,
+      "products": [
+        "REFLEX_PLAY_PLUS",
+        "TITAN_90197",
+        "FT_38110",
+        "FT_38111",
+        "FT_38112",
+        "TITAN_SMART_TALK"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": 0,
+          "centerY": 0,
+          "height": 0.45,
+          "width": 1
+        }
+      },
+      "cornerRadius": 0,
+      "products": [
+        "TITAN_90172",
+        "TITAN_90160"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": 2,
+          "centerY": -2,
+          "height": 0.43,
+          "width": 1
+        }
+      },
+      "cornerRadius": 15,
+      "products": [
+        "SLAY"
+      ]
+    },
+    {
+      "cloud": {
+        "glass": {
+          "centerX": 0,
+          "centerY": 0,
+          "height": 0.5,
+          "width": 0.786
+        },
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": 0,
+          "centerY": 0,
+          "height": 0.44,
+          "width": 0.857
+        }
+      },
+      "cornerRadius": 15,
+      "products": [
+        "REFLEX_CURV"
+      ]
+    },
+    {
+      "cloud": {
+        "strap": {
+          "height": 1,
+          "width": 1
+        },
+        "watchface": {
+          "centerX": -2,
+          "centerY": -3,
+          "height": 0.53,
+          "width": 0.857
+        }
+      },
+      "cornerRadius": 26,
+      "products": [
+        "FT_38081"
+      ]
+    },
+    {
+      "cloud": {
+        "glass": {
+          "centerX": 0,
+          "centerY": -3,
+          "height": 0.75,
+          "width": 0.39
+        },
+        "strap": {
+          "height": 1,
+          "width": 0.46
+        },
+        "watchface": {
+          "centerX": 0,
+          "centerY": -5,
+          "height": 0.6,
+          "width": 0.5
+        }
+      },
+      "cornerRadius": 15,
+      "products": [
+        "REFLEX_3"
+      ]
+    }
+  ]
+}

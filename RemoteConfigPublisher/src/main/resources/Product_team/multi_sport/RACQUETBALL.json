@@ -1,0 +1,51 @@
+{
+  "androidId": 1042,
+  "androidMappingFromSdk": {
+    "71": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "65": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "FT_38082"
+    ],
+    "75": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Ball Sports",
+  "iOSId": 163,
+  "iOSMappingFromSdk": {
+    "71": [
+      "FT_38083",
+      "FT_38084",
+      "FT_38086",
+      "FT_38096",
+      "TITAN_90188"
+    ],
+    "65": [
+      "TITAN_TALK_S",
+      "TITAN_90172",
+      "FT_38082"
+    ],
+    "75": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "image": "ic_racquet_ball",
+  "name": "Racquetball",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "RACQUETBALL"
+}

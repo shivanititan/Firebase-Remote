@@ -1,0 +1,39 @@
+{
+  "androidId": 15,
+  "androidMappingFromSdk": {
+    "16": [
+      "REFLEX_3"
+    ],
+    "79": [
+      "FT_38081"
+    ],
+    "22": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "androidMappingId": [],
+  "category": "Weight Training",
+  "iOSId": 207,
+  "iOSMappingFromSdk": {
+    "16": [
+      "REFLEX_3"
+    ],
+    "79": [
+      "FT_38081"
+    ],
+    "22": [
+      "FT_38107",
+      "FT_38108",
+      "FT_38109"
+    ]
+  },
+  "image": "ic_weight_lifting",
+  "name": "Weight Lifting",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "WEIGHT_LIFTING"
+}

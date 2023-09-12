@@ -1,0 +1,20 @@
+{
+  "category": "Training",
+  "iOSId": 0,
+  "iOSMappingFromSdk": {
+    "44": [
+        "FT_38083",
+        "FT_38084",
+        "FT_38086",
+        "FT_38096",
+        "TITAN_90188"
+    ]
+  },
+  "image": "ic_vo2maxtest",
+  "name": "VO2 Max Test",
+  "serverKey": [
+    ""
+  ],
+  "strava": "",
+  "type": "VO2MAXTEST"
+}
