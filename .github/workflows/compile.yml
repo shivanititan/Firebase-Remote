@@ -32,10 +32,10 @@ jobs:
       #     git push origin HEAD:refs/heads/main
       - name: Build with Maven
         run: 
-          mvn clean package --file Firebase-Remote/RemoteConfigPublisher/pom.xml
+          mvn clean package --file RemoteConfigPublisher/pom.xml
 
       - name: Run Java Class
         run:
-          java -cp  /home/runner/work/Firebase-Remote/Firebase-Remote/Firebase-Remote/RemoteConfigPublisher/target/RemoteConfigPublisher-1.0-SNAPSHOT.jar com.titan.RemoteConfigPublisher
+          java -cp  /home/runner/work/Firebase-Remote/Firebase-Remote/RemoteConfigPublisher/target/RemoteConfigPublisher-1.0-SNAPSHOT.jar com.titan.RemoteConfigPublisher
 
 
