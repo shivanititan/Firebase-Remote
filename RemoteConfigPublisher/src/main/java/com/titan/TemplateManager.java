@@ -156,7 +156,7 @@ public class TemplateManager {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         MappingData[] jsonData;
 
-        File reader = new File("src/main/resources/mapping.json");
+        File reader = new File("RemoteConfigPublisher/src/main/resources/mapping.json");
         jsonData = gson.fromJson(getDataFromFile(reader), MappingData[].class);
         ArrayList<MappingData> mappingDataList = new ArrayList<MappingData>();
         if (jsonData != null) {
