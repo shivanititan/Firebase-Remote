@@ -1,6 +1,9 @@
 name: RemotePublish
 
 on:
+  commit_comment:
+    branches:
+      - main  
   push:
     branches:
       - main
