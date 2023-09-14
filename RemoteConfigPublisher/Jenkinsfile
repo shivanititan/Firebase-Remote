@@ -35,7 +35,7 @@ pipeline {
         stage('Push to GitRepo') {
             steps { 
                 withCredentials([gitUsernamePassword(credentialsId: 'GitToken', gitToolName: 'Default')]) {
-                    bat ""git push origin HEAD:refs/heads/main""
+                    bat "git push origin HEAD:refs/heads/main"
                 }
             }
         }
