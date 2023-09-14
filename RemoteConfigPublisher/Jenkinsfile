@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         mavenTool = 'Maven 3.9.4'
-        gitRemoteUrl = 'git@github.com:shivanititan/Firebase-Remote.git'
+        gitRemoteUrl = 'https://github.com/shivanititan/Firebase-Remote.git'
     }
 
     stages {
