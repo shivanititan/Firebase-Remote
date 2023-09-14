@@ -59,7 +59,7 @@ pipeline {
         // Clean after build
         always {
             cleanWs(cleanWhenNotBuilt: false,
-                    deleteDirs: true
+                    deleteDirs: true)
            }
         }
     }
