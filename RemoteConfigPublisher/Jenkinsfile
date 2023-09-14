@@ -4,6 +4,7 @@ pipeline {
     environment {
         mavenTool = 'Maven 3.9.4'
         gitRemoteUrl = 'https://github.com/shivanititan/Firebase-Remote.git'
+        
     }
 
     stages {
@@ -13,11 +14,11 @@ pipeline {
             }
         }
 
-        stage('Set up JDK') {
-            steps {
-                tool name: 'JDK 17', type: 'jdk'
-            }
-        }
+        // stage('Set up JDK') {
+        //     steps {
+        //         tool name: 'JDK 17', type: 'jdk'
+        //     }
+        // }
 
          stage('Pull logs') {
             steps {
