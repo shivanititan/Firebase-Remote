@@ -11,7 +11,7 @@ A	RemoteConfigPublisher/src/main/java/com/titan/RemoteConfigPublisher.java
 A	RemoteConfigPublisher/src/main/java/com/titan/TemplateManager.java
 A	RemoteConfigPublisher/src/main/resources/ChangedFiles.txt
 A	RemoteConfigPublisher/src/main/resources/Product_team/app_icons/dashboard_icons_config_default_value.json
-A	RemoteConfigPublisher/src/main/resources/Product_team/app_icons/splash_icons_config_default_value
+A	RemoteConfigPublisher/src/main/resources/Product_team/app_icons/splash_icons_config_default_value.json
 A	RemoteConfigPublisher/src/main/resources/Product_team/multi_sport/ABS.json
 A	RemoteConfigPublisher/src/main/resources/Product_team/multi_sport/AEROBICS.json
 A	RemoteConfigPublisher/src/main/resources/Product_team/multi_sport/AMERICAN_FOOTBALL.json
