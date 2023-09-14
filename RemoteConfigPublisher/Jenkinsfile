@@ -14,33 +14,19 @@ pipeline {
             }
         }
 
-        // stage('Set up JDK') {
-        //     steps {
-        //         tool name: 'JDK 17', type: 'jdk'
-        //     }
-        // }
-
          stage('Pull logs') {
             steps {
                script {
                   bat "git config --global user.name K-Sowjanya"
                   bat "git config --global user.email konudulasowjanya@titan.co.in"
                   bat "git pull origin main"  // Pull the latest changes from remote main branch
-                  // bat "dir RemoteConfigPublisher/src/main/resources/ChangedFiles.txt"
                   bat "git log -n 1 --stat --name-status --format= -- RemoteConfigPublisher > RemoteConfigPublisher/src/main/resources/ChangedFiles.txt"
                   bat "git add RemoteConfigPublisher/src/main/resources/ChangedFiles.txt"
                   bat 'git commit -m "Write file names which have changes to ChangedFiles.txt"'
                }                 
             }
         }
-        // stage('Push to GitRepo') {
-        //     steps { 
-        //         withCredentials([string(credentialsId: 'devops', variable: 'GITHUB_TOKEN')]) {
-        //             // bat "git push origin HEAD:refs/heads/main"
-        //             bat "git push https://${GITHUB_TOKEN}@github.com/shivanititan/Firebase-Remote.git HEAD:main"
-        //         }
-        //     }
-        // }
+      
          stage('Build with Maven') {
             steps {
                  tool name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation'
@@ -56,13 +42,13 @@ pipeline {
             }
         }
     }
-        // post {
-        // // Clean after build
-        // always {
-        //       cleanWs(cleanWhenNotBuilt: false,
-        //             cleanWhenSuccess: true)
-        //    }
-        // }
+        post {
+        // Clean after build
+        always {
+              cleanWs(cleanWhenNotBuilt: false,
+                    cleanWhenSuccess: true)
+           }
+        }
  }
 
 
