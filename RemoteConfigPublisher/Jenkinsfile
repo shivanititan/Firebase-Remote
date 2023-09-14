@@ -32,14 +32,14 @@ pipeline {
                }                 
             }
         }
-        stage('Push to GitRepo') {
-            steps { 
-                withCredentials([string(credentialsId: 'devops', variable: 'GITHUB_TOKEN')]) {
-                    // bat "git push origin HEAD:refs/heads/main"
-                    bat "git push https://${GITHUB_TOKEN}@github.com/shivanititan/Firebase-Remote.git HEAD:main"
-                }
-            }
-        }
+        // stage('Push to GitRepo') {
+        //     steps { 
+        //         withCredentials([string(credentialsId: 'devops', variable: 'GITHUB_TOKEN')]) {
+        //             // bat "git push origin HEAD:refs/heads/main"
+        //             bat "git push https://${GITHUB_TOKEN}@github.com/shivanititan/Firebase-Remote.git HEAD:main"
+        //         }
+        //     }
+        // }
          stage('Build with Maven') {
             steps {
                  tool name: mavenTool, type: 'hudson.tasks.Maven$MavenInstallation'
