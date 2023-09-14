@@ -7,7 +7,7 @@
       "url": "",
       "android": {
         "default_icon": "ic_logo_fastrack",
-        "w": 1,
+        "w": 2,
         "h": 2,
         "padding": 0
       },
