@@ -34,8 +34,9 @@ pipeline {
         }
         stage('Push to GitRepo') {
             steps { 
-                withCredentials([gitUsernamePassword(credentialsId: 'GitToken', gitToolName: 'Default')]) {
-                    bat "git push origin HEAD:refs/heads/main"
+                withCredentials([string(credentialsId: 'github', variable: 'devops')]) {
+                    // bat "git push origin HEAD:refs/heads/main"
+                    bat "git push https://${devops}@github.com/shivanititan/Firebase-Remote.git HEAD:main"
                 }
             }
         }
