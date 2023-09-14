@@ -55,13 +55,13 @@ pipeline {
             }
         }
     }
-    //     post {
-    //     // Clean after build
-    //     always {
-    //           cleanWs(cleanWhenNotBuilt: false,
-    //                 cleanWhenSuccess: true)
-    //        }
-    //     }
+        post {
+        // Clean after build
+        always {
+              cleanWs(cleanWhenNotBuilt: false,
+                    cleanWhenSuccess: true)
+           }
+        }
  }
 
 
