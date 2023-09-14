@@ -6,22 +6,24 @@ import com.google.firebase.FirebaseOptions;
 
 
 import java.io.*;
+import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
 public class RemoteConfigPublisher {
     private static final Logger logger = Logger.getLogger(RemoteConfigPublisher.class.getName());
-    private static final String SERVICE_ACCOUNT_KEY_PATH = "/serviceAccountKey.json";
+    private static String SERVICE_ACCOUNT_KEY_PATH = "/serviceAccountKey.json";
 
 
     public static void main(String[] args) {
+        SERVICE_ACCOUNT_KEY_PATH = Arrays.toString(args);
         initializeFirebase();
         TemplateManager manager = new TemplateManager();
         // delete change log file
         manager.publishUpdates();
         if(manager.published) {
-            File file = new File("src/main/resources/ChangedFiles.txt");
+            File file = new File("RemoteConfigPublisher/src/main/resources/ChangedFiles.txt");
             file.delete();
         }else {
             System.out.println("failed to delete");

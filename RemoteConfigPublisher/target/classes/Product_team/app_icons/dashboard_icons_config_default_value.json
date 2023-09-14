@@ -1,13 +1,13 @@
 {
-  "icon1": {
-    "fastrack": {
+  "icon3": {
+    "reflex": {
       "name": "Dashboard  Icon",
       "uniqueId": "updated_icon3_202306201839",
       "type": "IMAGE",
       "url": "https://cdn-wearables.titan.in/logos/fastrack/20230620001/dashboard.png",
       "android": {
         "default_icon": "ic_name_logo",
-        "w": 0.52,
+        "w": 0.50,
         "h": 0.63,
         "padding": 0
       },

@@ -1,1 +1,2 @@
-D	RemoteConfigPublisher/src/main/resources/R_D_Team/medication_config/medication_config_default_value.json
+M	RemoteConfigPublisher/src/main/resources/Product_team/app_icons/dashboard_icons_config_default_value.json
+M	RemoteConfigPublisher/src/main/resources/Product_team/app_icons/splash_icons_config_default_value.json

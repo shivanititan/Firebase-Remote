@@ -43,7 +43,7 @@ public class TemplateManager {
 
         for (ChangeLogs item : changeLogsList) {
 
-            File file = new File("RemoteConfigPublisher/src/main/resources/" + item.getFileName());
+            File file = new File("src/main/resources/" + item.getFileName());
 
             if (file.exists()) {
                 if (item.getStatus() == ChangeLogStatus.DELETED) {
@@ -156,7 +156,7 @@ public class TemplateManager {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         MappingData[] jsonData;
 
-        File reader = new File("RemoteConfigPublisher/src/main/resources/mapping.json");
+        File reader = new File("src/main/resources/mapping.json");
         jsonData = gson.fromJson(getDataFromFile(reader), MappingData[].class);
         ArrayList<MappingData> mappingDataList = new ArrayList<MappingData>();
         if (jsonData != null) {
