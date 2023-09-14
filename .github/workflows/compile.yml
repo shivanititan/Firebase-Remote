@@ -1,7 +1,7 @@
 name: RemotePublish
 
 on:
-  commit_comment:
+  check_run:
     branches:
       - main  
   push:
