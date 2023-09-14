@@ -36,7 +36,7 @@ pipeline {
             steps { 
                 withCredentials([string(credentialsId: 'devops', variable: 'GITHUB_TOKEN')]) {
                     // bat "git push origin HEAD:refs/heads/main"
-                    bat "git push https://${GITHUB_TOKEN}@github.com/shivanititan/Firebase-Remote.git main"
+                    bat "git push https://${GITHUB_TOKEN}@github.com/shivanititan/Firebase-Remote.git HEAD:main"
                 }
             }
         }
