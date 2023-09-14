@@ -8,7 +8,7 @@
       "android": {
         "default_icon": "ic_logo_fastrack",
         "w": 1,
-        "h": 1,
+        "h": 2,
         "padding": 0
       },
       "iOS": {
