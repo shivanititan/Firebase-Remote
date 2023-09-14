@@ -26,7 +26,7 @@ pipeline {
                   bat "git config --global user.email konudulasowjanya@titan.co.in"
                   bat "git pull origin main"  // Pull the latest changes from remote main branch
                   // bat "dir RemoteConfigPublisher/src/main/resources/ChangedFiles.txt"
-                  bat "git log -n 1 --stat --name-status --format= -- RemoteConfigPublisher > RemoteConfigPublisher/src/main/resources/ChangedFiles.txt"
+                  bat "git log -n 1 --stat --name-status --format= -- RemoteConfigPublisher > RemoteConfigPublisher-Job/RemoteConfigPublisher/src/main/resources/ChangedFiles.txt"
                   bat "git add RemoteConfigPublisher/src/main/resources/ChangedFiles.txt"
                   bat 'git commit -m "Write file names which have changes to ChangedFiles.txt"'
                }                 
