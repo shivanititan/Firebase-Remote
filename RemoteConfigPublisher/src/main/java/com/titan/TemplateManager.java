@@ -10,6 +10,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
 public class TemplateManager {
     private static final Logger logger = Logger.getLogger(TemplateManager.class.getName());
 
@@ -27,12 +28,16 @@ public class TemplateManager {
 //Get the current Remote Config Template
     private Template getTemplate() {
         try {
+
             return FirebaseRemoteConfig.getInstance().getTemplateAsync().get();
+
         } catch (ExecutionException | InterruptedException e) {
             handleException("Error in getting template:", e);
         }
         return null;
     }
+
+
 
 //    Add, Modify, Delete
     private void updateTemplate(Template template) throws IOException {
@@ -130,6 +135,7 @@ public class TemplateManager {
         while ((st = br.readLine()) != null) {
             stringBuilder.append(st);
         }
+
         return stringBuilder.toString();
     }
 //    Validate and Publish the Remote Config template
@@ -164,6 +170,21 @@ public class TemplateManager {
 
         }
         return mappingDataList;
+    }
+    private enum valueType{
+        STRING("STRING"),
+        NUMBER("NUMBER"),
+        JSON("JSON");
+
+        private final String valueType;
+
+        valueType(String valueType) {
+            this.valueType = valueType;
+        }
+
+        public String getValueType() {
+            return valueType;
+        }
     }
 
     private void handleException(String message, Exception e) {
