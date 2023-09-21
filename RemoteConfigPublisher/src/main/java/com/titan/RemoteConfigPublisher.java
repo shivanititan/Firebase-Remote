@@ -3,14 +3,16 @@ package com.titan;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
+
+
 import java.io.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
 public class RemoteConfigPublisher {
-//    private static final Logger logger = Logger.getLogger(RemoteConfigPublisher.class.getName());
-    private static final String SERVICE_ACCOUNT_KEY_PATH =   "/serviceAccountKey.json";
+    private static final Logger logger = Logger.getLogger(RemoteConfigPublisher.class.getName());
+    private static final String SERVICE_ACCOUNT_KEY_PATH = "/serviceAccountKey.json";
 
 
     public static void main(String[] args) {
@@ -18,33 +20,36 @@ public class RemoteConfigPublisher {
         TemplateManager manager = new TemplateManager();
         // delete change log file
         manager.publishUpdates();
-        if(manager.published) {
-            File file = new File("RemoteConfigPublisher/src/main/resources/ChangedFiles.txt");
-            file.delete();
-        }else {
-            System.out.println("failed to delete");
-        }
+//        if(manager.published) {
+//            File file = new File("src/main/resources/ChangedFiles.txt");
+//            file.delete();
+//        }else {
+//            System.out.println("failed to delete");
+//        }
     }
     //    Initialize the SDK and authorize API requests
-    private static void initializeFirebase()  {
+    private static void initializeFirebase() {
         try {
-
             InputStream serviceAccount = RemoteConfigPublisher.class.getResourceAsStream(SERVICE_ACCOUNT_KEY_PATH);
             if (serviceAccount != null) {
                 FirebaseOptions options = new FirebaseOptions.Builder()
                         .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                         .build();
                 FirebaseApp.initializeApp(options);
+            } else {
+                logger.log(Level.SEVERE, "Service account key not found or could not be loaded.");
             }
-        } catch(IOException e){
-            System.out.println(e);
+        } catch (IOException e) {
+            handleException("Error initializing Firebase:", e);
         }
     }
 
-
+    private static void handleException(String message, Exception e) {
+        logger.log(Level.SEVERE, message, e);
+    }
 }
 
-class MappingData {
+ class MappingData {
     private String fileName;
     private final String parameter;
     private final String group;

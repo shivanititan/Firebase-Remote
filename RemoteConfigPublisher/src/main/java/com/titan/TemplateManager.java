@@ -4,12 +4,12 @@ import com.google.firebase.remoteconfig.*;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 
 public class TemplateManager {
     private static final Logger logger = Logger.getLogger(TemplateManager.class.getName());
@@ -25,21 +25,17 @@ public class TemplateManager {
             throw new RuntimeException(e);
         }
     }
-//Get the current Remote Config Template
+    //Get the current Remote Config Template
     private Template getTemplate() {
         try {
-
             return FirebaseRemoteConfig.getInstance().getTemplateAsync().get();
-
         } catch (ExecutionException | InterruptedException e) {
             handleException("Error in getting template:", e);
         }
         return null;
     }
 
-
-
-//    Add, Modify, Delete
+    //    Add, Modify, Delete
     private void updateTemplate(Template template) throws IOException {
 
         List<ChangeLogs> changeLogsList = new ChangeLogManager().getFilesChanged();
@@ -48,7 +44,7 @@ public class TemplateManager {
 
         for (ChangeLogs item : changeLogsList) {
 
-            File file = new File("src/main/resources/" + item.getFileName());
+            File file = new File("RemoteConfigPublisher/src/main/resources/" + item.getFileName());
 
             if (file.exists()) {
                 if (item.getStatus() == ChangeLogStatus.DELETED) {
@@ -90,7 +86,9 @@ public class TemplateManager {
                                 Map<String, Parameter> parameterMap = parameterGroup.getParameters();
                                 if (parameterMap != null) {
                                     String readDataFromFile = getDataFromFile(file);
-                                    parameterMap.put(itemData.getParameter(), new Parameter().setDefaultValue(ParameterValue.of(readDataFromFile)));
+                                    String parameterType = getParameterType((itemData.getParameter()));
+                                    parameterMap.put(itemData.getParameter(), new Parameter().setDefaultValue(createParameterValue(parameterType, readDataFromFile)));
+//                                    parameterMap.put(itemData.getParameter(), new Parameter().setDefaultValue(ParameterValue.of(readDataFromFile)));
                                 }
                             }
                         }
@@ -112,12 +110,14 @@ public class TemplateManager {
                                 Map<String, Parameter> parameterMap = parameterGroup.getParameters();
                                 if (parameterMap != null) {
                                     String readDataFromFile = getDataFromFile(file);
-                                    Parameter parameter = parameterMap.get(itemData.getParameter());
-                                    if (parameter != null) {
-                                        parameter.setDefaultValue(ParameterValue.of(readDataFromFile));
-                                    } else {
-                                        parameterMap.put(itemData.getParameter(), new Parameter().setDefaultValue(ParameterValue.of(readDataFromFile)));
-                                    }
+
+                                    // Get the parameter type based on the parameter name
+                                    String parameterType = getParameterType(itemData.getParameter());
+
+                                    // Update the default value based on parameter type
+                                    ParameterValue defaultValue = createParameterValue(parameterType, readDataFromFile);
+
+                                    parameterMap.put(itemData.getParameter(), new Parameter().setDefaultValue(defaultValue));
                                 }
                             }
                         }
@@ -126,8 +126,21 @@ public class TemplateManager {
             }
         }
     }
+    private ParameterValue createParameterValue(String parameterType, String value) {
+        switch (parameterType.toUpperCase()) {
+            case "STRING":
+                return ParameterValue.of(value);
+            case "NUMBER":
+                return ParameterValue.of(String.valueOf(Double.parseDouble(value)));
+            case "BOOLEAN":
+                return ParameterValue.of(String.valueOf(Boolean.parseBoolean(value)));
+            // Add more cases for other data types as needed
+            default:
+                return ParameterValue.of(value);
+        }
+    }
 
-//    Read json data from files
+    //    Read json data from files
     private String getDataFromFile(File file) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(file));
         StringBuilder stringBuilder = new StringBuilder();
@@ -135,10 +148,9 @@ public class TemplateManager {
         while ((st = br.readLine()) != null) {
             stringBuilder.append(st);
         }
-
         return stringBuilder.toString();
     }
-//    Validate and Publish the Remote Config template
+    //    Validate and Publish the Remote Config template
     private boolean validateAndPublishTemplate(Template template) {
         try {
             Template validatedTemplate = FirebaseRemoteConfig.getInstance()
@@ -157,7 +169,7 @@ public class TemplateManager {
         return true;
     }
 
-//    Read Mapping file
+    //    Read Mapping file
     private List<MappingData> parseMappingDataJson() throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         MappingData[] jsonData;
@@ -171,23 +183,14 @@ public class TemplateManager {
         }
         return mappingDataList;
     }
-    private enum valueType{
-        STRING("STRING"),
-        NUMBER("NUMBER"),
-        JSON("JSON");
-
-        private final String valueType;
-
-        valueType(String valueType) {
-            this.valueType = valueType;
-        }
-
-        public String getValueType() {
-            return valueType;
-        }
-    }
 
     private void handleException(String message, Exception e) {
         logger.log(Level.SEVERE, message, e);
     }
+    private String getParameterType(String parameterName) {
+
+        return parameterName;
+    }
+
+
 }
