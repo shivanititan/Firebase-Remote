@@ -1,21 +1,46 @@
 {
-  "icon3": {
-    "reflex": {
-      "name": "Dashboard  Icon",
-      "uniqueId": "updated_icon3_202306201839",
+  "icon1": {
+    "fastrack": {
+      "name": "Splash Screen Top Icon",
+      "uniqueId": "updated_icon1_202306201839",
       "type": "IMAGE",
-      "url": "https://cdn-wearables.titan.in/logos/fastrack/20230620001/dashboard.png",
+      "url": "",
       "android": {
-        "default_icon": "ic_name_logo",
-        "w": 0.50,
-        "h": 0.63,
+        "default_icon": "ic_logo_fastrack",
+        "w": 1,
+        "h": 1,
         "padding": 0
       },
       "iOS": {
         "default_icon": "",
-        "w": 0.65,
-        "h": 5
+        "w": 1,
+        "h": 2
       }
+    }
+  },
+  "icon2": {
+    "fastrack": {
+      "name": "Splash Screen Middle Icon",
+      "uniqueId": "updated_icon2_202306201839",
+      "type": "IMAGE",
+      "url": "https://cdn-wearables.titan.in/logos/fastrack/20230620001/splash.png",
+      "android": {
+        "default_icon": "ic_logo",
+        "w": 600,
+        "h": 800,
+        "padding": 0
+      },
+      "iOS": {
+        "default_icon": "ic_logo",
+        "w": 1,
+        "h": 2
+      }
+    }
+  },
+  "text1": {
+    "fastrack": {
+      "name": "Bottom Text",
+      "content": "#FollowYourself"
     }
   }
 }

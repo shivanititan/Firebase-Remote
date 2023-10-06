@@ -4,30 +4,33 @@ import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 
-
-import java.io.*;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 
 public class RemoteConfigPublisher {
     private static final Logger logger = Logger.getLogger(RemoteConfigPublisher.class.getName());
     private static final String SERVICE_ACCOUNT_KEY_PATH = "/serviceAccountKey.json";
-
+    private static final String CHANGED_FILES_PATH = "src/main/resources/ChangedFiles.txt";
 
     public static void main(String[] args) {
-        initializeFirebase();
-        TemplateManager manager = new TemplateManager();
-        // delete change log file
-        manager.publishUpdates();
-//        if(manager.published) {
-//            File file = new File("src/main/resources/ChangedFiles.txt");
-//            file.delete();
-//        }else {
-//            System.out.println("failed to delete");
-//        }
+        try {
+            initializeFirebase();
+            TemplateManager manager = new TemplateManager();
+            // Delete change log file if published
+//            manager.publishUpdates();
+//            if (manager.published()) {
+//                deleteChangeLogFile();
+//            } else {
+//                logger.severe("Failed to delete change log file.");
+//            }
+        } catch (Exception e) {
+            logger.log(Level.SEVERE, "An error occurred in the main process.", e);
+        }
     }
-    //    Initialize the SDK and authorize API requests
+
+    // Initialize the SDK and authorize API requests
     private static void initializeFirebase() {
         try {
             InputStream serviceAccount = RemoteConfigPublisher.class.getResourceAsStream(SERVICE_ACCOUNT_KEY_PATH);
@@ -35,22 +38,28 @@ public class RemoteConfigPublisher {
                 FirebaseOptions options = new FirebaseOptions.Builder()
                         .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                         .build();
+
                 FirebaseApp.initializeApp(options);
             } else {
-                logger.log(Level.SEVERE, "Service account key not found or could not be loaded.");
+                logger.severe("Service account key not found or could not be loaded.");
             }
         } catch (IOException e) {
-            handleException("Error initializing Firebase:", e);
+            logger.log(Level.SEVERE, "Error initializing Firebase.", e);
         }
     }
 
-    private static void handleException(String message, Exception e) {
-        logger.log(Level.SEVERE, message, e);
-    }
+/*    private static void deleteChangeLogFile() {
+        File file = new File(CHANGED_FILES_PATH);
+        if (file.delete()) {
+            logger.info("Change log file deleted successfully.");
+        } else {
+            logger.warning("Failed to delete change log file.");
+        }
+    }*/
 }
 
- class MappingData {
-    private String fileName;
+class MappingData {
+    private final String fileName;
     private final String parameter;
     private final String group;
 

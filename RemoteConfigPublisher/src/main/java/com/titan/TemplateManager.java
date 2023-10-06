@@ -1,10 +1,9 @@
 package com.titan;
 
+
 import com.google.firebase.remoteconfig.*;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
-
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
@@ -25,14 +24,15 @@ public class TemplateManager {
             throw new RuntimeException(e);
         }
     }
+
+
     //Get the current Remote Config Template
-    private Template getTemplate() {
+    private static Template getTemplate() {
         try {
             return FirebaseRemoteConfig.getInstance().getTemplateAsync().get();
         } catch (ExecutionException | InterruptedException e) {
-            handleException("Error in getting template:", e);
+            throw new RuntimeException(e);
         }
-        return null;
     }
 
     //    Add, Modify, Delete
@@ -43,15 +43,12 @@ public class TemplateManager {
         List<MappingData> mappingDataList = parseMappingDataJson();
 
         for (ChangeLogs item : changeLogsList) {
-
-            File file = new File("RemoteConfigPublisher/src/main/resources/" + item.getFileName());
-
+            File file = new File("src/main/resources/" + item.getFileName());
             if (file.exists()) {
                 if (item.getStatus() == ChangeLogStatus.DELETED) {
                     MappingData itemData = null;
                     for (MappingData data : mappingDataList) {
                         if (data.getFileName().equals(item.getFileName())) {
-
                             itemData = data;
                             System.out.println("Deleted Parameter Value Files: " + itemData);
                             break;
@@ -83,41 +80,40 @@ public class TemplateManager {
                         if (parameterGroupMap != null) {
                             ParameterGroup parameterGroup = parameterGroupMap.get(itemData.getGroup());
                             if (parameterGroup != null) {
+
                                 Map<String, Parameter> parameterMap = parameterGroup.getParameters();
-                                if (parameterMap != null) {
-                                    String readDataFromFile = getDataFromFile(file);
-                                    String parameterType = getParameterType((itemData.getParameter()));
-                                    parameterMap.put(itemData.getParameter(), new Parameter().setDefaultValue(createParameterValue(parameterType, readDataFromFile)));
-//                                    parameterMap.put(itemData.getParameter(), new Parameter().setDefaultValue(ParameterValue.of(readDataFromFile)));
+                                for (String parameterMapKey : parameterMap.keySet()) {
+                                    if (parameterMapKey != null) {
+                                        String readDataFromFile = getDataFromFile(file);
+                                        parameterMap.putIfAbsent(itemData.getParameter(), new Parameter().setDefaultValue(ParameterValue.of(readDataFromFile)));
+                                    }
                                 }
                             }
                         }
                     }
-                } else if (item.getStatus() == ChangeLogStatus.MODIFIED) {
-                    MappingData itemData = null;
-                    for (MappingData data : mappingDataList) {
-                        if (data.getFileName().equals(item.getFileName())) {
-                            itemData = data;
-                            System.out.println("Modified Parameter Value Files: " +itemData);
-                            break;
-                        }
+                }
+            } else if (item.getStatus() == ChangeLogStatus.MODIFIED) {
+                MappingData itemData = null;
+                for (MappingData data : mappingDataList) {
+                    if (data.getFileName().equals(item.getFileName())) {
+                        itemData = data;
+                        System.out.println("Modified Parameter Value Files: " + itemData);
+                        break;
                     }
-                    if (itemData != null) {
-                        Map<String, ParameterGroup> parameterGroupMap = template.getParameterGroups();
-                        if (parameterGroupMap != null) {
-                            ParameterGroup parameterGroup = parameterGroupMap.get(itemData.getGroup());
-                            if (parameterGroup != null) {
-                                Map<String, Parameter> parameterMap = parameterGroup.getParameters();
-                                if (parameterMap != null) {
-                                    String readDataFromFile = getDataFromFile(file);
-
-                                    // Get the parameter type based on the parameter name
-                                    String parameterType = getParameterType(itemData.getParameter());
-
-                                    // Update the default value based on parameter type
-                                    ParameterValue defaultValue = createParameterValue(parameterType, readDataFromFile);
-
-                                    parameterMap.put(itemData.getParameter(), new Parameter().setDefaultValue(defaultValue));
+                }
+                if (itemData != null) {
+                    Map<String, ParameterGroup> parameterGroupMap = template.getParameterGroups();
+                    if (parameterGroupMap != null) {
+                        ParameterGroup parameterGroup = parameterGroupMap.get(itemData.getGroup());
+                        if (parameterGroup != null) {
+                            Map<String, Parameter> parameterMap = parameterGroup.getParameters();
+                            if (parameterMap != null) {
+                                String readDataFromFile = getDataFromFile(file);
+                                Parameter parameter = parameterMap.get(itemData.getParameter());
+                                if (parameter != null) {
+                                    parameter.setDefaultValue(ParameterValue.of(readDataFromFile));
+                                } else {
+                                    parameterMap.put(itemData.getParameter(), new Parameter().setDefaultValue(ParameterValue.of(readDataFromFile)));
                                 }
                             }
                         }
@@ -126,22 +122,9 @@ public class TemplateManager {
             }
         }
     }
-    private ParameterValue createParameterValue(String parameterType, String value) {
-        switch (parameterType.toUpperCase()) {
-            case "STRING":
-                return ParameterValue.of(value);
-            case "NUMBER":
-                return ParameterValue.of(String.valueOf(Double.parseDouble(value)));
-            case "BOOLEAN":
-                return ParameterValue.of(String.valueOf(Boolean.parseBoolean(value)));
-            // Add more cases for other data types as needed
-            default:
-                return ParameterValue.of(value);
-        }
-    }
 
     //    Read json data from files
-    private String getDataFromFile(File file) throws IOException {
+      private String getDataFromFile(File file) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(file));
         StringBuilder stringBuilder = new StringBuilder();
         String st;
@@ -150,46 +133,35 @@ public class TemplateManager {
         }
         return stringBuilder.toString();
     }
+
     //    Validate and Publish the Remote Config template
     private boolean validateAndPublishTemplate(Template template) {
         try {
-            Template validatedTemplate = FirebaseRemoteConfig.getInstance()
-                    .validateTemplateAsync(template).get();
+            Template validatedTemplate = FirebaseRemoteConfig.getInstance().validateTemplateAsync(template).get();
             logger.log(Level.INFO, "Template was valid and safe to use");
-            Template publishedTemplate = FirebaseRemoteConfig.getInstance()
-                    .publishTemplateAsync(validatedTemplate).get();
+            Template publishedTemplate = FirebaseRemoteConfig.getInstance().publishTemplateAsync(validatedTemplate).get();
             published = true;
             logger.log(Level.INFO, "Template has been published");
             logger.log(Level.INFO, "ETag from server: " + publishedTemplate.getETag());
 
         } catch (ExecutionException | InterruptedException e) {
-            handleException("Error validating or publishing template:", e);
             return false;
         }
         return true;
     }
 
+
     //    Read Mapping file
-    private List<MappingData> parseMappingDataJson() throws IOException {
+    public List<MappingData> parseMappingDataJson() throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         MappingData[] jsonData;
-
         File reader = new File("src/main/resources/mapping.json");
         jsonData = gson.fromJson(getDataFromFile(reader), MappingData[].class);
         ArrayList<MappingData> mappingDataList = new ArrayList<MappingData>();
         if (jsonData != null) {
             Collections.addAll(mappingDataList, jsonData);
-
         }
         return mappingDataList;
-    }
-
-    private void handleException(String message, Exception e) {
-        logger.log(Level.SEVERE, message, e);
-    }
-    private String getParameterType(String parameterName) {
-
-        return parameterName;
     }
 
 

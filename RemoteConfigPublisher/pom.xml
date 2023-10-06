@@ -17,7 +17,7 @@
         <dependency>
             <groupId>com.google.firebase</groupId>
             <artifactId>firebase-admin</artifactId>
-            <version>8.0.0</version>
+            <version>9.2.0</version>
         </dependency>
         <!-- Logback Implementation -->
         <dependency>
@@ -25,13 +25,24 @@
             <artifactId>logback-classic</artifactId>
             <version>1.2.6</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.google.firebase/firebase-config -->
         <dependency>
-            <groupId>com.google.firebase</groupId>
-            <artifactId>firebase-config</artifactId>
-            <version>21.4.1</version>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.13.0</version> <!-- Use the latest version -->
         </dependency>
 
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.5</version>
+       </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>24.0.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.firebase/firebase-config -->
     </dependencies>
     <build>
         <plugins>
@@ -45,7 +56,8 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.titan.RemoteConfigPublisher</mainClass> <!-- Adjust the main class as needed -->
+                            <mainClass>com.titan.RemoteConfigPublisher
+                            </mainClass> <!-- Adjust the main class as needed -->
                         </manifest>
                     </archive>
                     <appendAssemblyId>false</appendAssemblyId>

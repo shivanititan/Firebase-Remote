@@ -317,10 +317,10 @@
       "condition": "TITAN_90166",
       "result": "https://drive.google.com/gview?embedded=true&url=https://staticimg.titan.co.in/production/promotions/titan/TITAN_90166.pdf"
     },
-     {
+    {
       "type": "PRODUCT",
       "condition": "TITAN_90188",
-      "result": "https://staticimg.titan.co.in/production/promotions/titan/Titan_90188.pdf"
+      "result": "https://drive.google.com/gview?embedded=true&url=https://staticimg.titan.co.in/production/promotions/titan/Titan_90188.pdf"
     },
     {
       "type": "PRODUCT",
@@ -335,7 +335,7 @@
     {
       "type": "PRODUCT",
       "condition": "TITAN_90172",
-      "result": "https://drive.google.com/gview?embedded=true&url=https://staticimg.titan.co.in/production/promotions/titan/TITAN_90172.pdf"
+      "result": "https://drive.google.com/gview?embedded=true&url=https://staticimg.titan.co.in/production/promotions/titan/Titan_90172.pdf"
     },
     {
       "type": "PRODUCT",
@@ -375,7 +375,22 @@
     {
       "type": "PRODUCT",
       "condition": "TITAN_90184",
-      "result": ""
+      "result": "https://drive.google.com/gview?embedded=true&url=https://staticimg.titan.co.in/production/promotions/titan/TITAN_90184.pdf"
+    },
+    {
+      "type": "PRODUCT",
+      "condition": "FT_38107",
+      "result": "https://drive.google.com/gview?embedded=true&url=https://staticimg.titan.co.in/production/promotions/titan/FT_38107.pdf"
+    },
+    {
+      "type": "PRODUCT",
+      "condition": "FT_38108",
+      "result": "https://drive.google.com/gview?embedded=true&url=https://staticimg.titan.co.in/production/promotions/titan/FT_38108.pdf"
+    },
+    {
+      "type": "PRODUCT",
+      "condition": "FT_38109",
+      "result": "https://drive.google.com/gview?embedded=true&url=https://staticimg.titan.co.in/production/promotions/titan/FT_38109.pdf"
     }
   ],
   "watchfaceConfigVersion": [
@@ -429,11 +444,41 @@
     {
       "type": "PRODUCT",
       "condition": "TITAN_90191",
-      "result": "10"
+      "result": "20"
     },
     {
       "type": "PRODUCT",
       "condition": "TITAN_90196",
+      "result": "10"
+    },
+    {
+      "type": "PRODUCT",
+      "condition": "FT_38110",
+      "result": "8"
+    },
+    {
+      "type": "PRODUCT",
+      "condition": "FT_38111",
+      "result": "8"
+    },
+    {
+      "type": "PRODUCT",
+      "condition": "FT_38112",
+      "result": "10"
+    },
+    {
+      "type": "PRODUCT",
+      "condition": "FT_38107",
+      "result": "10"
+    },
+    {
+      "type": "PRODUCT",
+      "condition": "FT_38108",
+      "result": "10"
+    },
+    {
+      "type": "PRODUCT",
+      "condition": "FT_38109",
       "result": "10"
     }
   ],

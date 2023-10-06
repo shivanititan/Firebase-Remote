@@ -9,6 +9,15 @@
         ]
       }
     ],
+    "filter": [
+      {
+        "type": "PRODUCTS",
+        "condition": "EXCLUDE",
+        "pattern": [
+          "*"
+        ]
+      }
+    ],
     "url": "",
     "enable": true
   }

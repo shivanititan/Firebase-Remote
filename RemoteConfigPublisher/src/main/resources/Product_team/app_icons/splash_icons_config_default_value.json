@@ -1,14 +1,14 @@
 {
-  "icon2": {
+  "icon1": {
     "fastrack": {
-      "name": "Splash  Icon",
+      "name": "Splash Screen Top Icon",
       "uniqueId": "updated_icon1_202306201839",
       "type": "IMAGE",
       "url": "",
       "android": {
         "default_icon": "ic_logo_fastrack",
-        "w": 2,
-        "h": 2,
+        "w": 1,
+        "h": 1,
         "padding": 0
       },
       "iOS": {
