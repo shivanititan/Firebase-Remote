@@ -1,4 +1,4 @@
-package com.titan.models.validate.json;
+package com.titan.validatejson;
 
 import java.io.IOException;
 import java.util.List;
