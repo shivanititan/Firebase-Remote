@@ -42,6 +42,22 @@
             <version>24.0.1</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.13</version> <!-- Use the latest version available -->
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.4.16</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20210307</version> <!-- Use the latest version -->
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.google.firebase/firebase-config -->
     </dependencies>
     <build>
@@ -56,8 +72,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.titan.RemoteConfigPublisher
-                            </mainClass> <!-- Adjust the main class as needed -->
+                            <mainClass>com.titan.RemoteConfigPublisher</mainClass> <!-- Adjust the main class as needed -->
                         </manifest>
                     </archive>
                     <appendAssemblyId>false</appendAssemblyId>
