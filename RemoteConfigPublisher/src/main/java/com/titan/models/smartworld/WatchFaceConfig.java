@@ -1,4 +1,4 @@
-//package com.titan.models.smart_world;
+//package com.titan.models.smartworld;
 //
 //import java.io.Serializable;
 //import java.util.List;
