@@ -3,26 +3,57 @@ package com.titan.validatejson;
 import java.io.IOException;
 import java.util.List;
 import java.io.File;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.titan.models.appicons.AppIconConfiguration;
 import com.titan.models.multisports.MultiSports;
-import com.titan.models.app_icon.SplashIconsConfig;
 import com.titan.models.smartworld.*;
-
-
-
-
+import com.titan.models.smartworld.supported.features.SupportedFeaturesConfig;
 
 public class JsonDataValidation {
     private static final ObjectMapper objectMapper = new ObjectMapper();
     boolean isFailed = false;
 
-    public Boolean validateAllMultiSportJson() throws IOException {
+    public static void main(String[] args) throws IOException {
+        JsonDataValidation jsonDataValidation = new JsonDataValidation();
+        jsonDataValidation.supportedFeaturesConfigMap();
+//        jsonDataValidation.validateAppIconConfigJson();
+        jsonDataValidation.validateAppConfigJson();
+//        jsonDataValidation.validateCountriesJson();
+//          jsonDataValidation.validateEditMultiSportConfigJson();
+//          jsonDataValidation.validateGamiFicationJson();
+//        jsonDataValidation.validateGoogleFitConfigJson();
+//            jsonDataValidation.validateLiveChatConfigJson();
+            jsonDataValidation.validateMultiSporyCategoryJson();
+
+    }
+
+//    test done
+    private Boolean validateAppIconConfigJson() throws IOException {
+        File filePath = new File("src/main/resources/Product_team/app_icons/");
+        File[] jsonPath = filePath.listFiles();
+        if (jsonPath != null) {
+            try {
+                for (File jsonData : jsonPath) {
+                    AppIconConfiguration appIconConfiguration = objectMapper.readValue(jsonData, AppIconConfiguration.class);
+                    System.out.println(appIconConfiguration);
+                }
+            } catch (Exception e) {
+                isFailed = true;
+            }
+        }
+        return isFailed;
+    }
+
+    //    test done
+    private Boolean validateAllMultiSportJson() throws IOException {
         File filePath = new File("src/main/resources/Product_team/multi_Sport/");
         File[] jsonPath = filePath.listFiles();
         if (jsonPath != null) {
             for (File jsonData : jsonPath) {
                 try {
-                    objectMapper.readValue(jsonData, MultiSports.class);
+                    MultiSports multiSports = objectMapper.readValue(jsonData, MultiSports.class);
+                    System.out.println(multiSports);
                 } catch (Exception e) {
                     isFailed = true;
                 }
@@ -33,12 +64,48 @@ public class JsonDataValidation {
         return isFailed;
     }
 
+//getTitanLifeSleepType returns null value
+    public Boolean validateAppConfigJson() throws IOException {
+        String jsonPath = "src/main/resources/Product_team/smart_world/app_config_default_value.json";
+        if (jsonPath != null) {
+            try {
+                AppConfig appConfigList = objectMapper.readValue(new File(jsonPath),  AppConfig.class);
+                if (appConfigList.getTitanLifeSleepType() == null) {
+                    System.out.println(appConfigList);
+                }
+            } catch (Exception e) {
+                isFailed = true;
+            }
+        } else {
+            isFailed = true;
+        }
+        return isFailed;
+    }
+
+// test done
+    public Boolean supportedFeaturesConfigMap() throws IOException {
+        String jsonPath = "src/main/resources/Product_team/smart_world/supported_features_default_value.json";
+        if (jsonPath != null) {
+            try {
+                SupportedFeaturesConfig supportedFeaturesConfig = objectMapper.readValue(new File(jsonPath), SupportedFeaturesConfig.class);
+                System.out.println(supportedFeaturesConfig);
+            } catch (Exception e) {
+                isFailed = true;
+            }
+        } else {
+            isFailed = true;
+        }
+        return isFailed;
+    }
+
+// test done
     public Boolean validateEditMultiSportConfigJson() throws IOException {
-        String jsonPath = "edit_multi_sport_config_default_value.json";
+        String jsonPath = "src/main/resources/Product_team/smart_world/edit_multi_sport_config_default_value.json";
         if (jsonPath != null) {
             try {
                 List<EditMultiSportConfig> editMultiSportConfigList = objectMapper.readValue(new File(jsonPath), objectMapper.getTypeFactory().constructCollectionType(List.class, EditMultiSportConfig.class));
                 for (EditMultiSportConfig editMultiSportConfig : editMultiSportConfigList) {
+                    System.out.println(editMultiSportConfig);
                 }
             } catch (Exception e) {
                 isFailed = true;
@@ -49,12 +116,14 @@ public class JsonDataValidation {
         return isFailed;
     }
 
+//test done
     private Boolean validateCountriesJson() throws IOException {
         String jsonPath = "src/main/resources/Product_team/smart_world/countries_default_value.json";
         if (jsonPath != null) {
             try {
-                List<CountriesDefaultConfig> countriesDefaultConfigs = objectMapper.readValue(new File(jsonPath), objectMapper.getTypeFactory().constructCollectionType(List.class, CountriesDefaultConfig.class));
-                for (CountriesDefaultConfig countriesDefaultConfig : countriesDefaultConfigs) {
+                List<CountriesDefaultConfig> countriesDefaultConfigList = objectMapper.readValue(new File(jsonPath), objectMapper.getTypeFactory().constructCollectionType(List.class, CountriesDefaultConfig.class));
+                for (CountriesDefaultConfig countriesDefaultConfig : countriesDefaultConfigList) {
+                    System.out.println(countriesDefaultConfig);
                 }
             } catch (Exception e) {
                 isFailed = true;
@@ -65,26 +134,13 @@ public class JsonDataValidation {
         return isFailed;
     }
 
+//    test done
     private Boolean validateGamiFicationJson() throws IOException {
         String jsonPath = "src/main/resources/Product_team/smart_world/gamification_default_value.json";
         if (jsonPath != null) {
             try {
-                objectMapper.readValue(new File(jsonPath), GamiFicationConfig.class);
-            } catch (IOException e) {
-                isFailed = true;
-            }
-        } else {
-            isFailed = true;
-        }
-        return isFailed;
-    }
-    public Boolean validateSpalshIconJson() throws IOException {
-        String jsonPath = "src/main/resources/Product_team/app_icons/dashboard_icons_config_default_value.json";
-        if (jsonPath != null) {
-            try {
-                SplashIconsConfig data = objectMapper.readValue(new File(jsonPath), SplashIconsConfig.class);
-                    System.out.println(data);
-
+                GamiFicationConfig gamiFicationConfig = objectMapper.readValue(new File(jsonPath), GamiFicationConfig.class);
+                System.out.println(gamiFicationConfig);
             } catch (IOException e) {
                 isFailed = true;
             }
@@ -94,13 +150,14 @@ public class JsonDataValidation {
         return isFailed;
     }
 
-
+//test done
     private Boolean validateGoogleFitConfigJson() throws IOException {
         String jsonPath = "src/main/resources/Product_team/smart_world/google_fit_config_default_value.json";
         if (jsonPath != null) {
             try {
                 List<GoogleFitConfig> googleFitConfig = objectMapper.readValue(new File(jsonPath), objectMapper.getTypeFactory().constructCollectionType(List.class, GoogleFitConfig.class));
                 for (GoogleFitConfig fitConfig : googleFitConfig) {
+                    System.out.println(fitConfig);
                 }
             } catch (Exception e) {
                 isFailed = true;
@@ -111,11 +168,13 @@ public class JsonDataValidation {
         return isFailed;
     }
 
+// test done
     private Boolean validateLiveChatConfigJson() throws IOException {
         String jsonPath = "src/main/resources/Product_team/smart_world/live_chat_default_value.json";
         if (jsonPath != null) {
             try {
-                objectMapper.readValue(new File(jsonPath), LiveChatConfig.class);
+                LiveChatConfig liveChatConfig = objectMapper.readValue(new File(jsonPath), LiveChatConfig.class);
+                System.out.println(liveChatConfig);
             } catch (Exception e) {
                 isFailed = true;
             }
@@ -125,13 +184,14 @@ public class JsonDataValidation {
         return isFailed;
     }
 
-    private Boolean multiSportCategoryMapper() throws IOException {
+//    test done
+    private Boolean validateMultiSporyCategoryJson() throws IOException {
         String jsonPath = "src/main/resources/Product_team/smart_world/multi_sport_category_config_default_value.json";
         if (jsonPath != null) {
             try {
                 List<MultiSportCategory> multiSportCategories = objectMapper.readValue(new File(jsonPath), objectMapper.getTypeFactory().constructCollectionType(List.class, MultiSportCategory.class));
                 for (MultiSportCategory multiSportCategory : multiSportCategories) {
-                    return isFailed;
+                    System.out.println(multiSportCategory);
                 }
             } catch (Exception e) {
                 isFailed = true;
@@ -143,7 +203,7 @@ public class JsonDataValidation {
         return isFailed;
     }
 
-    private Boolean multiSportConfigMap() throws IOException {
+    private Boolean validateMultiSportConfigJson() throws IOException {
         String jsonPath = "src/main/resources/Product_team/smart_world/multi_sport_config_default_value.json";
         if (jsonPath != null) {
             try {
@@ -191,21 +251,8 @@ public class JsonDataValidation {
         return isFailed;
     }
 
-    private Boolean supportedFeaturesConfigMap() throws IOException {
-        String jsonPath = "src/main/resources/Product_team/smart_world/supported_features_default_value.json";
-        if (jsonPath != null) {
-            try {
-                List<SupportedFeaturesConfig> supportedFeaturesConfigsList = objectMapper.readValue(new File(jsonPath), objectMapper.getTypeFactory().constructCollectionType(List.class, SupportedFeaturesConfig.class));
-                for (SupportedFeaturesConfig supportedFeaturesConfig : supportedFeaturesConfigsList) {
-                }
-            } catch (Exception e) {
-                isFailed = true;
-            }
-        } else {
-            isFailed = true;
-        }
-        return isFailed;
-    }
+
+
 
     private Boolean supportedProductsConfigMap() throws IOException {
         String jsonPath = "src/main/resources/Product_team/smart_world/supported_products_default_value.json";
@@ -229,7 +276,7 @@ public class JsonDataValidation {
                 for (UrlConfig urlConfig : urlConfigList) {
                 }
             } catch (Exception e) {
-                isFailed=true;
+                isFailed = true;
             }
         } else {
             isFailed = true;

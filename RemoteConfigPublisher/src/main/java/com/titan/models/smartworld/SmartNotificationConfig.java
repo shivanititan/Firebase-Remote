@@ -8,8 +8,6 @@ import java.util.List;
 public class SmartNotificationConfig implements Serializable {
   private List<Mapping> mapping;
 
-
-
   private List<String> packageNames;
 
   private String name;
