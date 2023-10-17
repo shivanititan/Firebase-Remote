@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3cdc713b-22d2-4fde-a637-259bd2a4999b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/titan/utils/TemplateManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/titan/RemoteConfigPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/titan/utils/RemoteConfigPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/titan/TemplateManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/titan/models/appicons/AppIconConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/titan/models/appicons/AppIconConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/titan/models/appicons/FastTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/titan/models/appicons/FastrackConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/titan/models/smartworld/Name.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/titan/validatejson/GitHubRepoInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/titan/utils/GitHubRepoInitialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/titan/validatejson/JsonDataValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/titan/utils/RemoteConfigValidator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="368284e0-c988-4159-bc51-39da81212da8" />
+        <option name="url" value="https://github.com/shivanititan/Firebase-Remote.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2VFYHM55Un5R1B0NHkq0deZIbtk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/E1775176/Desktop/Firebase-Remote/RemoteConfigPublisher/src/main/resources/Product_team/app_icons/dashboard_icons_config_default_value.json",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.titan.models.appicons" />
+      <recent name="com.titan.models.smart_world" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\E1775176\Desktop\RemoteConfigPublisher\src\main\java\com\titan" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\E1775176\Desktop\Firebase-Remote\RemoteConfigPublisher\src\main\java\com\titan\utils" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.titan" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RemoteConfigValidator">
+    <configuration name="GitHubRepoInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.titan.models.Validator.GitHubRepoInitialization" />
+      <module name="RemoteConfigPublisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.titan.models.Validator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonDataValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.titan.models.Validator.JsonDataValidation" />
+      <module name="RemoteConfigPublisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.titan.models.Validator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterMapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.titan.ParameterMapping" />
+      <module name="RemoteConfigPublisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.titan.models.Validator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteConfigPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.titan.utils.RemoteConfigPublisher" />
+      <module name="RemoteConfigPublisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.titan.models.Validator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteConfigPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.titan.RemoteConfigPublisher" />
+      <module name="RemoteConfigPublisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.titan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteConfigPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.titan.RemoteConfigPublisher" />
+      <module name="RemoteConfigPublisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.titan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteConfigValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.titan.utils.RemoteConfigValidator" />
+      <module name="RemoteConfigPublisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.titan.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RemoteConfigValidator" />
+        <item itemvalue="Application.GitHubRepoInitialization" />
+        <item itemvalue="Application.JsonDataValidation" />
+        <item itemvalue="Application.RemoteConfigPublisher" />
+        <item itemvalue="Application.ParameterMapping" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cdc713b-22d2-4fde-a637-259bd2a4999b" name="Changes" comment="" />
+      <created>1694433207055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694433207055</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/google/firebase/firebase-admin/9.2.0/firebase-admin-9.2.0.jar!/com/google/firebase/remoteconfig/ParameterValueType.class</url>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/titan/utils/RemoteConfigValidator.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/titan/utils/RemoteConfigValidator.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/titan/utils/RemoteConfigValidator.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/titan/utils/RemoteConfigValidator.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/titan/utils/RemoteConfigValidator.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/titan/utils/RemoteConfigValidator.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/titan/utils/RemoteConfigValidator.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/titan/utils/RemoteConfigValidator.java</url>
+          <line>273</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RemoteConfigPublisher$RemoteConfigPublisher.ic" NAME="RemoteConfigPublisher Coverage Results" MODIFIED="1694770881350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.titan.*</FILTER>
+    </SUITE>
+  </component>
+</project>

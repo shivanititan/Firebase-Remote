@@ -4,45 +4,42 @@ import java.io.Serializable;
 
 public class AppIconConfiguration implements Serializable {
 
-    private FastTrackData icon1;
-    private FastTrackData icon2;
-    private FastTrackData text1;
+    private FastrackConfigurationData icon1;
+    private FastrackConfigurationData icon2;
+    private FastrackConfigurationData text1;
 
-    public FastTrackData getIcon1() {
+    public FastrackConfigurationData getIcon1() {
         return icon1;
     }
-
-    public void setIcon1(FastTrackData icon1) {
+    public void setIcon1(FastrackConfigurationData icon1) {
         this.icon1 = icon1;
     }
 
-    public FastTrackData getIcon2() {
+    public FastrackConfigurationData getIcon2() {
         return icon2;
     }
 
-    public void setIcon2(FastTrackData icon2) {
+    public void setIcon2(FastrackConfigurationData icon2) {
         this.icon2 = icon2;
     }
 
-    public FastTrackData getText1() {
+    public FastrackConfigurationData getText1() {
         return text1;
     }
 
-    public void setText1(FastTrackData text1) {
+    public void setText1(FastrackConfigurationData text1) {
         this.text1 = text1;
     }
 
-
-
 }
-class FastTrackData implements Serializable {
-    private FastTrack fastrack;
+class FastrackConfigurationData implements Serializable {
+    private FastrackConfiguration fastrack;
 
-    public FastTrack getFastrack() {
+    public FastrackConfiguration getFastrack() {
         return fastrack;
     }
 
-    public void setFastrack(FastTrack fastrack) {
+    public void setFastrack(FastrackConfiguration fastrack) {
         this.fastrack = fastrack;
     }
 }

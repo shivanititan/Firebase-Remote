@@ -1,4 +1,4 @@
-package com.titan.validatejson;
+package com.titan.utils;
 
 import com.google.common.io.CharStreams;
 import org.apache.http.HttpHeaders;

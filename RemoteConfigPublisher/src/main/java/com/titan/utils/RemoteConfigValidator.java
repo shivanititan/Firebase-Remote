@@ -1,4 +1,4 @@
-package com.titan.validatejson;
+package com.titan.utils;
 
 import java.io.IOException;
 import java.util.List;
@@ -10,12 +10,12 @@ import com.titan.models.multisports.MultiSports;
 import com.titan.models.smartworld.*;
 import com.titan.models.smartworld.supported.features.SupportedFeaturesConfig;
 
-public class JsonDataValidation {
+public class RemoteConfigValidator {
     private static final ObjectMapper objectMapper = new ObjectMapper();
     boolean isFailed = false;
 
     public static void main(String[] args) throws IOException {
-        JsonDataValidation jsonDataValidation = new JsonDataValidation();
+        RemoteConfigValidator jsonDataValidation = new RemoteConfigValidator();
         jsonDataValidation.validateUrlConfigJson();
     }
 

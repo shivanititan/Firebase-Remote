@@ -1,4 +1,4 @@
-package com.titan;
+package com.titan.utils;
 
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;
@@ -28,10 +28,10 @@ public class RemoteConfigPublisher {
             File serviceAccount = new File(SERVICE_ACCOUNT_KEY_PATH);
             if (serviceAccount != null) {
                 try (FileInputStream serviceAccountStream = new FileInputStream(serviceAccount)) {
-                FirebaseOptions options = new FirebaseOptions.Builder()
-                        .setCredentials(GoogleCredentials.fromStream(serviceAccountStream))
-                        .build();
-                FirebaseApp.initializeApp(options);
+                    FirebaseOptions options = new FirebaseOptions.Builder()
+                            .setCredentials(GoogleCredentials.fromStream(serviceAccountStream))
+                            .build();
+                    FirebaseApp.initializeApp(options);
                 } catch (FileNotFoundException e) {
                     throw new RuntimeException(e);
                 }
@@ -42,16 +42,9 @@ public class RemoteConfigPublisher {
             logger.log(Level.SEVERE, "Error initializing Firebase.", e);
         }
     }
-
-/*    private static void deleteChangeLogFile() {
-        File file = new File(CHANGED_FILES_PATH);
-        if (file.delete()) {
-            logger.info("Change log file deleted successfully.");
-        } else {
-            logger.warning("Failed to delete change log file.");
-        }
-    }*/
 }
+
+
 
 /*class MappingData {
     private final String fileName;

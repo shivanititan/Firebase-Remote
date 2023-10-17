@@ -4,10 +4,11 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.io.Serializable;
 
-public class FastTrack implements Serializable {
+public class FastrackConfiguration implements Serializable {
     private String name;
     private String uniqueId;
     private String type;
+
     private String url;
     private ConfigurationData android;
     private ConfigurationData iOS;
