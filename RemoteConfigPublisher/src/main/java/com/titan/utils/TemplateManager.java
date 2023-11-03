@@ -1,4 +1,3 @@
-/*
 package com.titan;
 import com.google.firebase.remoteconfig.*;
 import com.google.gson.Gson;
@@ -163,4 +162,4 @@ public class TemplateManager {
     }
 
 
-}*/
+}

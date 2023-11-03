@@ -8,11 +8,9 @@ public class FastrackConfiguration implements Serializable {
     private String name;
     private String uniqueId;
     private String type;
-
     private String url;
     private ConfigurationData android;
     private ConfigurationData iOS;
-
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private String content;
@@ -24,7 +22,6 @@ public class FastrackConfiguration implements Serializable {
     public void setContent(String content) {
         this.content = content;
     }
-
 
     public ConfigurationData getAndroid() {
         return android;

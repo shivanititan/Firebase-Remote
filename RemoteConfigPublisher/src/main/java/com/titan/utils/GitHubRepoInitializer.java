@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GitHubRepoInitialization {
+public class GitHubRepoInitializer {
     public static void main(String[] args) throws IOException {
         String githubRawUrl = "https://api.github.com/repos/shivanititan/Firebase-Remote/contents/RemoteConfigPublisher/src/main/resources/Product_team/multi_sport";
         String accessToken = "";

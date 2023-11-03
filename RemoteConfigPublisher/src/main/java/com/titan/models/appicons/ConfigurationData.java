@@ -15,11 +15,9 @@ public class ConfigurationData implements Serializable {
     public String getDefault_icon() {
         return default_icon;
     }
-
     public void setDefault_icon(String default_icon) {
         this.default_icon = default_icon;
     }
-
     public int getW() {
         return w;
     }
